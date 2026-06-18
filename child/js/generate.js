@@ -1,5 +1,4 @@
 function generate_timeline() {
-  let body = document.getElementsByTagName('body')
 
   animeverse.forEach((day) => {
     let current = document.createElement('div')
@@ -22,7 +21,7 @@ function generate_timeline() {
       };
     };
 
-    body.appendChild(current)
+    document.body.appendChild(current)
 
   });
   
