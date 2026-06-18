@@ -1,44 +1,93 @@
 var animeverse = [
   {
     'title': 'Sunday',
-    'content': [
-      'sunday content',
-    ],
+    'content': {
+      1: {
+        'title': 'desu2',
+        'content': 'desu2 sunday',
+      },
+      2: {
+        'title': 'p5',
+        'content': 'p5 sunday',
+      },
+    },
   },
   {
     'title': 'Monday',
-    'content': [
-      'monday content',
-    ],
+    'content': {
+      1: {
+        'title': 'desu2',
+        'content': 'desu2 monday',
+      },
+      2: {
+        'title': 'p5',
+        'content': 'p5 monday',
+      },
+    },
   },
   {
     'title': 'Tuesday',
-    'content': [
-      'tuesday content',
-    ],
+    'content': {
+      1: {
+        'title': 'desu2',
+        'content': 'desu2 tuesday',
+      },
+      2: {
+        'title': 'p5',
+        'content': 'p5 tuesday',
+      },
+    },
   },
   {
     'title': 'Wednesday',
-    'content': [
-      'wednesday content',
-    ],
+    'content': {
+      1: {
+        'title': 'desu2',
+        'content': 'desu2 wednesday',
+      },
+      2: {
+        'title': 'p5',
+        'content': 'p5 wednesday',
+      },
+    },
   },
   {
     'title': 'Thursday',
-    'content': [
-      'thursday content',
-    ],
+    'content': {
+      1: {
+        'title': 'desu2',
+        'content': 'desu2 thursday',
+      },
+      2: {
+        'title': 'p5',
+        'content': 'p5 thursday',
+      },
+    },
   },
   {
     'title': 'Friday',
-    'content': [
-      'friday content',
-    ],
+    'content': {
+      1: {
+        'title': 'desu2',
+        'content': 'desu2 friday',
+      },
+      2: {
+        'title': 'p5',
+        'content': 'p5 friday',
+      },
+    },
   },
   {
     'title': 'Saturday',
-    'content': [
-      'saturday content',
-    ],
+    'content': {
+      1: {
+        'title': 'desu2',
+        'content': 'desu2 saturday',
+      },
+      2: {
+        'title': 'p5',
+        'content': 'p5 saturday',
+      },
+    },
   },
 ]
