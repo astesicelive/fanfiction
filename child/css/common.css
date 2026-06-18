@@ -3,10 +3,10 @@ body {
 }
 
 body > div {
-  width: 95vw;
-  max-width: 95vw;
+  width: 92vw;
+  max-width: 92vw;
   overflow: scroll;
-  margin: 30px 4px;
+  margin: 40px 0px;
 }
 
 .container {
