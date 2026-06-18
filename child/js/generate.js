@@ -12,21 +12,15 @@ function generate_timeline() {
       });
 
       if (day.content.length == 1) {
-        
-      } else {}
+        current.innerHTML(`<ul>${list.join('')}</ul>`)
+      } else {
+        var choice = createElement('div').setAttribute('class', 'choice').innerHTML(`<ul>${list.join('')}</ul>`)
+        current.appendChild(choice)
+      };
     };
 
-    day.content.forEach((section) => {
-      var list = [];
-      section.content.forEach((li) => {
-        list.push(`<li>${li}</li>`)
-      });
-    });
-    if (day.content.length > 1) {
-      var choice = createElement('div').setAttribute('class', 'choice')
+    body.appendChild(current)
 
-      var list = []
-    }
-  })
+  });
   
-}
+};
