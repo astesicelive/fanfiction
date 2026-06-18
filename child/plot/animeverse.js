@@ -9,7 +9,7 @@ var animeverse = [
       {
         'title': 'p5',
         'content': ['p5 sunday'],
-      },
+      }
     ],
   },
   {
@@ -22,7 +22,7 @@ var animeverse = [
       {
         'title': 'p5',
         'content': ['p5 monday'],
-      },
+      }
     ],
   },
   {
@@ -35,7 +35,7 @@ var animeverse = [
       {
         'title': 'p5',
         'content': ['p5 tuesday'],
-      },
+      }
     ],
   },
   {
@@ -48,7 +48,7 @@ var animeverse = [
       {
         'title': 'p5',
         'content': ['p5 wednesday'],
-      },
+      }
     ],
   },
   {
@@ -61,7 +61,7 @@ var animeverse = [
       {
         'title': 'p5',
         'content': ['p5 thursday'],
-      },
+      }
     ],
   },
   {
@@ -74,7 +74,7 @@ var animeverse = [
       {
         'title': 'p5',
         'content': ['p5 friday'],
-      },
+      }
     ],
   },
   {
@@ -87,7 +87,7 @@ var animeverse = [
       {
         'title': 'p5',
         'content': ['p5 saturday'],
-      },
+      }
     ],
-  },
+  }
 ]
