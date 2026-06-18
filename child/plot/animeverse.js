@@ -4,11 +4,11 @@ var animeverse = [
     'content': [
       {
         'title': 'desu2',
-        'content': 'desu2 sunday',
+        'content': ['desu2 sunday'],
       },
       {
         'title': 'p5',
-        'content': 'p5 sunday',
+        'content': ['p5 sunday'],
       },
     ],
   },
@@ -17,11 +17,11 @@ var animeverse = [
     'content': [
       {
         'title': 'desu2',
-        'content': 'desu2 monday',
+        'content': ['desu2 monday'],
       },
       {
         'title': 'p5',
-        'content': 'p5 monday',
+        'content': ['p5 monday'],
       },
     ],
   },
@@ -30,11 +30,11 @@ var animeverse = [
     'content': [
       {
         'title': 'desu2',
-        'content': 'desu2 tuesday',
+        'content': ['desu2 tuesday'],
       },
       {
         'title': 'p5',
-        'content': 'p5 tuesday',
+        'content': ['p5 tuesday'],
       },
     ],
   },
@@ -43,11 +43,11 @@ var animeverse = [
     'content': [
       {
         'title': 'desu2',
-        'content': 'desu2 wednesday',
+        'content': ['desu2 wednesday'],
       },
       {
         'title': 'p5',
-        'content': 'p5 wednesday',
+        'content': ['p5 wednesday'],
       },
     ],
   },
@@ -56,11 +56,11 @@ var animeverse = [
     'content': [
       {
         'title': 'desu2',
-        'content': 'desu2 thursday',
+        'content': ['desu2 thursday'],
       },
       {
         'title': 'p5',
-        'content': 'p5 thursday',
+        'content': ['p5 thursday'],
       },
     ],
   },
@@ -69,11 +69,11 @@ var animeverse = [
     'content': [
       {
         'title': 'desu2',
-        'content': 'desu2 friday',
+        'content': ['desu2 friday'],
       },
       {
         'title': 'p5',
-        'content': 'p5 friday',
+        'content': ['p5 friday'],
       },
     ],
   },
@@ -82,11 +82,11 @@ var animeverse = [
     'content': [
       {
         'title': 'desu2',
-        'content': 'desu2 saturday',
+        'content': ['desu2 saturday'],
       },
       {
         'title': 'p5',
-        'content': 'p5 saturday',
+        'content': ['p5 saturday'],
       },
     ],
   },
