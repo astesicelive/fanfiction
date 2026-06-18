@@ -6,7 +6,7 @@ body > div {
   width: 92vw;
   max-width: 92vw;
   overflow: scroll;
-  margin: 40px 0px;
+  margin: 40px auto;
 }
 
 .container {
