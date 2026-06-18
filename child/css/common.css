@@ -11,13 +11,15 @@ body > div {
 .container {
   display: grid;
   grid-auto-flow: column;
-  grid-auto-columns: 400px;
-  column-gap: 16px;
+  grid-auto-columns: 600px;
+  column-gap: 26px;
   padding: 16px;
 }
 
 .choice {
   padding: 10px;
-  border: 3px solid #e1e1e1;
-  height: 300px;
+  border: 2px solid #000;
+  border-radius: 8px;
+  height: 400px;
+  overflow: scroll;
 }
