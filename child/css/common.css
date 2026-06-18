@@ -13,5 +13,7 @@ body > div {
 }
 
 .choice {
+  padding: 10px;
+  border: 6px solid #000;
   height: 300px;
 }
