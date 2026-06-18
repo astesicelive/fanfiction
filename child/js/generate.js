@@ -1,8 +1,9 @@
 function generate_timeline() {
-  var body = document.getElementsByTagName('body')
+  let body = document.getElementsByTagName('body')
 
   animeverse.forEach((day) => {
-    var current = createElement('div').setAttribute('class', 'container');
+    let current = document.createElement('div')
+    current.setAttribute('class', 'container');
 
     for (let i = 0; i < day.content.length; i++) {
       let section = day.content[i];
@@ -14,7 +15,9 @@ function generate_timeline() {
       if (day.content.length == 1) {
         current.innerHTML(`<ul>${list.join('')}</ul>`)
       } else {
-        var choice = createElement('div').setAttribute('class', 'choice').innerHTML(`<ul>${list.join('')}</ul>`)
+        var choice = document.createElement('div')
+        choice.setAttribute('class', 'choice')
+        choice.innerHTML(`<ul>${list.join('')}</ul>`)
         current.appendChild(choice)
       };
     };
