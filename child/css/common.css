@@ -14,12 +14,15 @@ body > div {
   grid-auto-columns: 600px;
   column-gap: 26px;
   padding: 16px;
+  border: 2px solid #000;
+  border-radius: 8px;
+  margin: 16px 0px;
 }
 
 .choice {
   padding: 10px;
-  border: 2px solid #000;
-  border-radius: 8px;
+  border: 1px dotted #a1a1a1;
+  border-radius: 12px;
   height: 400px;
   overflow: scroll;
 }
