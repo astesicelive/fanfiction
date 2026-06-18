@@ -3,9 +3,10 @@ body {
 }
 
 body > div {
-  width: 90vw;
-  max-width: 90vw;
+  width: 95vw;
+  max-width: 95vw;
   overflow: scroll;
+  margin: 30px 4px;
 }
 
 .container {
@@ -16,13 +17,12 @@ body > div {
   padding: 16px;
   border: 2px solid #000;
   border-radius: 8px;
-  margin: 30px 4px;
 }
 
 .choice {
   margin: 16px 8px;
   padding: 10px;
-  border: 2px dotted #090909;
+  border: 2px dotted #030303;
   border-radius: 12px;
   height: 400px;
   overflow: scroll;
