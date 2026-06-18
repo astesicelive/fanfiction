@@ -24,3 +24,5 @@ function generate_timeline() {
   });
   
 };
+
+generate_timeline()
