@@ -3,6 +3,9 @@ function generate_timeline() {
 
   animeverse.forEach((day) => {
     var current = createElement('div').setAttribute('class', 'container')
+    if (day.content.length > 1) {
+      
+    }
   })
   
 }
