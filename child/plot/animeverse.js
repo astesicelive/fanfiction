@@ -91,4 +91,3 @@ const animeverse = [
     ],
   }
 ];
-export { animeverse };
