@@ -1,4 +1,4 @@
-var animeverse = [
+const animeverse = [
   {
     'title': 'Sunday',
     'content': [
