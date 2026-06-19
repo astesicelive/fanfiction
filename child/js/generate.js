@@ -12,13 +12,14 @@ function generate_timeline() {
       } else {
         list = `${i}`;
       }
+      let result = document.createTextNode(list);
 
-      if (day.content.length == 1) {
-        current.innerHTML(list);
+      if (day.content.length == 1 && i == 0) {
+        current.appendChild(result);
       } else {
         var choice = document.createElement('div');
         choice.setAttribute('class', 'choice');
-        choice.innerHTML(list);
+        choice.appendChild(result);
         current.appendChild(choice);
       };
     };
