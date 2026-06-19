@@ -107,7 +107,13 @@ function generate_timeline(v) {
       let section = day.content[i].content;
       let list;
       if (section) {
-        list = `<ul><li>${section.join('</li><li>')}</li></ul>`;
+        list = document.createElement('ul');
+        section.forEach((s) => {
+          let li = document.createElement('li');
+          let li_txt = document.createTextNode(s);
+          li.appendChild(li_txt);
+          list.appendChild(li);
+        });
       } else {
         list = `${i}`;
       }
@@ -129,4 +135,4 @@ function generate_timeline(v) {
   
 };
 
-generate_timeline('1.0.2.7')
+generate_timeline('1.0.2.8')
