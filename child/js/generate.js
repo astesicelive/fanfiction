@@ -18,18 +18,24 @@ function generate_timeline(v) {
       let section = day.content[i].content;
       let list;
       if (section) {
-        list = `<ul><li>${section.join('</li><li>')}</li></ul>`;
+        let list = document.createElement('ul');
+        section.forEach((s) => {
+          let li = document.createElement('li')
+          let li_txt = document.createTextNode(s)
+          li.appendChild(s)
+          ul.appendChild(li)
+        });
       } else {
-        list = `${i}`;
+        list = document.createTextNode(i);
       }
 
 
       if (day.content.length == 1) {
-        current.innerHTML(list);
+        current.appendChild(list);
       } else {
         var choice = document.createElement('div');
         choice.setAttribute('class', 'choice');
-        choice.innerHTML(list);
+        choice.appendChild(list);
         current.appendChild(choice);
       };
     };
