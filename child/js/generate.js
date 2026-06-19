@@ -1,7 +1,8 @@
 function generate_timeline(v) {
 
+  let txt = document.createTextNode(v);
   let version = document.createElement('div');
-  version.innerHTML(v);
+  version.appendChild(txt);
   document.body.appendChild(version)
 
   animeverse.forEach((day) => {
