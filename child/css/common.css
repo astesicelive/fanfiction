@@ -4,11 +4,20 @@ body {
   color: #fcfff7;
 }
 
-.container, .title {
+.container, .title, .divider {
   width: 92vw;
   max-width: 92vw;
   overflow: scroll;
   margin: 0px auto;
+}
+
+.divider {
+  margin-top: 100px;
+  margin-bottom: 100px;
+  padding: 16px;
+  background-color: #eaffd1;
+  color: #000;
+  text-tranform: uppercase;
 }
 
 .title {
