@@ -116,7 +116,7 @@ function generate_timeline(v) {
         section.forEach((s) => {
           let li = document.createElement('li');
           let li_txt = document.createTextNode(s);
-          li.appendChild(s);
+          li.appendChild(li_txt);
           ul.appendChild(li);
         });
       } else {
@@ -140,4 +140,4 @@ function generate_timeline(v) {
   
 };
 
-generate_timeline('1.0.2.5')
+generate_timeline('1.0.2.6')
