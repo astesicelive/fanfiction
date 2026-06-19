@@ -22,6 +22,12 @@ function generate_arcs(arc) {
       let header_txt = document.createTextNode(day.title);
       header.appendChild(header_txt);
       document.body.appendChild(header);
+    } else if (day.arc_title) {
+      let header =  document.createElement('div');
+      header.setAttribute('class', 'divider');
+      let header_txt = document.createTextNode(day.arc_title);
+      header.appendChild(header_txt);
+      document.body.appendChild(header);
     };
 
     let current = document.createElement('div');
