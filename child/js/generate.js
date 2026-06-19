@@ -1,5 +1,3 @@
-import { animeverse } from './plot/animeverse.js';
-
 function generate_timeline(v) {
 
   let txt = document.createTextNode(v);
