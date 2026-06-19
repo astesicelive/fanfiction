@@ -37,4 +37,4 @@ function generate_timeline(v) {
   
 };
 
-generate_timeline('1.0.2.1')
+generate_timeline('1.0.2.2')
