@@ -5,10 +5,6 @@ var animeverse = [
       {
         'title': 'desu2',
         'content': ['desu2 sunday'],
-      },
-      {
-        'title': 'p5',
-        'content': ['p5 sunday'],
       }
     ],
   },
@@ -18,10 +14,6 @@ var animeverse = [
       {
         'title': 'desu2',
         'content': ['desu2 monday'],
-      },
-      {
-        'title': 'p5',
-        'content': ['p5 monday'],
       }
     ],
   },
@@ -31,10 +23,6 @@ var animeverse = [
       {
         'title': 'desu2',
         'content': ['desu2 tuesday'],
-      },
-      {
-        'title': 'p5',
-        'content': ['p5 tuesday'],
       }
     ],
   },
@@ -44,10 +32,6 @@ var animeverse = [
       {
         'title': 'desu2',
         'content': ['desu2 wednesday'],
-      },
-      {
-        'title': 'p5',
-        'content': ['p5 wednesday'],
       }
     ],
   },
@@ -57,10 +41,6 @@ var animeverse = [
       {
         'title': 'desu2',
         'content': ['desu2 thursday'],
-      },
-      {
-        'title': 'p5',
-        'content': ['p5 thursday'],
       }
     ],
   },
@@ -70,10 +50,6 @@ var animeverse = [
       {
         'title': 'desu2',
         'content': ['desu2 friday'],
-      },
-      {
-        'title': 'p5',
-        'content': ['p5 friday'],
       }
     ],
   },
@@ -83,10 +59,6 @@ var animeverse = [
       {
         'title': 'desu2',
         'content': ['desu2 saturday'],
-      },
-      {
-        'title': 'p5',
-        'content': ['p5 saturday'],
       }
     ],
   }
