@@ -36,16 +36,19 @@ body {
 }
 
 .container {
-  display: grid;
-  grid-auto-flow: column;
-  grid-auto-columns: 600px;
-  column-gap: 26px;
   padding: 16px;
   border: 2px solid #fff;
   border-radius: 8px;
   margin-bottom: 70px;
   max-height: 750px;
   overflow: scroll;
+}
+
+.container:has(.choice) {
+  display: grid;
+  grid-auto-flow: column;
+  grid-auto-columns: 600px;
+  column-gap: 26px;
 }
 
 .choice {
