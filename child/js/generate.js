@@ -115,16 +115,15 @@ function generate_timeline(v) {
           list.appendChild(li);
         });
       } else {
-        list = `${i}`;
-      }
-      let result = document.createTextNode(list);
+        list = document.createTextNode(i);
+      };
 
       if (day.content.length == 1) {
-        current.appendChild(result);
+        current.appendChild(list);
       } else {
         var choice = document.createElement('div');
         choice.setAttribute('class', 'choice');
-        choice.appendChild(result);
+        choice.appendChild(list);
         current.appendChild(choice);
       };
     };
