@@ -4,22 +4,18 @@ body {
   color: #fcfff7;
 }
 
-body > div {
+.container, .title {
   width: 92vw;
   max-width: 92vw;
   overflow: scroll;
   margin: 0px auto;
 }
 
-body > div:not(.title) {
-  margin-bottom: 70px;
-}
-
 .title {
   border-left: 2px solid #fff;
   border-top: 2px solid #fff;
   border-right: 2px solid #fff;
-  border-radius: 8px 8px 0px 0px;
+  border-radius: 16px 16px 0px 0px;
   font-style: italic;
   text-align: center;
   padding: 8px 0px;
@@ -36,6 +32,7 @@ body > div:not(.title) {
   padding: 16px;
   border: 2px solid #fff;
   border-radius: 8px;
+  margin-bottom: 70px;
 }
 
 .choice {
