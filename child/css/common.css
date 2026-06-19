@@ -11,6 +11,14 @@ body {
   margin: 0px auto;
 }
 
+.divider {
+  margin-top: 100px;
+  margin-bottom: 100px;
+  padding: 16px;
+  background-color: #eaffd1;
+  color: #000;
+}
+
 .title {
   border-left: 2px solid #fff;
   border-top: 2px solid #fff;
