@@ -22,9 +22,8 @@ body > div {
 }
 
 .container .title {
-  width: 100%;
   border-bottom: 2px dashed #fff;
-  font-style: italics;
+  font-style: italic;
 }
 
 .choice {
