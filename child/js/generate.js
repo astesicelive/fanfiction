@@ -3,12 +3,19 @@ function generate_timeline(v) {
   let txt = document.createTextNode(v);
   let version = document.createElement('div');
   version.appendChild(txt);
-  document.body.appendChild(version)
+  document.body.appendChild(version);
 
-  animeverse.forEach((day) => {
-    let current = document.createElement('div');
-    current.setAttribute('class', 'container');
+  let arcs = [animeverse, gameverse];
 
+  arcs.forEach((a) => {
+    generate_arcs(a);
+  });
+  
+};
+
+function generate_arcs(arc) {
+
+  arc.forEach((day) => {
     if (day.title) {
       let header = document.createElement('div');
       header.setAttribute('class', 'title');
@@ -16,6 +23,9 @@ function generate_timeline(v) {
       header.appendChild(header_txt);
       document.body.appendChild(header);
     };
+
+    let current = document.createElement('div');
+    current.setAttribute('class', 'container');
 
     for (let i = 0; i < day.content.length; i++) {
       let section = day.content[i].content;
@@ -45,7 +55,7 @@ function generate_timeline(v) {
     document.body.appendChild(current);
 
   });
-  
-};
 
-generate_timeline('1.0.3')
+}
+
+generate_timeline('1.0.4');
