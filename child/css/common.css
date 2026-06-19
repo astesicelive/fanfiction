@@ -22,7 +22,9 @@ body > div:not(.title) {
   border-radius: 8px 8px 0px 0px;
   font-style: italic;
   text-align: center;
-  padding: 8px 4px;
+  padding: 8px 2px;
+  color: #2a3033;
+  background-color: #fcfff7;
 }
 
 .container {
