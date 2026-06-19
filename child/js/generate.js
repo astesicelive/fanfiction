@@ -6,6 +6,11 @@ function generate_timeline(v) {
   document.body.appendChild(version)
 
   animeverse.forEach((day) => {
+    let t = document.createElement('div')
+    let r = document.createTextNode('???')
+    t.appendChild(r)
+    document.body.appendChild(t)
+
     let current = document.createElement('div')
     current.setAttribute('class', 'container');
 
