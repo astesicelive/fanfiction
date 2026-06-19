@@ -100,18 +100,15 @@ function generate_timeline(v) {
   document.body.appendChild(version)
 
   animeverse.forEach((day) => {
-    let whole = document.createElement('div');
-    whole.setAttribute('class', 'part');
-
     let current = document.createElement('div');
     current.setAttribute('class', 'container');
 
     if (day.title) {
-      let header = document.createElement('h3');
+      let header = document.createElement('div');
       header.setAttribute('class', 'title');
       let header_txt = document.createTextNode(day.title);
       header.appendChild(header_txt);
-      whole.appendChild(header);
+      document.body.appendChild(header);
     };
 
     for (let i = 0; i < day.content.length; i++) {
@@ -139,11 +136,10 @@ function generate_timeline(v) {
       };
     };
 
-    whole.appendChild(current);
-    document.body.appendChild(whole);
+    document.body.appendChild(current);
 
   });
   
 };
 
-generate_timeline('1.0.2.8')
+generate_timeline('1.0.2.9')
