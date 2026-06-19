@@ -12,7 +12,7 @@ body > div {
 }
 
 body > div:not(.title) {
-  margin-bottom: 40px;
+  margin-bottom: 70px;
 }
 
 .title {
@@ -22,6 +22,7 @@ body > div:not(.title) {
   border-radius: 8px;
   font-style: italic;
   text-align: center;
+  padding: 16px;
 }
 
 .container {
