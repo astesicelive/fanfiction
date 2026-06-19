@@ -19,10 +19,10 @@ body > div:not(.title) {
   border-left: 2px solid #fff;
   border-top: 2px solid #fff;
   border-right: 2px solid #fff;
-  border-radius: 8px;
+  border-radius: 8px 8px 0px 0px;
   font-style: italic;
   text-align: center;
-  padding: 8px 12px;
+  padding: 8px 4px;
 }
 
 .container {
