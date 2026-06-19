@@ -30,36 +30,38 @@ function generate_arcs(arc) {
       document.body.appendChild(header);
     };
 
-    let current = document.createElement('div');
-    current.setAttribute('class', 'container');
+    if (day.content) {
+      let current = document.createElement('div');
+      current.setAttribute('class', 'container');
 
-    for (let i = 0; i < day.content.length; i++) {
-      let section = day.content[i].content;
-      let list;
-      if (section) {
-        list = document.createElement('ul');
+      for (let i = 0; i < day.content.length; i++) {
+        let section = day.content[i].content;
+        let list;
+        if (section) {
+          list = document.createElement('ul');
         section.forEach((s) => {
-          let li = document.createElement('li');
-          let li_txt = document.createTextNode(s);
-          li.appendChild(li_txt);
-          list.appendChild(li);
-        });
-      } else {
-        list = document.createTextNode(i);
+            let li = document.createElement('li');
+            let li_txt = document.createTextNode(s);
+            li.appendChild(li_txt);
+            list.appendChild(li);
+          });
+        } else {
+          list = document.createTextNode(i);
+        };
+
+        if (day.content.length == 1) {
+          current.appendChild(list);
+        } else {
+          var choice = document.createElement('div');
+          choice.setAttribute('class', 'choice');
+          choice.appendChild(list);
+          current.appendChild(choice);
+        };
       };
 
-      if (day.content.length == 1) {
-        current.appendChild(list);
-      } else {
-        var choice = document.createElement('div');
-        choice.setAttribute('class', 'choice');
-        choice.appendChild(list);
-        current.appendChild(choice);
-      };
-    };
+      document.body.appendChild(current);
 
-    document.body.appendChild(current);
-
+    }
   });
 
 }
