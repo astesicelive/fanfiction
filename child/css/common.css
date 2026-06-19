@@ -1,5 +1,7 @@
 body {
   font-size: 28px;
+  background-color: #2a3033;
+  color: #fcfff7;
 }
 
 body > div {
@@ -15,14 +17,14 @@ body > div {
   grid-auto-columns: 600px;
   column-gap: 26px;
   padding: 16px;
-  border: 2px solid #000;
+  border: 2px solid #fff;
   border-radius: 8px;
 }
 
 .choice {
   margin: 16px 8px;
   padding: 10px;
-  border: 2px dotted #030303;
+  border: 2px dotted #eaffd1;
   border-radius: 12px;
   height: 400px;
   overflow: scroll;
