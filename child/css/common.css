@@ -8,7 +8,19 @@ body > div {
   width: 92vw;
   max-width: 92vw;
   overflow: scroll;
-  margin: 40px auto;
+  margin: 0px auto;
+}
+
+body > div:not(.title) {
+  margin-bottom: 40px;
+}
+
+.title {
+  border-left: 2px solid #fff;
+  border-top: 2px solid #fff;
+  border-right: 2px solid #fff;
+  border-radius: 8px;
+  font-style: italic;
 }
 
 .container {
@@ -19,11 +31,6 @@ body > div {
   padding: 16px;
   border: 2px solid #fff;
   border-radius: 8px;
-}
-
-.container .title {
-  border-bottom: 2px dashed #fff;
-  font-style: italic;
 }
 
 .choice {
