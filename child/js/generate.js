@@ -7,7 +7,7 @@ function generate_timeline() {
     for (let i = 0; i >= day.content.length; i++) {
       let section = day.content[i].content;
       let list;
-      if (!section) {
+      if (section) {
         list = `<ul><li>${section.join('</li><li>')}</li></ul>`;
       } else {
         list = `${i}`;
