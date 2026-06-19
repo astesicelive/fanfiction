@@ -1,6 +1,9 @@
-body * {
+body {
   background-color: #2a3033;
   color: #fcfff7;
+}
+
+body * {
   font-size: 18px;
 }
 
