@@ -1,4 +1,8 @@
-function generate_timeline() {
+function generate_timeline(v) {
+
+  let version = document.createElement('div');
+  version.innerHTML(v);
+  document.body.appendChild(version)
 
   animeverse.forEach((day) => {
     let current = document.createElement('div')
@@ -30,4 +34,4 @@ function generate_timeline() {
   
 };
 
-generate_timeline()
+generate_timeline('1.0.2')
