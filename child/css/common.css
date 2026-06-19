@@ -1,6 +1,7 @@
-body {
+body * {
   background-color: #2a3033;
   color: #fcfff7;
+  font-size: 18px;
 }
 
 .container, .title, .divider {
@@ -19,7 +20,6 @@ body {
   text-transform: uppercase;
   font-weight: bold;
   text-align: center;
-  font-size: 20px;
 }
 
 .title {
@@ -33,7 +33,6 @@ body {
   color: #2a3033;
   background-color: #fcfff7;
   font-weight: bold;
-  font-size: 18px;
 }
 
 .container {
@@ -43,7 +42,6 @@ body {
   margin-bottom: 70px;
   max-height: 750px;
   overflow: scroll;
-  font-size: 16px;
 }
 
 .container:has(.choice) {
@@ -60,5 +58,4 @@ body {
   border-radius: 12px;
   max-height: 710px;
   overflow: scroll;
-  font-size: 16px;
 }
