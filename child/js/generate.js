@@ -14,18 +14,12 @@ function generate_timeline(v) {
 };
 
 function generate_arcs(arc) {
-
+  
   arc.forEach((day) => {
-    if (day.title) {
-      let header = document.createElement('div');
-      header.setAttribute('class', 'title');
-      let header_txt = document.createTextNode(day.title);
-      header.appendChild(header_txt);
-      document.body.appendChild(header);
-    } else if (day.arc_title) {
+    if (day.type == 'divider' || day.title) {
       let header =  document.createElement('div');
-      header.setAttribute('class', 'divider');
-      let header_txt = document.createTextNode(day.arc_title);
+      header.setAttribute('class', day.type);
+      let header_txt = document.createTextNode(day.title);
       header.appendChild(header_txt);
       document.body.appendChild(header);
     };
@@ -60,10 +54,9 @@ function generate_arcs(arc) {
       };
 
       document.body.appendChild(current);
-
-    }
+    };
   });
 
 }
 
-generate_timeline('1.0.5');
+generate_timeline('1.0.6');
