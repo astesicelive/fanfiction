@@ -1,4 +1,4 @@
-var animeverse = [
+/*var animeverse = [
   {
     'title': 'Sunday',
     'content': [
@@ -90,7 +90,7 @@ var animeverse = [
       }
     ],
   }
-];
+];*/
 
 function generate_timeline(v) {
 
