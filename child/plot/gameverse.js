@@ -1,8 +1,10 @@
 var gameverse = [
   {
-    'arc_title': 'gameverse',
+    'type': 'divider',
+    'title': 'gameverse',
   },
   {
+    'type': 'title',
     'title': 'Sunday',
     'content': [
       {
@@ -16,6 +18,7 @@ var gameverse = [
     ],
   },
   {
+    'type': 'title',
     'title': 'Monday',
     'content': [
       {
@@ -29,6 +32,7 @@ var gameverse = [
     ],
   },
   {
+    'type': 'title',
     'title': 'Tuesday',
     'content': [
       {
@@ -42,6 +46,7 @@ var gameverse = [
     ],
   },
   {
+    'type': 'title',
     'title': 'Wednesday',
     'content': [
       {
@@ -55,6 +60,7 @@ var gameverse = [
     ],
   },
   {
+    'type': 'title',
     'title': 'Thursday',
     'content': [
       {
@@ -68,6 +74,7 @@ var gameverse = [
     ],
   },
   {
+    'type': 'title',
     'title': 'Friday',
     'content': [
       {
@@ -81,6 +88,7 @@ var gameverse = [
     ],
   },
   {
+    'type': 'title',
     'title': 'Saturday',
     'content': [
       {
