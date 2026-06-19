@@ -4,7 +4,7 @@ body {
   color: #fcfff7;
 }
 
-.container, .title {
+.container, .title, .divider {
   width: 92vw;
   max-width: 92vw;
   overflow: scroll;
