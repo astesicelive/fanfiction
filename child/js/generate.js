@@ -5,7 +5,17 @@ function generate_timeline(v) {
   version.appendChild(txt);
   document.body.appendChild(version);
 
-  animeverse.forEach((day) => {
+  let arcs = [animeverse, gameverse];
+
+  arcs.forEach((a) => {
+    generate_arcs(a);
+  });
+  
+};
+
+function generate_arcs(arc) {
+
+  arc.forEach((day) => {
     if (day.title) {
       let header = document.createElement('div');
       header.setAttribute('class', 'title');
@@ -45,7 +55,7 @@ function generate_timeline(v) {
     document.body.appendChild(current);
 
   });
-  
-};
 
-generate_timeline('1.0.3');
+}
+
+generate_timeline('1.0.4');
