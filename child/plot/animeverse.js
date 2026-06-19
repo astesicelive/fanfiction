@@ -47,7 +47,7 @@ var animeverse = [
 "hibiki ends up in the connected church",
 "attacked by rogue phone demons wooo",
 "hibiki and makoto tag team the demons",
-"daichi didn"t do anything",
+"daichi didn't do anything",
 "io cried the entire time and couldn't help <///3",
 "trio + makoto return to jps",
 "yamato immediately sends them to osaka to search for fumi",
