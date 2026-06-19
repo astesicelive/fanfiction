@@ -44,6 +44,8 @@ body {
   border: 2px solid #fff;
   border-radius: 8px;
   margin-bottom: 70px;
+  max-height: 750px;
+  overflow: scroll;
 }
 
 .choice {
@@ -51,6 +53,6 @@ body {
   padding: 10px;
   border: 2px dotted #eaffd1;
   border-radius: 12px;
-  height: 400px;
+  max-height: 710px;
   overflow: scroll;
 }
