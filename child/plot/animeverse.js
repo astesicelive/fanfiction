@@ -1,15 +1,17 @@
 var animeverse = [
   {
-    'arc_title': 'animeverse',
+    'type': 'divider',
+    'title': 'animeverse',
   },
   {
+    'type': 'title',
     'title': 'Sunday',
     'content': [
       {
         'title': 'desu2',
         'content': [
           'it’s like june or sth because that’s the date of japan college mock exams (did not factcheck this, might be wrong)',
-'maruki dies before he meets high school trio because he didn’t awaken to azathoth',
+          'maruki dies before he meets high school trio because he didn’t awaken to azathoth',
 'hibiki meets daichi outside the practice exam building fsr',
 'trying to head home, see io at the station',
 'death clips hibiki ←→ daichi',
@@ -33,6 +35,7 @@ var animeverse = [
     ],
   },
   {
+    'type': 'title',
     'title': 'Monday',
     'content': [
       {
@@ -108,6 +111,7 @@ var animeverse = [
     ],
   },
   {
+    'type': 'title',
     'title': 'Tuesday',
     'content': [
       {
@@ -117,6 +121,7 @@ var animeverse = [
     ],
   },
   {
+    'type': 'title',
     'title': 'Wednesday',
     'content': [
       {
@@ -126,6 +131,7 @@ var animeverse = [
     ],
   },
   {
+    'type': 'title',
     'title': 'Thursday',
     'content': [
       {
@@ -135,6 +141,7 @@ var animeverse = [
     ],
   },
   {
+    'type': 'title',
     'title': 'Friday',
     'content': [
       {
@@ -144,6 +151,7 @@ var animeverse = [
     ],
   },
   {
+    'type': 'title',
     'title': 'Saturday',
     'content': [
       {
