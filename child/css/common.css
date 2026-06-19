@@ -21,6 +21,7 @@ body > div:not(.title) {
   border-right: 2px solid #fff;
   border-radius: 8px;
   font-style: italic;
+  text-align: center;
 }
 
 .container {
