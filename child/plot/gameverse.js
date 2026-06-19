@@ -1,5 +1,8 @@
 var gameverse = [
   {
+    'arc_title': 'gameverse',
+  },
+  {
     'title': 'Sunday',
     'content': [
       {
