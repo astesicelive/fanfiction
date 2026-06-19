@@ -66,4 +66,4 @@ function generate_arcs(arc) {
 
 }
 
-generate_timeline('1.0.4');
+generate_timeline('1.0.5');
