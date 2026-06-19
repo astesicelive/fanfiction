@@ -1,4 +1,4 @@
-export const animeverse = [
+const animeverse = [
   {
     'title': 'Sunday',
     'content': [
