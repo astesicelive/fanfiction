@@ -100,15 +100,10 @@ function generate_timeline(v) {
   document.body.appendChild(version)
 
   animeverse.forEach((day) => {
-    let t = document.createElement('div');
-    let r = document.createTextNode('???');
-    t.appendChild(r);
-    document.body.appendChild(t);
-
     let current = document.createElement('div');
     current.setAttribute('class', 'container');
 
-    for (let i = 0; i >= day.content.length; i++) {
+    for (let i = 0; i < day.content.length; i++) {
       let section = day.content[i].content;
       let list;
       if (section) {
@@ -118,7 +113,7 @@ function generate_timeline(v) {
       }
       let result = document.createTextNode(list);
 
-      if (day.content.length == 1 && i == 0) {
+      if (day.content.length == 1) {
         current.appendChild(result);
       } else {
         var choice = document.createElement('div');
@@ -134,4 +129,4 @@ function generate_timeline(v) {
   
 };
 
-generate_timeline('1.0.2.6')
+generate_timeline('1.0.2.7')
