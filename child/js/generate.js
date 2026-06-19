@@ -1,4 +1,4 @@
-import { animeverse } from "./plot/animeverse.js"
+import { animeverse } from "child/plot/animeverse.js";
 
 function generate_timeline(v) {
 
@@ -37,4 +37,4 @@ function generate_timeline(v) {
   
 };
 
-generate_timeline('1.0.2.1')
+generate_timeline('1.0.2.2')
