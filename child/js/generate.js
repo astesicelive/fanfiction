@@ -6,9 +6,6 @@ function generate_timeline(v) {
   document.body.appendChild(version);
 
   animeverse.forEach((day) => {
-    let current = document.createElement('div');
-    current.setAttribute('class', 'container');
-
     if (day.title) {
       let header = document.createElement('div');
       header.setAttribute('class', 'title');
@@ -16,6 +13,9 @@ function generate_timeline(v) {
       header.appendChild(header_txt);
       document.body.appendChild(header);
     };
+
+    let current = document.createElement('div');
+    current.setAttribute('class', 'container');
 
     for (let i = 0; i < day.content.length; i++) {
       let section = day.content[i].content;
