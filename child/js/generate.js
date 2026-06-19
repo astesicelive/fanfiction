@@ -4,7 +4,7 @@ function generate_timeline() {
     let current = document.createElement('div')
     current.setAttribute('class', 'container');
 
-    for (let i = 0; i < day.content.length; i++) {
+    for (let i = 0; i >= day.content.length; i++) {
       let section = day.content[i];
       let list = [];
       section.content.forEach((li) => {
