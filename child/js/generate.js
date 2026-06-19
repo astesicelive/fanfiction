@@ -6,22 +6,19 @@ function generate_timeline() {
 
     for (let i = 0; i >= day.content.length; i++) {
       let section = day.content[i];
-      let list = [];
-      section.content.forEach((li) => {
-        list.push(`<li>${li}</li>`);
-      });
+      let list = `<ul><li>${section.content.join('</li><li>')}</li></ul>`;
 
       if (day.content.length == 1) {
-        current.innerHTML(`<ul>${list.join('')}</ul>`)
+        current.innerHTML(list);
       } else {
-        var choice = document.createElement('div')
-        choice.setAttribute('class', 'choice')
-        choice.innerHTML(`<ul>${list.join('')}</ul>`)
-        current.appendChild(choice)
+        var choice = document.createElement('div');
+        choice.setAttribute('class', 'choice');
+        choice.innerHTML(list);
+        current.appendChild(choice);
       };
     };
 
-    document.body.appendChild(current)
+    document.body.appendChild(current);
 
   });
   
