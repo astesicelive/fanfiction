@@ -1,5 +1,8 @@
 var animeverse = [
   {
+    'arc_title': 'animeverse',
+  },
+  {
     'title': 'Sunday',
     'content': [
       {
