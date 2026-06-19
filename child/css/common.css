@@ -21,6 +21,12 @@ body > div {
   border-radius: 8px;
 }
 
+.container .title {
+  width: 100%;
+  border-bottom: 2px dashed #fff;
+  font-style: italics;
+}
+
 .choice {
   margin: 16px 8px;
   padding: 10px;

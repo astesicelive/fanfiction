@@ -103,6 +103,14 @@ function generate_timeline(v) {
     let current = document.createElement('div');
     current.setAttribute('class', 'container');
 
+    if (day.title) {
+      let header = document.createElement('h3');
+      header.setAttribute('class', 'title');
+      let header_txt = document.createTextNode(day.title);
+      header.appendChild(header_txt);
+      current.appendChild(header);
+    };
+
     for (let i = 0; i < day.content.length; i++) {
       let section = day.content[i].content;
       let list;
