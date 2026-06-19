@@ -1,4 +1,4 @@
-var animeverse = [
+/*var animeverse = [
   {
     'title': 'Sunday',
     'content': [
@@ -90,7 +90,7 @@ var animeverse = [
       }
     ],
   }
-];
+];*/
 
 function generate_timeline() {
 
@@ -98,7 +98,7 @@ function generate_timeline() {
     let current = document.createElement('div')
     current.setAttribute('class', 'container');
 
-    for (let i = 0; i >= day.content.length; i++) {
+    for (let i = 0; i < day.content.length; i++) {
       let section = day.content[i].content;
       let list;
       if (section) {
