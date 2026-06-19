@@ -5,8 +5,8 @@ function generate_timeline() {
     current.setAttribute('class', 'container');
 
     for (let i = 0; i >= day.content.length; i++) {
-      let section = day.content[i];
-      let list = `<ul><li>${section.content.join('</li><li>')}</li></ul>`;
+      let section = day.content[i].content;
+      let list = `<ul><li>${section.join('</li><li>')}</li></ul>`;
 
       if (day.content.length == 1) {
         current.innerHTML(list);
