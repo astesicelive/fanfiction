@@ -6,7 +6,12 @@ function generate_timeline() {
 
     for (let i = 0; i >= day.content.length; i++) {
       let section = day.content[i].content;
-      let list = `<ul><li>${section.join('</li><li>')}</li></ul>`;
+      let list;
+      if (!section) {
+        list = `<ul><li>${section.join('</li><li>')}</li></ul>`;
+      } else {
+        list = `${i}`;
+      }
 
       if (day.content.length == 1) {
         current.innerHTML(list);
