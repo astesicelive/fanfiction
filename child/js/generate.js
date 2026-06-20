@@ -8,10 +8,18 @@ function generate_timeline(v) {
   let arcs = [animeverse, gameverse];
 
   arcs.forEach((a) => {
-    generate_arcs(a);
+    if (a[0].type == 'choice') {
+      generate_splits(a);
+    } else {
+      generate_arcs(a);
+    };
   });
   
 };
+
+function generate_splits(obj) {
+  obj
+}
 
 function generate_arcs(arc) {
   
