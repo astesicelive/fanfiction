@@ -5,10 +5,10 @@ var animeverse = [
   },
   {
     'type': 'title',
-    'class': 'desu2a sunday',
+    'class_name': 'desu2a sunday',
     'content': [
       {
-        'class': 'desu2',
+        'class_name': 'desu2',
         'content': [
           'it’s like june or sth because that’s the date of japan college mock exams (did not factcheck this, might be wrong)',
           'maruki dies before he meets high school trio because he didn’t awaken to azathoth',
@@ -36,10 +36,10 @@ var animeverse = [
   },
   {
     'type': 'title',
-    'class': 'desu2a monday',
+    'class_name': 'desu2a monday',
     'content': [
       {
-        'class': 'desu2',
+        'class_name': 'desu2',
         'content': [
 "Alyama were talking about yamato not keeping hibiki at his side and that yamato has hope they will manage on their own while alcor hopes he will find something new that shines",
 "makoto drives high school trio to ariake",
@@ -111,50 +111,50 @@ var animeverse = [
   },
   {
     'type': 'title',
-    'class': 'desu2a tuesday',
+    'class_name': 'desu2a tuesday',
     'content': [
       {
-        'class': 'desu2',
+        'class_name': 'desu2',
         'content': ['desu2 tuesday'],
       }
     ],
   },
   {
     'type': 'title',
-    'class': 'desu2a wednesday',
+    'class_name': 'desu2a wednesday',
     'content': [
       {
-        'class': 'desu2',
+        'class_name': 'desu2',
         'content': ['desu2 wednesday'],
       }
     ],
   },
   {
     'type': 'title',
-    'class': 'desu2a thursday',
+    'class_name': 'desu2a thursday',
     'content': [
       {
-        'class': 'desu2',
+        'class_name': 'desu2',
         'content': ['desu2 thursday'],
       }
     ],
   },
   {
     'type': 'title',
-    'class': 'desu2a friday',
+    'class_name': 'desu2a friday',
     'content': [
       {
-        'class': 'desu2',
+        'class_name': 'desu2',
         'content': ['desu2 friday'],
       }
     ],
   },
   {
     'type': 'title',
-    'class': 'desu2a saturday',
+    'class_name': 'desu2a saturday',
     'content': [
       {
-        'class': 'desu2',
+        'class_name': 'desu2',
         'content': ['desu2 saturday'],
       }
     ],
