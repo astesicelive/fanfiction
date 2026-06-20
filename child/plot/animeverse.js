@@ -41,7 +41,6 @@ var animeverse = [
       {
         'title': 'desu2',
         'content': [
-"yamato and alcor were talking",
 "Alyama were talking about yamato not keeping hibiki at his side and that yamato has hope they will manage on their own while alcor hopes he will find something new that shines",
 "makoto drives high school trio to ariake",
 "doesn't get there because roadblock",
