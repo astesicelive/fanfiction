@@ -28,10 +28,6 @@ function generate_arcs(arc) {
       let current = document.createElement('div');
       current.setAttribute('class', 'container');
 
-      if (day.class_name) {
-        current.classList.add(day.class_name);
-      };
-
       for (let i = 0; i < day.content.length; i++) {
         let section = day.content[i];
         let list;
@@ -64,4 +60,4 @@ function generate_arcs(arc) {
 
 }
 
-generate_timeline('1.0.7');
+generate_timeline('1.0.7.1');
