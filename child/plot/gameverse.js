@@ -5,7 +5,7 @@ var gameverse = [
   },
   {
     'type': 'title',
-    'class_name': 'Sunday',
+    'class_name': 'desu2 septentriones sunday',
     'content': [
       {
         'class_name': 'desu2',
@@ -19,7 +19,7 @@ var gameverse = [
   },
   {
     'type': 'title',
-    'class_name': 'Monday',
+    'class_name': 'desu2 septentriones monday',
     'content': [
       {
         'class_name': 'desu2',
@@ -33,7 +33,7 @@ var gameverse = [
   },
   {
     'type': 'title',
-    'class_name': 'Tuesday',
+    'class_name': 'desu2 septentriones tuesday',
     'content': [
       {
         'class_name': 'desu2',
@@ -47,7 +47,7 @@ var gameverse = [
   },
   {
     'type': 'title',
-    'class_name': 'Wednesday',
+    'class_name': 'desu2 septentriones wednesday',
     'content': [
       {
         'class_name': 'desu2',
@@ -61,7 +61,7 @@ var gameverse = [
   },
   {
     'type': 'title',
-    'class_name': 'Thursday',
+    'class_name': 'desu2 septentriones thursday',
     'content': [
       {
         'class_name': 'desu2',
@@ -75,7 +75,7 @@ var gameverse = [
   },
   {
     'type': 'title',
-    'class_name': 'Friday',
+    'class_name': 'desu2 septentriones friday',
     'content': [
       {
         'class_name': 'desu2',
@@ -89,7 +89,7 @@ var gameverse = [
   },
   {
     'type': 'title',
-    'class_name': 'Saturday',
+    'class_name': 'desu2 septentriones saturday',
     'content': [
       {
         'class_name': 'desu2',
