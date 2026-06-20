@@ -29,13 +29,17 @@ function generate_arcs(arc) {
       current.setAttribute('class', 'container');
 
       if (day.class_name) {
-        current.classList.add(day.class_name);
+        current.setAttribute('class, 'container ' + day.class_name);
       };
 
       for (let i = 0; i < day.content.length; i++) {
         let section = day.content[i];
         let list;
 
+        let class_list = ['choice'];
+        if (section.class_list) {
+          class_list.push(section.class_list);
+        };
         if (section.content) {
           list = document.createElement('ul');
           section.forEach((s) => {
@@ -52,7 +56,7 @@ function generate_arcs(arc) {
           current.appendChild(list);
         } else {
           var choice = document.createElement('div');
-          choice.setAttribute('class', 'choice');
+          choice.setAttribute('class', class_list.join(' '));
           choice.appendChild(list);
           current.appendChild(choice);
         };
