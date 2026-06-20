@@ -29,7 +29,7 @@ function generate_arcs(arc) {
       current.setAttribute('class', 'container');
 
       if (day.class_name) {
-        current.setAttribute('class', 'container ' + day.class_name);
+        current.classList.add(day.class_name);
       };
 
       for (let i = 0; i < day.content.length; i++) {
