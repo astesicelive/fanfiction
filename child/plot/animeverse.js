@@ -5,7 +5,7 @@ var animeverse = [
   },
   {
     'type': 'title',
-    'title': 'Sunday',
+    'title': 'desu2a sunday',
     'content': [
       {
         'title': 'desu2',
@@ -36,7 +36,7 @@ var animeverse = [
   },
   {
     'type': 'title',
-    'title': 'Monday',
+    'title': 'desu2a monday',
     'content': [
       {
         'title': 'desu2',
@@ -111,7 +111,7 @@ var animeverse = [
   },
   {
     'type': 'title',
-    'title': 'Tuesday',
+    'title': 'desu2a tuesday',
     'content': [
       {
         'title': 'desu2',
@@ -121,7 +121,7 @@ var animeverse = [
   },
   {
     'type': 'title',
-    'title': 'Wednesday',
+    'title': 'desu2a wednesday',
     'content': [
       {
         'title': 'desu2',
@@ -131,7 +131,7 @@ var animeverse = [
   },
   {
     'type': 'title',
-    'title': 'Thursday',
+    'title': 'desu2a thursday',
     'content': [
       {
         'title': 'desu2',
@@ -141,7 +141,7 @@ var animeverse = [
   },
   {
     'type': 'title',
-    'title': 'Friday',
+    'title': 'desu2a friday',
     'content': [
       {
         'title': 'desu2',
@@ -151,7 +151,7 @@ var animeverse = [
   },
   {
     'type': 'title',
-    'title': 'Saturday',
+    'title': 'desu2a saturday',
     'content': [
       {
         'title': 'desu2',
