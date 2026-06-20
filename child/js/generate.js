@@ -34,7 +34,7 @@ function generate_arcs(arc) {
 
         if (section.content) {
           list = document.createElement('ul');
-          section.forEach((s) => {
+          section.content.forEach((s) => {
             let li = document.createElement('li');
             let li_txt = document.createTextNode(s);
             li.appendChild(li_txt);
@@ -60,4 +60,4 @@ function generate_arcs(arc) {
 
 }
 
-generate_timeline('1.0.7.1');
+generate_timeline('1.0.7.2');
