@@ -5,98 +5,98 @@ var gameverse = [
   },
   {
     'type': 'title',
-    'title': 'Sunday',
+    'class_name': 'septentriones sunday',
     'content': [
       {
-        'title': 'desu2',
+        'class_name': 'desu2',
         'content': ['desu2 sunday'],
       },
       {
-        'title': 'p5',
+        'class_name': 'p5',
         'content': ['p5 sunday'],
       }
     ],
   },
   {
     'type': 'title',
-    'title': 'Monday',
+    'class_name': 'septentriones monday',
     'content': [
       {
-        'title': 'desu2',
+        'class_name': 'desu2',
         'content': ['desu2 monday'],
       },
       {
-        'title': 'p5',
+        'class_name': 'p5',
         'content': ['p5 monday'],
       }
     ],
   },
   {
     'type': 'title',
-    'title': 'Tuesday',
+    'class_name': 'septentriones tuesday',
     'content': [
       {
-        'title': 'desu2',
+        'class_name': 'desu2',
         'content': ['desu2 tuesday'],
       },
       {
-        'title': 'p5',
+        'class_name': 'p5',
         'content': ['p5 tuesday'],
       }
     ],
   },
   {
     'type': 'title',
-    'title': 'Wednesday',
+    'class_name': 'septentriones wednesday',
     'content': [
       {
-        'title': 'desu2',
+        'class_name': 'desu2',
         'content': ['desu2 wednesday'],
       },
       {
-        'title': 'p5',
+        'class_name': 'p5',
         'content': ['p5 wednesday'],
       }
     ],
   },
   {
     'type': 'title',
-    'title': 'Thursday',
+    'class_name': 'septentriones thursday',
     'content': [
       {
-        'title': 'desu2',
+        'class_name': 'desu2',
         'content': ['desu2 thursday'],
       },
       {
-        'title': 'p5',
+        'class_name': 'p5',
         'content': ['p5 thursday'],
       }
     ],
   },
   {
     'type': 'title',
-    'title': 'Friday',
+    'class_name': 'septentriones friday',
     'content': [
       {
-        'title': 'desu2',
+        'class_name': 'desu2',
         'content': ['desu2 friday'],
       },
       {
-        'title': 'p5',
+        'class_name': 'p5',
         'content': ['p5 friday'],
       }
     ],
   },
   {
     'type': 'title',
-    'title': 'Saturday',
+    'class_name': 'septentriones saturday',
     'content': [
       {
-        'title': 'desu2',
+        'class_name': 'desu2',
         'content': ['desu2 saturday'],
       },
       {
-        'title': 'p5',
+        'class_name': 'p5',
         'content': ['p5 saturday'],
       }
     ],
