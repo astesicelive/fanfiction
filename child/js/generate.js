@@ -36,10 +36,6 @@ function generate_arcs(arc) {
         let section = day.content[i];
         let list;
 
-        if (section.class_name) {
-          current.classList.add(section.class_name);
-        };
-
         if (section.content) {
           list = document.createElement('ul');
           section.forEach((s) => {
