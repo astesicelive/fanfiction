@@ -27,14 +27,20 @@ function generate_arcs(arc) {
     if (day.content) {
       let current = document.createElement('div');
       current.setAttribute('class', 'container');
+      let class_name = '';
 
       if (day.class_name) {
-        current.setAttribute('class', 'container ' + day.class_name);
+        class_name = day.class_name;
       };
 
       for (let i = 0; i < day.content.length; i++) {
         let section = day.content[i];
         let list;
+
+        let section_class = '';
+        if (section.class_name) {
+          section_class = section.class_name;
+        };
 
         if (section.content) {
           list = document.createElement('ul');
@@ -49,10 +55,11 @@ function generate_arcs(arc) {
         };
 
         if (day.content.length == 1) {
+          current.setAttribute('class', ['container', class_name, section_class].join(' '));
           current.appendChild(list);
         } else {
           var choice = document.createElement('div');
-          choice.setAttribute('class', 'choice');
+          choice.setAttribute('class', ['choice', class_name, section_class].join(' '));
           choice.appendChild(list);
           current.appendChild(choice);
         };
@@ -64,4 +71,4 @@ function generate_arcs(arc) {
 
 }
 
-generate_timeline('1.0.7.4');
+generate_timeline('1.0.7.5');
