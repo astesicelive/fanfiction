@@ -18,7 +18,17 @@ function generate_timeline(v) {
 };
 
 function generate_splits(obj) {
-  obj
+  let div = document.createElement('div');
+
+  obj.forEach((choice) => {
+    let button = document.createElement('div');
+    button.setAttribute('class', 'button ' + choice.class_name);
+    let txt = document.createTextNode(choice.title);
+    button.appendChild(txt);
+    div.appendChild(button);
+  });
+
+  document.body.appendChild(div);
 }
 
 function generate_arcs(arc) {
