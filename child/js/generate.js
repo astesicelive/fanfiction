@@ -19,6 +19,7 @@ function generate_timeline(v) {
 
 function generate_splits(obj) {
   let div = document.createElement('div');
+  div.setAttribute('class', 'choice_buttons');
 
   obj.forEach((choice) => {
     let button = document.createElement('div');
