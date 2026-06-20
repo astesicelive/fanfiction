@@ -5,7 +5,7 @@ function generate_timeline(v) {
   version.appendChild(txt);
   document.body.appendChild(version);
 
-  let arcs = [animeverse, gameverse];
+  let arcs = [animeverse, desu2_split, gameverse];
 
   arcs.forEach((a) => {
     if (a[0].type == 'choice') {
