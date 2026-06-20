@@ -28,10 +28,19 @@ function generate_arcs(arc) {
       let current = document.createElement('div');
       current.setAttribute('class', 'container');
 
+      if (day.class) {
+        current.classList.add(day.class);
+      };
+
       for (let i = 0; i < day.content.length; i++) {
-        let section = day.content[i].content;
+        let section = day.content[i];
         let list;
-        if (section) {
+
+        if (section.class) {
+          current.classList.add(section.class);
+        };
+
+        if (section.content) {
           list = document.createElement('ul');
           section.forEach((s) => {
             let li = document.createElement('li');
