@@ -62,3 +62,7 @@ body * {
   max-height: 710px;
   overflow: scroll;
 }
+
+.septentriones.desu2 {
+  border: 3px double #e38ad6;
+}
