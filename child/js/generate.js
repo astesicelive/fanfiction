@@ -8,10 +8,29 @@ function generate_timeline(v) {
   let arcs = [animeverse, gameverse];
 
   arcs.forEach((a) => {
-    generate_arcs(a);
+    if (a[0].type == 'choice') {
+      generate_splits(a);
+    } else {
+      generate_arcs(a);
+    };
   });
   
 };
+
+function generate_splits(obj) {
+  let div = document.createElement('div');
+  div.setAttribute('class', 'choice_buttons');
+
+  obj.forEach((choice) => {
+    let button = document.createElement('div');
+    button.setAttribute('class', 'button ' + choice.class_name);
+    let txt = document.createTextNode(choice.title);
+    button.appendChild(txt);
+    div.appendChild(button);
+  });
+
+  document.body.appendChild(div);
+}
 
 function generate_arcs(arc) {
   
