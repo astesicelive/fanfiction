@@ -1,6 +1,8 @@
 function add_choiceButton() {
-  const btn = document.getElementsByClassName('button');
-  btn.addEventListener("click", pickChoice};
+  const btn = document.querySelectorAll('.button');
+  btn.forEach((b) => {
+    b.addEventListener("click", pickChoice};
+  });
 }
 
 function pickChoice() {
