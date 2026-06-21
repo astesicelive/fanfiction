@@ -1,4 +1,4 @@
-ubody {
+body {
   background-color: #2a3033;
   color: #fcfff7;
 }
@@ -66,7 +66,7 @@ ubody {
   border: 3px double #e38ad6;
   text-align: center;
   line-height: 0.9;
-  border-radius: 26px;
+  border-radius: 40px;
   font-size: 28px;
 }
 
