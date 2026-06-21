@@ -17,7 +17,7 @@ var gameverse = [
         'content': ['p5 sunday'],
       },
       {
-        'class_name': 'rb',
+        'class_name': 'record_breaker',
         'content': ['septentriones canon sunday'],
       }
     ],
@@ -36,7 +36,7 @@ var gameverse = [
         'content': ['p5 monday'],
       },
       {
-        'class_name': 'rb',
+        'class_name': 'record_breaker',
         'content': ['septentriones canon monday'],
       }
     ],
@@ -55,7 +55,7 @@ var gameverse = [
         'content': ['p5 tuesday'],
       },
       {
-        'class_name': 'rb',
+        'class_name': 'record_breaker',
         'content': ['septentriones canon tuesday'],
       }
     ],
@@ -74,7 +74,7 @@ var gameverse = [
         'content': ['p5 wednesday'],
       },
       {
-        'class_name': 'rb',
+        'class_name': 'record_breaker',
         'content': ['septentriones canon tuesday'],
       }
     ],
@@ -93,7 +93,7 @@ var gameverse = [
         'content': ['p5 thursday'],
       },
       {
-        'class_name': 'rb',
+        'class_name': 'record_breaker',
         'content': ['septentriones canon thursday'],
       }
     ],
@@ -112,7 +112,7 @@ var gameverse = [
         'content': ['p5 friday'],
       },
       {
-        'class_name': 'rb',
+        'class_name': 'record_breaker',
         'content': ['septentriones canon friday'],
       }
     ],
@@ -131,7 +131,7 @@ var gameverse = [
         'content': ['p5 saturday'],
       },
       {
-        'class_name': 'rb',
+        'class_name': 'record_breaker',
         'content': ['septentriones canon saturday'],
       }
     ],
