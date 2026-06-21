@@ -7,7 +7,10 @@ body * {
   font-size: 18px!important;
 }
 
-.container, .title, .divider {
+.container,
+.title,
+.divider,
+.choice_buttons {
   width: 92vw;
   max-width: 92vw;
   overflow: scroll;
@@ -47,11 +50,15 @@ body * {
   overflow: scroll;
 }
 
-.container:has(.choice) {
+.container:has(.choice),
+.choice_buttons {
   display: grid;
   grid-auto-flow: column;
   grid-auto-columns: 600px;
   column-gap: 26px;
+}
+
+.choice_buttons {
 }
 
 .choice {
