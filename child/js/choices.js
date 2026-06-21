@@ -1,12 +1,9 @@
-function add_choiceButton() {
-  const btn = document.querySelectorAll('.button');
-  btn.forEach((b) => {
-    b.addEventListener("click", pickChoice};
-  });
-}
+const btn = document.querySelectorAll('.button');
+btn.forEach((b) => {
+  b.addEventListener("click", pickChoice};
+});
 
 function pickChoice() {
-  this.classList.add('selected');
+  let classes = this.classList;
+  classes.add('selected');
 }
-
-$(document).ready(add_choiceButton());
