@@ -37,6 +37,7 @@ function generate_splits(obj) {
 
 function generate_arcs(arc) {
   
+  let num = 1;
   arc.forEach((day) => {
     if (day.type == 'divider' || day.title) {
       let header =  document.createElement('div');
@@ -50,6 +51,7 @@ function generate_arcs(arc) {
       let current = document.createElement('div');
       current.setAttribute('class', 'container');
       let class_name = '';
+      current.setAttribute('id', `${arc[0].id}_${num}`);
 
       if (day.class_name) {
         class_name = day.class_name;
@@ -88,9 +90,10 @@ function generate_arcs(arc) {
       };
 
       document.body.appendChild(current);
+      num++;
     };
   });
 
 }
 
-generate_timeline('1.0.7.8');
+generate_timeline('1.0.7.9');

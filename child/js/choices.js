@@ -10,6 +10,45 @@ function pickChoice() {
   let items = section.querySelectorAll('.selected');
   items.forEach((i) => {
     i.classList.toggle('selected');
-  })
-  classes.add('selected');
+  });
+
+  let num = 1;
+  while (document.querySelector(`#${id}_${num}`)) {
+    let section = document.querySelector(`#${id}_${num}`);
+    classes.shift();
+    let sorted = {
+      'selected': [],
+      'not_selected': [],
+    };
+    let items = section.getElementsByTagName('div');
+    items.forEach((i) => {
+      let select = false;
+      let cur_class = i.classList;
+      cur_class.forEach((c) => {
+        classes.forEach((c2) => {
+          if (c == c2) {
+            select = true;
+          };
+        });
+      });
+      if (select) {
+        sorted['selected'].push(i);
+      } else {
+        sorted['not_selected'].push(i);
+      };
+    });
+    sorted['selected'].forEach((cur) => {
+      if (!cur.classList.contains('selected')) {
+        cur_class.classList.add('selected');
+      };
+    });
+    sorted['not_selected'].forEach((cur) => {
+      if (cur.classList.contains('selected')) {
+        cur_class.classList.remove('selected');
+      };
+    });
+    let items = section.querySelectorAll(`.${classes.join(', .')}`);
+    num++;
+  };
+  this.classList.add('selected');
 }
