@@ -20,13 +20,16 @@ function generate_timeline(v) {
 function generate_splits(obj) {
   let div = document.createElement('div');
   div.setAttribute('class', 'choice_buttons');
+  div.setAttribute('id', obj[0].id);
 
   obj.forEach((choice) => {
-    let button = document.createElement('div');
-    button.setAttribute('class', 'button ' + choice.class_name);
-    let txt = document.createTextNode(choice.title);
-    button.appendChild(txt);
-    div.appendChild(button);
+    if (!choice.id) {
+      let button = document.createElement('div');
+      button.setAttribute('class', 'button ' + choice.class_name);
+      let txt = document.createTextNode(choice.title);
+      button.appendChild(txt);
+      div.appendChild(button);
+    };
   });
 
   document.body.appendChild(div);
