@@ -4,7 +4,7 @@ function add_choiceButton() {
 }
 
 function pickChoice() {
-  this.classList.add('selected');
+  this.addClass('selected');
 }
 
 add_choiceButton();
