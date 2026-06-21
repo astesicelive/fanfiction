@@ -64,7 +64,10 @@ body * {
   grid-auto-flow: column;
   grid-auto-column: 200px;
   column-gap: 26px;
-  border: 2px double #eaffd1;
+}
+
+.choice_buttons .button {
+  border: 3px double #e38ad6;
   text-align: center;
   line-height: 1;
 }
