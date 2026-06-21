@@ -15,6 +15,10 @@ var gameverse = [
       {
         'class_name': 'p5',
         'content': ['p5 sunday'],
+      },
+      {
+        'class_name': 'rb',
+        'content': ['septentriones canon sunday'],
       }
     ],
   },
@@ -30,6 +34,10 @@ var gameverse = [
       {
         'class_name': 'p5',
         'content': ['p5 monday'],
+      },
+      {
+        'class_name': 'rb',
+        'content': ['septentriones canon monday'],
       }
     ],
   },
@@ -45,6 +53,10 @@ var gameverse = [
       {
         'class_name': 'p5',
         'content': ['p5 tuesday'],
+      },
+      {
+        'class_name': 'rb',
+        'content': ['septentriones canon tuesday'],
       }
     ],
   },
@@ -60,6 +72,10 @@ var gameverse = [
       {
         'class_name': 'p5',
         'content': ['p5 wednesday'],
+      },
+      {
+        'class_name': 'rb',
+        'content': ['septentriones canon tuesday'],
       }
     ],
   },
@@ -75,6 +91,10 @@ var gameverse = [
       {
         'class_name': 'p5',
         'content': ['p5 thursday'],
+      },
+      {
+        'class_name': 'rb',
+        'content': ['septentriones canon thursday'],
       }
     ],
   },
@@ -90,6 +110,10 @@ var gameverse = [
       {
         'class_name': 'p5',
         'content': ['p5 friday'],
+      },
+      {
+        'class_name': 'rb',
+        'content': ['septentriones canon friday'],
       }
     ],
   },
@@ -105,6 +129,10 @@ var gameverse = [
       {
         'class_name': 'p5',
         'content': ['p5 saturday'],
+      },
+      {
+        'class_name': 'rb',
+        'content': ['septentriones canon saturday'],
       }
     ],
   }
