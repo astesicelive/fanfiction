@@ -15,7 +15,6 @@ function pickChoice() {
   let num = 1;
   while (document.querySelector(`#${id}_${num}`)) {
     let section = document.querySelector(`#${id}_${num}`);
-    classes.shift();
     let sorted = {
       'selected': [],
       'not_selected': [],
@@ -49,5 +48,5 @@ function pickChoice() {
     });
     num++;
   };
-  this.classList.add('selected');
+  classes.add('selected');
 }
