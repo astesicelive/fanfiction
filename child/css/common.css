@@ -66,7 +66,7 @@ body {
   border: 3px double #e38ad6;
   text-align: center;
   line-height: 0.9;
-  border-radius: 40px;
+  border-radius: 8px 80px 8px 80px;
   font-size: 28px;
 }
 
