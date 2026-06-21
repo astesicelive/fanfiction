@@ -6,3 +6,5 @@ function add_choiceButton() {
 function pickChoice() {
   $(this).addClass('selected');
 }
+
+add_choiceButton();
