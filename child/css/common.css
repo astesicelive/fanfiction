@@ -61,12 +61,12 @@ body {
 }
 
 .choice_buttons .button {
-  padding: 16px 10px;
+  padding: 16px 20px;
   margin: 6px;
   border: 3px double #e38ad6;
   text-align: center;
   line-height: 0.9;
-  border-radius: 8px 80px 8px 80px;
+  border-radius: 8px 180px 8px 180px;
   font-size: 28px;
 }
 
