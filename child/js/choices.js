@@ -9,4 +9,4 @@ function pickChoice() {
   this.classList.add('selected');
 }
 
-add_choiceButton();
+$(document).ready(add_choiceButton());
