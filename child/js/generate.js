@@ -26,7 +26,6 @@ function generate_splits(obj) {
     button.setAttribute('class', 'button ' + choice.class_name);
     let txt = document.createTextNode(choice.title);
     button.appendChild(txt);
-    button.setAttribute('onclick', 'pickChoice()');
     div.appendChild(button);
   });
 
@@ -91,4 +90,9 @@ function generate_arcs(arc) {
 
 }
 
-generate_timeline('1.0.7.5');
+function add_clicks() {
+  $('.button').addEventListener('click', pickChoice());
+}
+
+generate_timeline('1.0.7.7');
+add_clicks()
