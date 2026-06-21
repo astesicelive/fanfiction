@@ -66,8 +66,8 @@ body {
   border: 3px double #e38ad6;
   text-align: center;
   line-height: 1;
-  border-radius: 4px;
-  font-size: 20px;
+  border-radius: 6px;
+  font-size: 28px;
 }
 
 .choice_buttons .button.selected {
