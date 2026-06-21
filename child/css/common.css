@@ -44,6 +44,7 @@ body {
   margin-bottom: 70px;
   max-height: 750px;
   overflow: scroll;
+  font-size: 28px;
 }
 
 .container:has(.choice) {
