@@ -82,7 +82,7 @@ var gameverse = [
   {
     'type': 'title',
     'class_name': 'septentriones thursday',
-    'title': 'Thrusday',
+    'title': 'Thursday',
     'content': [
       {
         'class_name': 'desu2',
