@@ -63,6 +63,11 @@ body * {
   margin: 6px;
 }
 
+.choice_buttons .button.selected {
+  background-color: #e38ad6;
+  color: #2a3033;
+}
+
 .choice {
   margin: 16px 8px;
   padding: 10px;
