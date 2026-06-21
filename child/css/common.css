@@ -59,6 +59,8 @@ body * {
 }
 
 .choice_buttons {
+  padding: 8px;
+  margin: 6px;
 }
 
 .choice {
