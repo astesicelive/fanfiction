@@ -90,9 +90,4 @@ function generate_arcs(arc) {
 
 }
 
-function add_clicks() {
-  $('.button').click(pickChoice());
-}
-
-generate_timeline('1.0.7.7');
-add_clicks();
+generate_timeline('1.0.7.8');
