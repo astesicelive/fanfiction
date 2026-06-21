@@ -47,7 +47,6 @@ function pickChoice() {
         cur_class.classList.remove('selected');
       };
     });
-    let items = section.querySelectorAll(`.${classes.join(', .')}`);
     num++;
   };
   this.classList.add('selected');
