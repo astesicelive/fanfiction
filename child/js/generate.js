@@ -91,8 +91,8 @@ function generate_arcs(arc) {
 }
 
 function add_clicks() {
-  $('.button').addEventListener('click', pickChoice());
+  $('.button').click(pickChoice());
 }
 
 generate_timeline('1.0.7.7');
-add_clicks()
+add_clicks();
