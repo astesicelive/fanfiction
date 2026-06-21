@@ -22,6 +22,7 @@ body {
   text-transform: uppercase;
   font-weight: bold;
   text-align: center;
+  font-size: 18px;
 }
 
 .title {
@@ -44,7 +45,7 @@ body {
   margin-bottom: 70px;
   max-height: 750px;
   overflow: scroll;
-  font-size: 12px;
+  font-size: 14px;
 }
 
 .container:has(.choice) {
@@ -57,7 +58,7 @@ body {
 .choice_buttons {
   display: grid;
   grid-auto-flow: column;
-  grid-auto-column: 200px;
+  grid-auto-columns: 200px;
   column-gap: 26px;
 }
 
@@ -68,7 +69,7 @@ body {
   text-align: center;
   line-height: 0.9;
   border-radius: 8px 60px 8px 60px;
-  font-size: 28px;
+  font-size: 16px;
 }
 
 .choice_buttons .button.selected {
@@ -83,7 +84,7 @@ body {
   border-radius: 12px;
   max-height: 710px;
   overflow: scroll;
-  font-size: 28px;
+  font-size: 14px;
 }
 
 .choice.selected {

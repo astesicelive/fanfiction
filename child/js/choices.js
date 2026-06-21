@@ -19,7 +19,7 @@ function pickChoice() {
       'selected': [],
       'not_selected': [],
     };
-    let items = section.getElementsByTagName('div');
+    let items = section.querySelector('div');
     items.forEach((i) => {
       let select = false;
       let cur_class = i.classList;
