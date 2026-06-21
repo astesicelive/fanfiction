@@ -26,6 +26,7 @@ function generate_splits(obj) {
     button.setAttribute('class', 'button ' + choice.class_name);
     let txt = document.createTextNode(choice.title);
     button.appendChild(txt);
+    button.setAttribute('onclick', 'pickChoice()');
     div.appendChild(button);
   });
 
