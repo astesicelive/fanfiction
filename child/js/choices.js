@@ -34,12 +34,12 @@ function pickChoice() {
     });
     sorted['selected'].forEach((cur) => {
       if (!cur.classList.contains('selected')) {
-        cur_class.classList.add('selected');
+        cur.classList.add('selected');
       };
     });
     sorted['not_selected'].forEach((cur) => {
       if (cur.classList.contains('selected')) {
-        cur_class.classList.remove('selected');
+        cur.classList.remove('selected');
       };
     });
 }
