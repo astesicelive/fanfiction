@@ -2,7 +2,7 @@ var gameverse = [
   {
     'type': 'divider',
     'title': '2011 (gameverse)',
-    'id': 'desu2a',
+    'id': 'gameverse',
   },
   {
     'type': 'title',
@@ -10,19 +10,19 @@ var gameverse = [
     'title': 'Sunday (Sep)',
     'content': [
       {
-        'class_name': 'desu2 sept_child ren_nii rin_nii',
+        'class_name': 'desu2 gameverse_child ren_nii rin_nii',
         'content': [
           'desu2 sunday'
         ],
       },
       {
-        'class_name': 'p5 sept_child ren_nii rin_nii',
+        'class_name': 'p5 gameverse_child ren_nii rin_nii',
         'content': [
           'p5 sunday'
         ],
       },
       {
-        'class_name': 'sept_rb',
+        'class_name': 'gameverse_rb',
         'content': [
           'septentriones canon sunday'
         ],
@@ -35,19 +35,19 @@ var gameverse = [
     'title': 'Monday (Sep)',
     'content': [
       {
-        'class_name': 'desu2 sept_child ren_nii rin_nii',
+        'class_name': 'desu2 gameverse_child ren_nii rin_nii',
         'content': [
           'desu2 monday'
         ],
       },
       {
-        'class_name': 'p5 sept_child ren_nii rin_nii',
+        'class_name': 'p5 gameverse_child ren_nii rin_nii',
         'content': [
           'p5 monday'
         ],
       },
       {
-        'class_name': 'sept_rb',
+        'class_name': 'gameverse_rb',
         'content': [
           'septentriones canon monday'
         ],
@@ -60,19 +60,19 @@ var gameverse = [
     'title': 'Tuesday (Sep)',
     'content': [
       {
-        'class_name': 'desu2 sept_child ren_nii rin_nii',
+        'class_name': 'desu2 gameverse_child ren_nii rin_nii',
         'content': [
           'desu2 tuesday'
         ],
       },
       {
-        'class_name': 'p5 sept_child ren_nii rin_nii',
+        'class_name': 'p5 gameverse_child ren_nii rin_nii',
         'content': [
           'p5 tuesday'
         ],
       },
       {
-        'class_name': 'sept_rb',
+        'class_name': 'gameverse_rb',
         'content': [
           'septentriones canon tuesday'
         ],
@@ -85,19 +85,19 @@ var gameverse = [
     'title': 'Wednesday (Sep)',
     'content': [
       {
-        'class_name': 'desu2 sept_child ren_nii rin_nii',
+        'class_name': 'desu2 gameverse_child ren_nii rin_nii',
         'content': [
           'desu2 wednesday'
         ],
       },
       {
-        'class_name': 'p5 sept_child ren_nii rin_nii',
+        'class_name': 'p5 gameverse_child ren_nii rin_nii',
         'content': [
           'p5 wednesday'
         ],
       },
       {
-        'class_name': 'sept_rb',
+        'class_name': 'gameverse_rb',
         'content': [
           'septentriones canon tuesday'
         ],
@@ -110,19 +110,19 @@ var gameverse = [
     'title': 'Thursday (Sep)',
     'content': [
       {
-        'class_name': 'desu2 sept_child ren_nii rin_nii',
+        'class_name': 'desu2 gameverse_child ren_nii rin_nii',
         'content': [
           'desu2 thursday'
         ],
       },
       {
-        'class_name': 'p5 sept_child ren_nii rin_nii',
+        'class_name': 'p5 gameverse_child ren_nii rin_nii',
         'content': [
           'p5 thursday'
         ],
       },
       {
-        'class_name': 'sept_rb',
+        'class_name': 'gameverse_rb',
         'content': [
           'septentriones canon thursday'
         ],
@@ -135,19 +135,19 @@ var gameverse = [
     'title': 'Friday (Sep)',
     'content': [
       {
-        'class_name': 'desu2 sept_child ren_nii rin_nii',
+        'class_name': 'desu2 gameverse_child ren_nii rin_nii',
         'content': [
           'desu2 friday'
         ],
       },
       {
-        'class_name': 'p5 sept_child ren_nii rin_nii',
+        'class_name': 'p5 gameverse_child ren_nii rin_nii',
         'content': [
           'p5 friday'
         ],
       },
       {
-        'class_name': 'sept_rb',
+        'class_name': 'gameverse_rb',
         'content': [
           'septentriones canon friday'
         ],
@@ -160,19 +160,19 @@ var gameverse = [
     'title': 'Saturday (Sep)',
     'content': [
       {
-        'class_name': 'desu2 sept_child ren_nii rin_nii',
+        'class_name': 'desu2 gameverse_child ren_nii rin_nii',
         'content': [
           'desu2 saturday'
         ],
       },
       {
-        'class_name': 'p5 sept_child ren_nii rin_nii',
+        'class_name': 'p5 gameverse_child ren_nii rin_nii',
         'content': [
           'p5 saturday'
         ],
       },
       {
-        'class_name': 'sept_rb',
+        'class_name': 'gameverse_rb',
         'content': [
           'septentriones canon saturday'
         ],
@@ -185,19 +185,19 @@ var gameverse = [
     'title': 'Sunday (Tri)',
     'content': [
       {
-        'class_name': 'desu2 tri_child ren_nii rin_nii',
+        'class_name': 'desu2 gameverse_child ren_nii rin_nii',
         'content': [
           'desu2 sunday'
         ],
       },
       {
-        'class_name': 'p5 tri_child ren_nii rin_nii',
+        'class_name': 'p5 gameverse_child ren_nii rin_nii',
         'content': [
           'p5 sunday'
         ],
       },
       {
-        'class_name': 'tri_rb',
+        'class_name': 'gameverse_rb',
         'content': [
           'triangulum canon sunday'
         ],
@@ -210,19 +210,19 @@ var gameverse = [
     'title': 'Monday (Tri)',
     'content': [
       {
-        'class_name': 'desu2 tri_child ren_nii rin_nii',
+        'class_name': 'desu2 gameverse_child ren_nii rin_nii',
         'content': [
           'desu2 monday'
         ],
       },
       {
-        'class_name': 'p5 tri_child ren_nii rin_nii',
+        'class_name': 'p5 gameverse_child ren_nii rin_nii',
         'content': [
           'p5 monday'
         ],
       },
       {
-        'class_name': 'tri_rb',
+        'class_name': 'gameverse_rb',
         'content': [
           'triangulum canon monday'
         ],
@@ -235,19 +235,19 @@ var gameverse = [
     'title': 'Tuesday (Tri)',
     'content': [
       {
-        'class_name': 'desu2 tri_child ren_nii rin_nii',
+        'class_name': 'desu2 gameverse_child ren_nii rin_nii',
         'content': [
           'desu2 tuesday'
         ],
       },
       {
-        'class_name': 'p5 tri_child ren_nii rin_nii',
+        'class_name': 'p5 gameverse_child ren_nii rin_nii',
         'content': [
           'p5 tuesday'
         ],
       },
       {
-        'class_name': 'tri_rb',
+        'class_name': 'gameverse_rb',
         'content': [
           'triangulum canon tuesday'
         ],
@@ -260,19 +260,19 @@ var gameverse = [
     'title': 'Wednesday (Tri)',
     'content': [
       {
-        'class_name': 'desu2 tri_child ren_nii rin_nii',
+        'class_name': 'desu2 gameverse_child ren_nii rin_nii',
         'content': [
           'desu2 wednesday'
         ],
       },
       {
-        'class_name': 'p5 tri_child ren_nii rin_nii',
+        'class_name': 'p5 gameverse_child ren_nii rin_nii',
         'content': [
           'p5 wednesday'
         ],
       },
       {
-        'class_name': 'tri_rb',
+        'class_name': 'gameverse_rb',
         'content': [
           'triangulum canon tuesday'
         ],
@@ -285,19 +285,19 @@ var gameverse = [
     'title': 'Thursday (Tri)',
     'content': [
       {
-        'class_name': 'desu2 tri_child ren_nii rin_nii',
+        'class_name': 'desu2 gameverse_child ren_nii rin_nii',
         'content': [
           'desu2 thursday'
         ],
       },
       {
-        'class_name': 'p5 tri_child ren_nii rin_nii',
+        'class_name': 'p5 gameverse_child ren_nii rin_nii',
         'content': [
           'p5 thursday'
         ],
       },
       {
-        'class_name': 'tri_rb',
+        'class_name': 'gameverse_rb',
         'content': [
           'triangulum canon thursday'
         ],
@@ -310,19 +310,19 @@ var gameverse = [
     'title': 'Friday (Tri)',
     'content': [
       {
-        'class_name': 'desu2 tri_child ren_nii rin_nii',
+        'class_name': 'desu2 gameverse_child ren_nii rin_nii',
         'content': [
           'desu2 friday'
         ],
       },
       {
-        'class_name': 'p5 tri_child ren_nii rin_nii',
+        'class_name': 'p5 gameverse_child ren_nii rin_nii',
         'content': [
           'p5 friday'
         ],
       },
       {
-        'class_name': 'tri_rb',
+        'class_name': 'gameverse_rb',
         'content': [
           'triangulum canon friday'
         ],
@@ -335,19 +335,19 @@ var gameverse = [
     'title': 'Saturday (Tri)',
     'content': [
       {
-        'class_name': 'desu2 tri_child ren_nii rin_nii',
+        'class_name': 'desu2 gameverse_child ren_nii rin_nii',
         'content': [
           'desu2 saturday'
         ],
       },
       {
-        'class_name': 'p5 tri_child ren_nii rin_nii',
+        'class_name': 'p5 gameverse_child ren_nii rin_nii',
         'content': [
           'p5 saturday'
         ],
       },
       {
-        'class_name': 'tri_rb',
+        'class_name': 'gameverse_rb',
         'content': [
           'triangulum canon saturday'
         ],
