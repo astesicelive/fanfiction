@@ -13,33 +13,33 @@ function pickChoice() {
   });
   classes.add('selected');
 
-    let sorted = {
-      'selected': [],
-      'not_selected': [],
+  let sorted = {
+    'selected': [],
+    'not_selected': [],
+  };
+  items = document.querySelectorAll(`.container#${id} div`);
+  items.forEach((i) => {
+    let select = false;
+    let cur_class = i.classList;
+    classes.forEach((c) => {
+      if (cur_class.contains(c)) {
+        select = true;
+      };
+    });
+    if (select) {
+      sorted['selected'].push(i);
+    } else {
+      sorted['not_selected'].push(i);
     };
-    items = document.querySelectorAll(`.container#${id} div`);
-    items.forEach((i) => {
-      let select = false;
-      let cur_class = i.classList;
-      classes.forEach((c) => {
-        if (cur_class.contains(c)) {
-          select = true;
-        };
-      });
-      if (select) {
-        sorted['selected'].push(i);
-      } else {
-        sorted['not_selected'].push(i);
-      };
-    });
-    sorted['selected'].forEach((cur) => {
-      if (!cur.classList.contains('selected')) {
-        cur.classList.add('selected');
-      };
-    });
-    sorted['not_selected'].forEach((cur) => {
-      if (cur.classList.contains('selected')) {
-        cur.classList.remove('selected');
-      };
-    });
+  });
+  sorted['selected'].forEach((cur) => {
+    if (!cur.classList.contains('selected')) {
+      cur.classList.add('selected');
+    };
+  });
+  sorted['not_selected'].forEach((cur) => {
+    if (cur.classList.contains('selected')) {
+      cur.classList.remove('selected');
+    };
+  });
 }

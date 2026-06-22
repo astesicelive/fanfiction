@@ -10,15 +10,15 @@ var gameverse = [
     'title': 'Sunday',
     'content': [
       {
-        'class_name': 'desu2',
+        'class_name': 'desu2 sept_child',
         'content': ['desu2 sunday'],
       },
       {
-        'class_name': 'p5',
+        'class_name': 'p5 sept_child',
         'content': ['p5 sunday'],
       },
       {
-        'class_name': 'record_breaker',
+        'class_name': 'sept_rb',
         'content': ['septentriones canon sunday'],
       }
     ],
@@ -29,15 +29,15 @@ var gameverse = [
     'title': 'Monday',
     'content': [
       {
-        'class_name': 'desu2',
+        'class_name': 'desu2 sept_child',
         'content': ['desu2 monday'],
       },
       {
-        'class_name': 'p5',
+        'class_name': 'p5 sept_child',
         'content': ['p5 monday'],
       },
       {
-        'class_name': 'record_breaker',
+        'class_name': 'sept_rb',
         'content': ['septentriones canon monday'],
       }
     ],
@@ -48,15 +48,15 @@ var gameverse = [
     'title': 'Tuesday',
     'content': [
       {
-        'class_name': 'desu2',
+        'class_name': 'desu2 sept_child',
         'content': ['desu2 tuesday'],
       },
       {
-        'class_name': 'p5',
+        'class_name': 'p5 sept_child',
         'content': ['p5 tuesday'],
       },
       {
-        'class_name': 'record_breaker',
+        'class_name': 'sept_rb',
         'content': ['septentriones canon tuesday'],
       }
     ],
@@ -67,15 +67,15 @@ var gameverse = [
     'title': 'Wednesday',
     'content': [
       {
-        'class_name': 'desu2',
+        'class_name': 'desu2 sept_child',
         'content': ['desu2 wednesday'],
       },
       {
-        'class_name': 'p5',
+        'class_name': 'p5 sept_child',
         'content': ['p5 wednesday'],
       },
       {
-        'class_name': 'record_breaker',
+        'class_name': 'sept_rb',
         'content': ['septentriones canon tuesday'],
       }
     ],
@@ -86,15 +86,15 @@ var gameverse = [
     'title': 'Thursday',
     'content': [
       {
-        'class_name': 'desu2',
+        'class_name': 'desu2 sept_child',
         'content': ['desu2 thursday'],
       },
       {
-        'class_name': 'p5',
+        'class_name': 'p5 sept_child',
         'content': ['p5 thursday'],
       },
       {
-        'class_name': 'record_breaker',
+        'class_name': 'sept_rb',
         'content': ['septentriones canon thursday'],
       }
     ],
@@ -105,15 +105,15 @@ var gameverse = [
     'title': 'Friday',
     'content': [
       {
-        'class_name': 'desu2',
+        'class_name': 'desu2 sept_child',
         'content': ['desu2 friday'],
       },
       {
-        'class_name': 'p5',
+        'class_name': 'p5 sept_child',
         'content': ['p5 friday'],
       },
       {
-        'class_name': 'record_breaker',
+        'class_name': 'sept_rb',
         'content': ['septentriones canon friday'],
       }
     ],
@@ -124,15 +124,15 @@ var gameverse = [
     'title': 'Saturday',
     'content': [
       {
-        'class_name': 'desu2',
+        'class_name': 'desu2 sept_child',
         'content': ['desu2 saturday'],
       },
       {
-        'class_name': 'p5',
+        'class_name': 'p5 sept_child',
         'content': ['p5 saturday'],
       },
       {
-        'class_name': 'record_breaker',
+        'class_name': 'sept_rb',
         'content': ['septentriones canon saturday'],
       }
     ],
