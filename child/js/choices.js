@@ -13,8 +13,6 @@ function pickChoice() {
   });
   classes.add('selected');
 
-  let num = 1;
-  while (document.querySelector(`#${id}_${num}`)) {
     let sorted = {
       'selected': [],
       'not_selected': [],
@@ -44,6 +42,4 @@ function pickChoice() {
         cur_class.classList.remove('selected');
       };
     });
-    num++;
-  };
 }
