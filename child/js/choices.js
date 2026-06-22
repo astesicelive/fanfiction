@@ -10,6 +10,7 @@ function pickChoice() {
   items.forEach((i) => {
     i.classList.toggle('selected');
   });
+  classes.add('selected');
 
   let num = 1;
   while (document.querySelector(`#${id}_${num}`)) {
@@ -46,5 +47,4 @@ function pickChoice() {
     });
     num++;
   };
-  classes.add('selected');
 }
