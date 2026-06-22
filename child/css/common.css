@@ -70,12 +70,12 @@ body {
   line-height: 0.9;
   border-radius: 40px 60px 8px 60px;
   font-size: 30px;
-  font-weight: bold;
 }
 
 .choice_buttons .button.selected {
   background-color: #e38ad6;
   color: #2a3033;
+  font-weight: bold;
 }
 
 .choice {
