@@ -51,7 +51,7 @@ body {
 .container:has(.choice) {
   display: grid;
   grid-auto-flow: column;
-  grid-auto-columns: 600px;
+  grid-auto-columns: 85vw;
   column-gap: 26px;
 }
 
@@ -59,7 +59,7 @@ body {
   display: grid;
   grid-auto-flow: column;
   grid-auto-columns: 45vw;
-  column-gap: 26px;
+  column-gap: 28px;
 }
 
 .choice_buttons .button {
@@ -84,7 +84,7 @@ body {
   border-radius: 12px;
   max-height: 710px;
   overflow: scroll;
-  font-size: 26px;
+  font-size: 28px;
 }
 
 .choice.selected {
