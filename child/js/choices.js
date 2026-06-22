@@ -14,12 +14,11 @@ function pickChoice() {
 
   let num = 1;
   while (document.querySelector(`#${id}_${num}`)) {
-    let section = document.querySelector(`#${id}_${num}`);
     let sorted = {
       'selected': [],
       'not_selected': [],
     };
-    let items = section.querySelectorAll('div');
+    let items = document.querySelectorAll(`#${id}_${num} div`);
     items.forEach((i) => {
       let select = false;
       let cur_class = i.classList;
