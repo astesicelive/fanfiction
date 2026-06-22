@@ -15,10 +15,6 @@ function pickChoice() {
 
   let main_class = classes[1];
 
-  let sorted = {
-    'selected': [],
-    'not_selected': [],
-  };
   items = document.querySelectorAll(`.container#${id} div`);
   items.forEach((i) => {
     i.classList.remove('selected');
