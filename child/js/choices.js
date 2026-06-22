@@ -13,33 +13,18 @@ function pickChoice() {
   });
   classes.add('selected');
 
+  let main_class = classes[1];
+
   let sorted = {
     'selected': [],
     'not_selected': [],
   };
   items = document.querySelectorAll(`.container#${id} div`);
   items.forEach((i) => {
-    let select = false;
-    let cur_class = i.classList;
-    classes.forEach((c) => {
-      if (cur_class.contains(c)) {
-        select = true;
-      };
-    });
-    if (select) {
-      sorted['selected'].push(i);
-    } else {
-      sorted['not_selected'].push(i);
-    };
+    i.classList.remove('selected');
   });
-  sorted['selected'].forEach((cur) => {
-    if (!cur.classList.contains('selected')) {
-      cur.classList.add('selected');
-    };
-  });
-  sorted['not_selected'].forEach((cur) => {
-    if (cur.classList.contains('selected')) {
-      cur.classList.remove('selected');
-    };
+  items = document.querySelectorAll(`.container#${id} .${main_class}`);
+  items.forEach((i) => {
+    i.classList.add('selected');
   });
 }
