@@ -5,7 +5,7 @@ function generate_timeline(v) {
   version.appendChild(txt);
   document.body.appendChild(version);
 
-  let arcs = [animeverse, desu2_split, gameverse];
+  let arcs = [animeverse, desu2_split, gameverse, desu2_aftermath, birth_split];
 
   arcs.forEach((a) => {
     if (a[0].type == 'choice') {
@@ -48,22 +48,14 @@ function generate_arcs(arc) {
 
     if (day.content) {
       let current = document.createElement('div');
-      current.setAttribute('class', 'container');
-      let class_name = '';
-      current.setAttribute('id', `${arc[0].id || ''}`);
-
-      if (day.class_name) {
-        class_name = day.class_name;
-      };
+      current.setAttribute('class', `container ${arc[0].id || ''}`);
+      let class_name = `${day.class_name || ''}`;
 
       for (let i = 0; i < day.content.length; i++) {
         let section = day.content[i];
         let list;
 
-        let section_class = '';
-        if (section.class_name) {
-          section_class = section.class_name;
-        };
+        let section_class = `${section.class_name || ''}`;
 
         if (section.content) {
           list = document.createElement('ul');
@@ -94,4 +86,4 @@ function generate_arcs(arc) {
 
 }
 
-generate_timeline('1.0.7.10');
+generate_timeline('1.0.7.11');

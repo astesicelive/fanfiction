@@ -10,7 +10,7 @@ var desu2_aftermath = [
     'title': 'Aftermath',
     'content': [
       {
-        'class_name': 'admin_hibiki',
+        'class_name': 'aftermath_child',
         'content': [
           "hibiki and alcor spend their time in the akasha together",
           "everyone lost their memory of the apocalypse so hibiki is trying to restore the team's memory of it. not maruki's, he didn't want it (fabricated memory, since maruki died and got revived by future hibiki)",
@@ -25,6 +25,12 @@ var desu2_aftermath = [
           "by the end of their world tour, alcor has settled in their relationship.... he now fully accepts that yamahibi want him",
           "but now alcor is like. he wants to fully reciprocate their love.... he asks hibiki if he can make alcor into a human",
           "hibiki starts making preparations for his Project(TM)"
+        ],
+      },
+      {
+        'class_name': 'aftermath_rb',
+        'content': [
+          'rb(TM) aftermath'
         ],
       }
     ],
