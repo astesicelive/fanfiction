@@ -1,7 +1,7 @@
 var gameverse = [
   {
     'type': 'divider',
-    'title': 'gameverse',
+    'title': '2011 (gameverse)',
     'id': 'desu2a',
   },
   {

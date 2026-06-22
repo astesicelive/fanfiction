@@ -1,13 +1,13 @@
 var desu2_aftermath = [
   {
     'type': 'divider',
-    'title': 'post-desu2',
-    'id': 'post_desu2',
+    'title': '2012',
+    'id': 'year_2012',
   },
   {
     'type': 'title',
     'class_name': 'post_desu2 aftermath',
-    'title': 'Aftermath',
+    'title': 'Desu2 Aftermath',
     'content': [
       {
         'class_name': 'aftermath_child',
@@ -20,17 +20,26 @@ var desu2_aftermath = [
           "team eventually remembers, yamato goes to the akasha to see his wives.... finds them curled up together under his clothes",
           "joe invites the team to his wedding or sth. he didn't lose the ring in his clothes like during the apocalypse <333",
           "alyamahibi go on their world tour. miyako takes care of jps while yamato is gone",
-          "iomiya start dating..... now it's time for them to seduce daichi into their relationship",
-          "yamahibi try hard to make alcor see that he's not just a side whore",
-          "by the end of their world tour, alcor has settled in their relationship.... he now fully accepts that yamahibi want him",
-          "but now alcor is like. he wants to fully reciprocate their love.... he asks hibiki if he can make alcor into a human",
-          "hibiki starts making preparations for his Project(TM)"
+          "iomiya start dating..... now it's time for them to seduce daichi into their relationship"
         ],
       },
       {
         'class_name': 'aftermath_rb',
         'content': [
           'rb(TM) aftermath'
+        ],
+      }
+    ],
+  },
+  {
+    'type': 'title',
+    'class_name': 'post_desu2 p1',
+    'title': 'P1',
+    'content': [
+      {
+        'class_name': 'p1',
+        'content': [
+          'p1 is happening here(TM)'
         ],
       }
     ],

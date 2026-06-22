@@ -1,7 +1,7 @@
 var animeverse = [
   {
     'type': 'divider',
-    'title': 'animeverse',
+    'title': '2011 (animeverse)',
     'id': 'beginning',
   },
   {
