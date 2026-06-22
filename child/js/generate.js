@@ -50,7 +50,7 @@ function generate_arcs(arc) {
       let current = document.createElement('div');
       current.setAttribute('class', 'container');
       let class_name = '';
-      current.setAttribute('id', `${arc[0].id}`);
+      current.setAttribute('id', `${arc[0].id || ''}`);
 
       if (day.class_name) {
         class_name = day.class_name;

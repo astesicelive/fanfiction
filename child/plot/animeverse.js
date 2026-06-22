@@ -2,6 +2,7 @@ var animeverse = [
   {
     'type': 'divider',
     'title': 'animeverse',
+    'id': 'beginning',
   },
   {
     'type': 'title',
