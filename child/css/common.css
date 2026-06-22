@@ -70,6 +70,7 @@ body {
   line-height: 0.9;
   border-radius: 40px 60px 8px 60px;
   font-size: 30px;
+  font-weight: bold;
 }
 
 .choice_buttons .button.selected {
@@ -89,5 +90,4 @@ body {
 
 .choice.selected {
   border: 3px double #e38ad6;
-  font-weight: bold;
 }
