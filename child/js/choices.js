@@ -15,11 +15,11 @@ function pickChoice() {
 
   let main_class = classes[1];
 
-  items = document.querySelectorAll(`.container#${id} div`);
+  items = document.querySelectorAll(`.container.${id} div`);
   items.forEach((i) => {
     i.classList.remove('selected');
   });
-  items = document.querySelectorAll(`.container#${id} .${main_class}`);
+  items = document.querySelectorAll(`.container.${id} .${main_class}`);
   items.forEach((i) => {
     i.classList.add('selected');
   });

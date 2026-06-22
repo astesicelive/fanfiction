@@ -12,13 +12,15 @@ var year_2014 = [
       {
         'class_name': 'innocent_sin',
         'content': [
-          "team gets maya's death video, try to prevent it and fail"
+            "(innocent sin)",
+            "team gets maya's death video, try to prevent it and fail"
         ],
       },
       {
         'class_name': 'eternal_punishment',
         'content': [
-          "tatsuya probably keeps getting death videos of his friends"
+            "(eternal punishment)",
+            "tatsuya probably keeps getting death videos of his friends"
         ],
       }
     ],
@@ -31,9 +33,9 @@ var year_2014 = [
       {
         'class_name': 'p3_past',
         'content': [
-          "kirijo's bigass shadow splits, aigis seals a part of it in makomina",
-          "start of dark hour",
-          "makomina's parents die, kotone also dies"
+            "kirijo's bigass shadow splits, aigis seals a part of it in makomina",
+            "start of dark hour",
+            "makomina's parents die, kotone also dies"
         ],
       }
     ],
@@ -46,8 +48,8 @@ var year_2014 = [
       {
         'class_name': 'aftermath_child',
         'content': [
-          "by now alcor is like. he wants to fully reciprocate their love.... he asks hibiki if he can make alcor into a human",
-          "hibiki starts making preparations for his Project(TM)"
+            "by now alcor is like. he wants to fully reciprocate their love.... he asks hibiki if he can make alcor into a human",
+            "hibiki starts making preparations for his Project(TM)"
         ],
       }
     ],
