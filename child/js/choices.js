@@ -20,16 +20,14 @@ function pickChoice() {
       'not_selected': [],
     };
     section = document.querySelector(`#${id}_${num}`);
-    items = section.querySelectorAll(`div`);
+    items = section.querySelectorAll(`.choice`);
     items.forEach((i) => {
       let select = false;
       let cur_class = i.classList;
-      cur_class.forEach((c) => {
-        classes.forEach((c2) => {
-          if (c == c2) {
-            select = true;
-          };
-        });
+      classes.forEach((c) => {
+        if (cur_class.contains(c)) {
+          select = true;
+        };
       });
       if (select) {
         sorted['selected'].push(i);
