@@ -6,20 +6,18 @@ btn.forEach((b) => {
 function pickChoice() {
   let classes = this.classList;
   let id = $(this).closest('.choice_buttons').attr('id');
-  let section = document.querySelector(`#${id}`);
-  let items = section.querySelectorAll('.selected');
+  let items = document.querySelectorAll(`#${id} .selected`);
   items.forEach((i) => {
     i.classList.toggle('selected');
   });
 
   let num = 1;
   while (document.querySelector(`#${id}_${num}`)) {
-    let section = document.querySelector(`#${id}_${num}`);
     let sorted = {
       'selected': [],
       'not_selected': [],
     };
-    let items = section.querySelectorAll('div');
+    let items = document.querySelectorAll(`#${id}_${num} div`);
     items.forEach((i) => {
       let select = false;
       let cur_class = i.classList;
