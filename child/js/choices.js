@@ -19,8 +19,7 @@ function pickChoice() {
       'selected': [],
       'not_selected': [],
     };
-    section = document.querySelector(`#${id}_${num}`);
-    items = section.querySelectorAll(`.choice`);
+    items = document.querySelectorAll(`#${id}_${num} div`);
     items.forEach((i) => {
       let select = false;
       let cur_class = i.classList;
