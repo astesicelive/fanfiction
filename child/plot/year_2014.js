@@ -7,19 +7,24 @@ var year_2014 = [
   {
     'type': 'title',
     'class_name': 'p2_is',
-    'title': 'P2',
+    'title': 'P2 Innocent Sin',
     'content': [
       {
         'class_name': 'innocent_sin',
         'content': [
-            "(innocent sin)",
             "team gets maya's death video, try to prevent it and fail"
         ],
-      },
+      }
+    ],
+  },
+  {
+    'type': 'title',
+    'class_name': 'p2_ep',
+    'title': 'P2 Eternal Punishment',
+    'content': [
       {
         'class_name': 'eternal_punishment',
         'content': [
-            "(eternal punishment)",
             "tatsuya probably keeps getting death videos of his friends"
         ],
       }
