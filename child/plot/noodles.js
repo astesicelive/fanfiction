@@ -1,6 +1,9 @@
 // timeline connections or sth
 const noodles = {
-    'sept_child': [
+    'gameverse_child': [
         'gameverse', 'year_2012'
-    ]
+    ],
+    'gameverse_rb': [
+        'gameverse', 'year_2012'
+    ],
 };

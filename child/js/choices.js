@@ -15,12 +15,14 @@ function pickChoice() {
 
   let main_class = classes[1];
 
-  items = document.querySelectorAll(`.container.${id} div`);
-  items.forEach((i) => {
-    i.classList.remove('selected');
-  });
-  items = document.querySelectorAll(`.container.${id} .${main_class}`);
-  items.forEach((i) => {
-    i.classList.add('selected');
-  });
+  noodles[main_class].forEach((i) => {
+    items = document.querySelectorAll(`.container.${i} div`);
+    items.forEach((i) => {
+      i.classList.remove('selected');
+    });
+    items = document.querySelectorAll(`.container.${i} .${main_class}`);
+    items.forEach((i) => {
+      i.classList.add('selected');
+    });
+  })
 }

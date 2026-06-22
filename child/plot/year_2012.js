@@ -10,7 +10,7 @@ var desu2_aftermath = [
     'title': 'Desu2 Aftermath',
     'content': [
       {
-        'class_name': 'aftermath_child',
+        'class_name': 'aftermath_child gameverse_child',
         'content': [
           "hibiki and alcor spend their time in the akasha together",
           "everyone lost their memory of the apocalypse so hibiki is trying to restore the team's memory of it. not maruki's, he didn't want it (fabricated memory, since maruki died and got revived by future hibiki)",
@@ -24,7 +24,7 @@ var desu2_aftermath = [
         ],
       },
       {
-        'class_name': 'aftermath_rb',
+        'class_name': 'aftermath_rb gameverse_rb',
         'content': [
           'rb(TM) aftermath'
         ],
