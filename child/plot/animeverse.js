@@ -96,13 +96,13 @@ let animeverse = () => {
         let txt = dom.parseFromString(y, "text/html");
         let result = txt.activeElement.innerHTML.replace(/\n/g, 'ßß');
         result.split('ßß').forEach((t) => {
-          //current.push(t);
           //console.log(t);
-          arr[i].content[0].content.push(t);
+          current.push(t);
+          //arr[i].content[0].content.push(t);
         });
       })
     ;
-    //arr[i].content[0].content = current;
+    arr[i].content[0].content = current;
   };
-  //return arr
+  return arr
 }
