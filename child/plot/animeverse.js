@@ -87,7 +87,9 @@ for (let i = 1; i < 8; i++) {
   let file = "https://astesicelive.github.io/fanfiction/child/plot/animeverse/" + i + ".txt";
 
   fetch(file)
-    .then((x) => x.text().split(/\n/))
+    .then((x) => x.text())
     .then((y) => animeverse[i].content[0].content.push(y))
   ;
+
+  animeverse[i].content[0].content.split(/\n/).flat();
 };
