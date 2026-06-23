@@ -103,3 +103,5 @@ for (let i = 1; i < 8; i++) {
   animeverse[i].content[0].content = current;
 };
 
+console.log(animeverse);
+
