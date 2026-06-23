@@ -1,4 +1,4 @@
-$(document).ready(
+$(document).ready(function () {
   let animeverse = () => {
     var arr = [
       {
@@ -107,5 +107,5 @@ $(document).ready(
     };
     return arr
   }
-)
+})
 
