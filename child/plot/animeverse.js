@@ -87,11 +87,8 @@ for (let i = 1; i < 8; i++) {
   let file = "https://astesicelive.github.io/fanfiction/child/plot/animeverse/" + i + ".txt";
 
   let raws = fetch(file)
-    .then((x) => x.text())
+    .then((x) => x.text().replace(/\n/g, 'ßß'))
   ;
   console.log(raws)
-  raws.replace(/\n/g, 'ßß').split('ßß').forEach((r) => {
-    console.log(r);
-  });
 
 };
