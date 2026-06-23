@@ -90,12 +90,11 @@ for (let i = 1; i < 8; i++) {
     .then((x) => x.text())
     .then((y) => {
       console.log(y);
-      let test = new DOMParser();
-      let hmm = test.parseFromString(y, "text/html");
-      let h = hmm.activeElement.innerHTML.replace(/\n/g, 'ßß');
-      console.log(hmm);
-      console.log(h);
-      //animeverse[i].content[0].content.push(t);
+      let dom = new DOMParser();
+      let txt = dom.parseFromString(y, "text/html").activeElement.innerHTML.replace(/\n/g, 'ßß');
+      txt.split('ßß').forEach((t) => {
+        animeverse[i].content[0].content.push(t);
+      });
     })
   ;
 };
