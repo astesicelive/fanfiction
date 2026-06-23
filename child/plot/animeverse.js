@@ -88,8 +88,7 @@ for (let i = 1; i < 8; i++) {
 
   fetch(file)
     .then((x) => x.text())
-    .then((y) => animeverse[i].content[0].content.push(y))
+    .then((y) => animeverse[i].content[0].content.push(y.split(/\n/)))
   ;
 
-  animeverse[i].content[0].content.split(/\n/).flat();
 };
