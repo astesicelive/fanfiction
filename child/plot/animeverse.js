@@ -90,7 +90,7 @@ for (let i = 1; i < 8; i++) {
     .then((x) => x.text())
   ;
   console.log(raws)
-  raws.split(/\n/).forEach((r) => {
+  raws.replace(/\n/g, 'ßß').split('ßß').forEach((r) => {
     console.log(r);
   });
 
