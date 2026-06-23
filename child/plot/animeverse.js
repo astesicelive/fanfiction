@@ -92,7 +92,9 @@ for (let i = 1; i < 8; i++) {
       console.log(y);
       let test = new DOMParser();
       let hmm = test.parseFromString(y, "text/html");
+      let h = hmm.activeElement.innerHTML;
       console.log(hmm);
+      console.log(h);
       //animeverse[i].content[0].content.push(t);
     })
   ;
