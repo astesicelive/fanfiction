@@ -7,3 +7,9 @@ const noodles = {
         'gameverse', 'year_2012'
     ],
 };
+
+const noodle_classes = {
+    'gameverse_child': {
+        'year_2012': 'aftermath_child',
+    },
+}
