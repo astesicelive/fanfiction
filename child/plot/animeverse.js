@@ -91,7 +91,7 @@ let animeverse = () => {
     fetch(file)
       .then((x) => x.text())
       .then((y) => {
-        console.log(y);
+        //console.log(y);
         let dom = new DOMParser();
         let txt = dom.parseFromString(y, "text/html");
         let result = txt.activeElement.innerHTML.replace(/\n/g, 'ßß');

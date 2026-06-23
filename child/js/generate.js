@@ -37,6 +37,7 @@ function generate_splits(obj) {
 
 function generate_arcs(arc) {
 
+  console.log(arc);
   arc.forEach((day) => {
     if (day.type == 'divider' || day.title) {
       let header =  document.createElement('div');
