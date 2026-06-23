@@ -88,7 +88,7 @@ for (let i = 1; i < 8; i++) {
 
   fetch(file)
     .then((x) => x.text())
-    .then((y) => animeverse[i].content[0].content.push(year_2013))
+    .then((y) => animeverse[i].content[0].content.push(y))
   ;
 
 };
