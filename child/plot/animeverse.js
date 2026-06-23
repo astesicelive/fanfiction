@@ -104,5 +104,5 @@ let animeverse = () => {
     ;
     //arr[i].content[0].content = current;
   };
-  return arr
+  //return arr
 }
