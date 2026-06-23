@@ -97,8 +97,8 @@ let animeverse = () => {
         let result = txt.activeElement.innerHTML.replace(/\n/g, 'ßß');
         result.split('ßß').forEach((t) => {
           //current.push(t);
+          //console.log(t);
           arr[i].content[0].content.push(t);
-          console.log(t);
         });
       })
     ;

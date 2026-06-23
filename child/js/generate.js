@@ -61,6 +61,7 @@ function generate_arcs(arc) {
         if (section.content) {
           list = document.createElement('ul');
           section.content.forEach((s) => {
+            console.log(s);
             let li = document.createElement('li');
             let li_txt = document.createTextNode(s);
             li.appendChild(li_txt);
