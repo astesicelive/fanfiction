@@ -83,23 +83,23 @@ var animeverse = [
   }
 ];
 
-$(document).ready(
-  for (let i = 1; i < 8; i++) {
-    let file = "https://astesicelive.github.io/fanfiction/child/plot/animeverse/" + i + ".txt";
+for (let i = 1; i < 8; i++) {
+  let file = "https://astesicelive.github.io/fanfiction/child/plot/animeverse/" + i + ".txt";
+  let current = [];
 
-    fetch(file)
-      .then((x) => x.text())
-      .then((y) => {
-        console.log(y);
-        let dom = new DOMParser();
-        let txt = dom.parseFromString(y, "text/html");
-        let result = txt.activeElement.innerHTML.replace(/\n/g, 'ßß');
-        result.split('ßß').forEach((t) => {
-          animeverse[i].content[0].content.push(t);
-          console.log(t);
-        });
-      })
-    ;
-  };
-);
+  fetch(file)
+    .then((x) => x.text())
+    .then((y) => {
+      console.log(y);
+      let dom = new DOMParser();
+      let txt = dom.parseFromString(y, "text/html");
+      let result = txt.activeElement.innerHTML.replace(/\n/g, 'ßß');
+      result.split('ßß').forEach((t) => {
+        current.push(t);
+        console.log(t);
+      });
+    })
+  ;
+  animeverse[i].content[0].content = current;
+};
 
