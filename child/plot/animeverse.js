@@ -1,5 +1,5 @@
 let animeverse = () => {
-  var arr = [
+  let arr = [
     {
       'type': 'divider',
       'title': '2011 (animeverse)',
