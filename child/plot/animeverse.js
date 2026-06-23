@@ -87,13 +87,13 @@ for (let i = 1; i < 8; i++) {
   let file = "https://astesicelive.github.io/fanfiction/child/plot/animeverse/" + i + ".txt";
 
   let raws = fetch(file)
-    .then((x) => x.text().replace(/\r\n/g, 'ßß'))
+    .then((x) => x.text())
     .then((y) => {
       console.log(y);
-      y.replace(/\r\n/g, 'ßß').split('ßß').forEach((t) => {
-        console.log(t);
-        animeverse[i].content[0].content.push(t);
-      });
+      let test = new DOMParser();
+      let hmm = test.parseFromString(y, "text/html");
+      console.log(hmm);
+      //animeverse[i].content[0].content.push(t);
     })
   ;
 };
