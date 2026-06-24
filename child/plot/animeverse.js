@@ -87,9 +87,8 @@ let animeverse = [
     let file = "https://astesicelive.github.io/fanfiction/child/plot/animeverse/" + i + ".txt";
     //let file = "animeverse/" + i + ".txt";
 
-    fetch(file)
-      .then((x) => x.text()) 
-      .then((y) => y.toString())
-      .then((txt) => animeverse[i].content[0].content.push(txt))
-    ;
+    let raw = await fetch(file);
+    let result = await raw.text();
+    animeverse[i].content[0].content.push(result);
+    
   };
