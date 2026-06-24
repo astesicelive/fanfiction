@@ -9,7 +9,7 @@ function parse_animeverse() {
       .then(y => arr[i].content[0].content.push(y))
     ;
 
-    arr[i].content[0].content.split(/\\r\\n/);
+    console.log(arr[i].content[0].content);
     
   };
   return arr;
