@@ -89,6 +89,8 @@ let animeverse = [
 
     fetch(file)
       .then((x) => x.text())
-      .then((y) => animeverse[i].content[0].content.push(y))
+      .then((y) => {
+ animeverse[i].content[0].content.push(y)
+      })
     ;
   };
