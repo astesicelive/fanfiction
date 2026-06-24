@@ -93,7 +93,7 @@ let animeverse = () => {
     ;
 
     console.log(arr[i].content[0].content);
-    arr[i].content[0].content.join('').split(/\\r\\n/);
+    arr[i].content[0].content.replace(/\r\n/g, 'ßß');
     
   };
   return arr;
