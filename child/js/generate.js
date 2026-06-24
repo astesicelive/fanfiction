@@ -92,11 +92,11 @@ let animeverse = () => {
       .then(x => x.text())
       .then((text) => {
         result.push(text);
-      }, result.push('???'))
+      })
     ;
 
     console.log(result);
-    result.replace(/\r\n/g, 'ßß');
+    result.join('').replace(/\r\n/g, 'ßß');
     
   };
   return arr;
