@@ -7,7 +7,9 @@ function parse_animeverse() {
     fetch(file)
       .then(x => x.text())
       .then(y => arr[i].content[0].content.push(y))
-    ;    
+    ;
+
+    arr[i].content[0].content.split(/\\r\\n/);
     
   };
   return arr;
