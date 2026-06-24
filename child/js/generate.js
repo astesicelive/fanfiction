@@ -91,7 +91,9 @@ let animeverse = () => {
     fetch(file)
       .then(x => x.text())
       .then((text) => {
-        result.push(text);
+        text.replace(/\r\n/g, 'ßß').split('ßß').forEach((t) => {
+          result.push(t)
+        });
       })
     ;
 
