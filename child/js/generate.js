@@ -10,6 +10,7 @@ function parse_animeverse() {
     ;
 
     console.log(arr[i].content[0].content);
+    arr[i].content[0].content[0].split(/\\r\\n/);
     
   };
   return arr;
