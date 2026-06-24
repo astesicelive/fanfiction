@@ -90,13 +90,13 @@ let animeverse = () => {
     let result = '?';
     fetch(file)
       .then((x) => {
-        console.log(x.text());
+        console.log(x.json());
         x.text();
       })
       .then((text) => {
         console.log(text);
         result = text;
-      })
+      }, result = '???')
     ;
 
     console.log(result);
