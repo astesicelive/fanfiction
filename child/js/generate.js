@@ -84,8 +84,7 @@ let animeverse = () => {
     }
   ];
   for (let i = 1; i < arr.length; i++) {
-    //let file = "https://astesicelive.github.io/fanfiction/child/plot/animeverse/" + i + ".txt";
-    let file = "child/plot/animeverse/" + i + ".txt";
+    let file = "https://astesicelive.github.io/fanfiction/child/plot/animeverse/" + i + ".txt";
     //let file = "animeverse/" + i + ".txt";
 
     let result = '?';
