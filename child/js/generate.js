@@ -1,4 +1,4 @@
-let animeverse = () => {
+function animeverse() {
   let arr = [
     {
       'type': 'divider',
