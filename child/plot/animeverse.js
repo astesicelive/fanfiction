@@ -253,7 +253,7 @@ let animeverse = () => {
       if (t != '') {
         arr[i].content[0].content.push(t);
       };
-      console.log(t);
+      //console.log(t);
     });
     
   };
