@@ -89,6 +89,6 @@ let animeverse = [
 
     let raw = fetch(file);
     let result = await raw.text();
-    animeverse[i].content[0].content.push(result)
+    animeverse[i].content[0].content.push(result);
     
   };
