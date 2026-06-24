@@ -1,6 +1,6 @@
 let desu2a_plot = {
-// sunday
-animeverse_1: `
+// desu2a sunday
+1: `
 it’s like june or sth because that’s the date of japan college mock exams (did not factcheck this, might be wrong)
 maruki dies before he meets high school trio because he didn’t awaken to azathoth
 hibiki meets daichi outside the practice exam building fsr
@@ -23,8 +23,8 @@ daichi and io are in a room while yamato explains a bunch to hibiki
 hibiki gets back to his shared room with daichi and io
 `,
 
-// monday
-animeverse_2: `
+// desu2a monday
+2: `
 Alyama were talking about yamato not keeping hibiki at his side and that yamato has hope they will manage on their own while alcor hopes he will find something new that shines
 makoto drives high school trio to ariake
 doesn't get there because roadblock
@@ -91,8 +91,8 @@ i forgot why daichi and io went to nagoya in the first place LMAO but anyway the
 fumi starts repairing the terminal
 `,
 
-// tuesday
-animeverse_3: `
+// desu2a tuesday
+3: `
 daichi and io arrive in nagoya
 death clip hibiki → daichi & io (& yamato later)
 jungo and airi prepare for infiltrating jps nagoya headquarters to get it back from the resistance
@@ -139,24 +139,24 @@ also orders ronaldo + resistance to defend nagoya because they’re dumb
 yamato defends tokyo by himself
 `,
 
-// wednesday
-animeverse_4: `
-desu2 wednesday
+// desu2a wednesday
+4: `
+desu2a wednesday
 `,
 
-// thursday
-animeverse_5: `
-desu2 thursday
+// desu2a thursday
+5: `
+desu2a thursday
 `,
 
-// friday
-animeverse_6: `
-desu2 friday
+// desu2a friday
+6: `
+desu2a friday
 `,
 
-// saturday
-animeverse_7: `
-desu2 saturday
+// desu2a saturday
+7: `
+desu2a saturday
 `,
 }
 
@@ -246,12 +246,13 @@ let animeverse = () => {
     }
   ];
   for (let i = 1; i < arr.length; i++) {
-    let name = `animeverse_${i}`;
-    let plot = desu2a_plot[name];
+    let plot = desu2a_plot[i];
     console.log(plot);
 
     plot.replace(/\n/g, 'ßß').split('ßß').forEach((t) => {
-      arr[i].content[0].content.push(t);
+      if (t != '') {
+        arr[i].content[0].content.push(t);
+      };
       console.log(t);
     });
     
