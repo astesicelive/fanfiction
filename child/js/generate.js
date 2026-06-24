@@ -87,13 +87,14 @@ let animeverse = () => {
     let file = "https://astesicelive.github.io/fanfiction/child/plot/animeverse/" + i + ".txt";
     //let file = "animeverse/" + i + ".txt";
 
+    let result = '';
     fetch(file)
       .then(x => x.text())
-      .then(y => arr[i].content[0].content.push(y))
+      .then(y => result = y)
     ;
 
-    console.log(arr[i].content[0].content);
-    arr[i].content[0].content.replace(/\r\n/g, 'ßß');
+    console.log(result);
+    result.replace(/\r\n/g, 'ßß');
     
   };
   return arr;
