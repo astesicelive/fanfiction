@@ -1,5 +1,4 @@
-let animeverse = () => {
-  let arr = [
+let animeverse = [
     {
       'type': 'divider',
       'title': '2011 (animeverse)',
@@ -86,23 +85,8 @@ let animeverse = () => {
 
   for (let i = 1; i < 8; i++) {
     let file = "https://astesicelive.github.io/fanfiction/child/plot/animeverse/" + i + ".txt";
-    let current = [];
 
     fetch(file)
       .then((x) => x.text())
-      .then((y) => {
-        //console.log(y);
-        let dom = new DOMParser();
-        let txt = dom.parseFromString(y, "text/html");
-        let result = txt.activeElement.innerHTML.replace(/\n/g, 'ßß');
-        result.split('ßß').forEach((t) => {
-          //console.log(t);
-          current.push(t);
-          //arr[i].content[0].content.push(t);
-        });
-      })
-    ;
-    arr[i].content[0].content = current;
+      .then((y) => arr[i].content[0].content.push(y);
   };
-  return arr
-}
