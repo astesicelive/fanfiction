@@ -1,6 +1,6 @@
 let desu2a_plot = {
 // sunday
-animeverse_1 = `
+animeverse_1: `
 it’s like june or sth because that’s the date of japan college mock exams (did not factcheck this, might be wrong)
 maruki dies before he meets high school trio because he didn’t awaken to azathoth
 hibiki meets daichi outside the practice exam building fsr
