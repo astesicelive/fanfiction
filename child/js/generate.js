@@ -98,8 +98,9 @@ let animeverse = () => {
     ;
 
     console.log(result);
-    let sp = result.join('').replace(/\r\n/g, 'ßß');
-    console.log(sp);
+    result.forEach((t) => {
+      console.log(t);
+    });
     
   };
   return arr;
