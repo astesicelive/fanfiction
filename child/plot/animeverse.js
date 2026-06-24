@@ -83,13 +83,3 @@ let animeverse = [
     }
   ];
 
-  for (let i = 1; i < animeverse.length; i++) {
-    let file = "https://astesicelive.github.io/fanfiction/child/plot/animeverse/" + i + ".txt";
-    //let file = "animeverse/" + i + ".txt";
-
-    fetch(file)
-      .then(x => x.text())
-      .then(y => animeverse[i].content[0].content.push(y))
-    ;    
-    
-  };

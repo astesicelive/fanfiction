@@ -1,3 +1,18 @@
+function parse_animeverse() {
+  let arr = animeverse;
+  for (let i = 1; i < animeverse.length; i++) {
+    let file = "https://astesicelive.github.io/fanfiction/child/plot/animeverse/" + i + ".txt";
+    //let file = "animeverse/" + i + ".txt";
+
+    fetch(file)
+      .then(x => x.text())
+      .then(y => arr[i].content[0].content.push(y))
+    ;    
+    
+  };
+  return arr;
+}
+
 function generate_timeline(v) {
 
   let txt = document.createTextNode(v);
@@ -5,7 +20,8 @@ function generate_timeline(v) {
   version.appendChild(txt);
   document.body.appendChild(version);
 
-  let arcs = [animeverse, desu2_split, gameverse, desu2_aftermath, year_2013, year_2014, birth_split];
+  let parsed_animeverse = parse_animeverse()
+  let arcs = [parsed_animeverse, desu2_split, gameverse, desu2_aftermath, year_2013, year_2014, birth_split];
 
   arcs.forEach((a) => {
     if (a[0].type == 'choice') {
