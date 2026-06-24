@@ -1,5 +1,88 @@
-function parse_animeverse() {
-  let arr = animeverse;
+let animeverse = () => {
+  let arr = [
+    {
+      'type': 'divider',
+      'title': '2011 (animeverse)',
+      'id': 'beginning',
+    },
+    {
+      'type': 'title',
+      'class_name': 'desu2a sunday',
+      'title': 'Sunday',
+      'content': [
+        {
+          'class_name': 'desu2',
+          'content': [],
+        }
+      ],
+    },
+    {
+      'type': 'title',
+      'class_name': 'desu2a monday',
+      'title': 'Monday',
+      'content': [
+        {
+          'class_name': 'desu2',
+          'content': [],
+        }
+      ],
+    },
+    {
+      'type': 'title',
+      'class_name': 'desu2a tuesday',
+      'title': 'Tuesday',
+      'content': [
+        {
+          'class_name': 'desu2',
+          'content': [],
+        }
+      ],
+    },
+    {
+      'type': 'title',
+      'class_name': 'desu2a wednesday',
+      'title': 'Wednesday',
+      'content': [
+        {
+          'class_name': 'desu2',
+          'content': [],
+        }
+      ],
+    },
+    {
+      'type': 'title',
+      'class_name': 'desu2a thursday',
+      'title': 'Thursday',
+      'content': [
+        {
+          'class_name': 'desu2',
+          'content': [],
+        }
+      ],
+    },
+    {
+      'type': 'title',
+      'class_name': 'desu2a friday',
+      'title': 'Friday',
+      'content': [
+        {
+          'class_name': 'desu2',
+          'content': [],
+        }
+      ],
+    },
+    {
+      'type': 'title',
+      'class_name': 'desu2a saturday',
+      'title': 'Saturday',
+      'content': [
+        {
+          'class_name': 'desu2',
+          'content': [],
+        }
+      ],
+    }
+  ];
   for (let i = 1; i < animeverse.length; i++) {
     let file = "https://astesicelive.github.io/fanfiction/child/plot/animeverse/" + i + ".txt";
     //let file = "animeverse/" + i + ".txt";
@@ -10,6 +93,7 @@ function parse_animeverse() {
     ;
 
     console.log(arr[i].content[0].content);
+    console.log(arr[i].content[0].content[0]);
     arr[i].content[0].content[0].split(/\\r\\n/);
     
   };
@@ -23,8 +107,7 @@ function generate_timeline(v) {
   version.appendChild(txt);
   document.body.appendChild(version);
 
-  let parsed_animeverse = parse_animeverse()
-  let arcs = [parsed_animeverse, desu2_split, gameverse, desu2_aftermath, year_2013, year_2014, birth_split];
+  let arcs = [animeverse(), desu2_split, gameverse, desu2_aftermath, year_2013, year_2014, birth_split];
 
   arcs.forEach((a) => {
     if (a[0].type == 'choice') {
