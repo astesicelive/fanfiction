@@ -88,8 +88,7 @@ let animeverse = [
     //let file = "animeverse/" + i + ".txt";
 
     fetch(file)
-      .then((x) => x.text()) 
-      .then((y) => y.toString())
+      .then((x) => x.text())
       .then((txt) => animeverse[i].content[0].content.push(txt))
     ;
   };
