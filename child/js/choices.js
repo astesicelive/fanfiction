@@ -11,35 +11,31 @@ function pickChoice() {
 
   if (noodles[main_class]) {
     // deselect every button and choice
-    let all_items = document.querySelectorAll(`.choice_buttons div, .container div`);
+    let all_items = $(`.choice_buttons div, .container div`);
     all_items.forEach((i) => {
-      i.classList.remove('selected');
+      i.removeClass('selected');
     });
 
     for (let i in noodles[main_class]) {
       let cur_class = noodles[main_class][i];
       console.log(cur_class);
       // select buttons
-      let button = document.querySelector(`.choice_buttons#${i}`);
+      let button = $(`.choice_buttons#${i} .${cur_class}`);
       if (button) {
-        try {
-          button.querySelector(`.${cur_class}`).classList.add('selected');
-        } catch {
-          console.error(cur_class);
-        };
+        button.addClass('selected');
       };
       // select plot
-      let plot = document.querySelectorAll(`.container#${i} .${cur_class}`);
+      let plot = $(`.container#${i} .${cur_class}`);
       plot.forEach((cur) => {
-        cur.classList.add('selected');
+        cur.addClass('selected');
       });
     };
   } else {
-    let buttons = document.querySelectorAll(`.choice_buttons div`);
+    let buttons = $(`.choice_buttons div`);
     buttons.forEach((cur) => {
-      cur.classList.remove('selected');
+      cur.removeClass('selected');
     });
-    let current_button = document.querySelector(`.choice_buttons#${id} .${main_class}`);
-    current_button.classList.add('selected');
+    let current_button = $(`.choice_buttons#${id} .${main_class}`);
+    current_button.addClass('selected');
   };
 }
