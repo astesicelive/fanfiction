@@ -37,7 +37,7 @@ var year_2014 = () => {
       'title': 'P2 Innocent Sin',
       'content': [
         {
-          'class_name': 'innocent_sin',
+          'class_name': 'child_innocent_sin',
           'content': [],
         }
       ],
@@ -48,7 +48,7 @@ var year_2014 = () => {
       'title': 'P2 Eternal Punishment',
       'content': [
         {
-          'class_name': 'eternal_punishment',
+          'class_name': 'child_eternal_punishment',
           'content': [],
         }
       ],

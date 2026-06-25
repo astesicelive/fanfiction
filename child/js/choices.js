@@ -5,8 +5,8 @@ btn.forEach((b) => {
 
 function pickChoice() {
   let classes = this.classList;
-  //let id = $(this).closest('.choice_buttons').attr('id');
   let main_class = classes[1];
+  let id = $(this).closest('.choice_buttons').attr('id');
 
   if (noodles[main_class]) {
     // deselect every button and choice
@@ -15,17 +15,25 @@ function pickChoice() {
       i.classList.remove('selected');
     });
 
-    // select buttons
     for (let i in noodles[main_class]) {
       let cur_class = noodles[main_class][i]
+      // select buttons
       let button = document.querySelector(`.choice_buttons#${i}`);
       if (button) {
         button.querySelector(`.${cur_class}`).classList.add('selected');
       };
-      let plot = document.querySelectorAll(`.container .${cur_class}`);
+      // select plot
+      let plot = document.querySelectorAll(`.container#${i} .${cur_class}`);
       plot.forEach((cur) => {
         cur.classList.add('selected');
       });
     };
+  } else {
+    let buttons = document.querySelectorAll(`.choice_buttons div`);
+    buttons.forEach((cur) => {
+      cur.classList.remove('selected');
+    });
+    let current_button = document.querySelector(`.choice_buttons#${id} .${main_class}`);
+    current_button.classList.add('selected');
   };
 }
