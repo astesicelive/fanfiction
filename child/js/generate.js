@@ -5,7 +5,7 @@ function generate_timeline(v) {
   version.appendChild(txt);
   document.body.appendChild(version);
 
-  let arcs = [animeverse(), desu2_split, gameverse(), desu2_aftermath, year_2013, year_2014, birth_split];
+  let arcs = [animeverse(), desu2_split, gameverse(), year_2012(), year_2013, year_2014, birth_split];
 
   arcs.forEach((a) => {
     if (a[0].type == 'choice') {
@@ -88,5 +88,28 @@ function generate_arcs(arc) {
 
 }
 
+generate_timeline('1.0.7.13');
 
-generate_timeline('1.0.7.12');
+// process plot vars into the objects
+function parse_plot(var_list, plot_var, arr) {
+  let num = 1;
+  var_list.forEach((current) => {
+    let plot;
+    let pos1 = current.pos1 || num;
+    let pos2 = current.pos2 || 0;
+    if (!current.pos1 && !current.pos2) {
+      plot = plot_var[current.name];
+    } else {
+      plot = plot_var[`${current.name}_${pos1}`];
+    };
+
+    plot.replace(/\n/g, 'ßß').split('ßß').forEach((t) => {
+      if (t != '') {
+        arr[pos1].content[pos2].content.push(t);
+        //console.log(t);
+      };
+    });
+
+    num++;
+  });
+}
