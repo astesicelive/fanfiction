@@ -19,7 +19,7 @@ makomina's parents die, kotone also dies
 // child(TM) more desu2 aftermath
 child_4: `
 by now alcor is like. he wants to fully reciprocate their love.... he asks hibiki if he can make alcor into a human
-hibiki starts making preparations for his Project(TM)
+hibiki starts making preparations to include alcor in his Project(TM)
 `,
 }
 
