@@ -435,12 +435,16 @@ var gameverse = () => {
     {name: 'canon', pos2: 2}
   ];
   let var_list = [];
-  for (let i = 1; i < arr.length; i++) {
-    raw_list.forEach((cur) => {
-      cur.pos1 = i;
-      var_list.push(cur);
-    });
-  };
+  raw_list.forEach((cur) => {
+    for (let i = 1; i < arr.length; i++) {
+      let a = {
+        name: cur.name,
+        pos1: i,
+        pos2: cur.pos2,
+      };
+      var_list.push(a);
+    };
+  });
 
   parse_plot(var_list, plot_desu2, arr);
 
