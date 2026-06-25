@@ -37,11 +37,11 @@ var year_2012 = () => {
       'title': 'Desu2 Aftermath',
       'content': [
         {
-          'class_name': 'aftermath_child gameverse_child',
+          'class_name': 'aftermath_child',
           'content': [],
         },
         {
-          'class_name': 'aftermath_rb gameverse_rb',
+          'class_name': 'aftermath_rb',
           'content': [],
         }
       ],

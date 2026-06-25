@@ -50,6 +50,7 @@ function generate_arcs(arc) {
     if (day.content) {
       let current = document.createElement('div');
       current.setAttribute('class', `container ${arc[0].id || ''}`);
+      current.setAttribute('id', `${arc[0].id || ''}`);
       let class_name = `${day.class_name || ''}`;
 
       for (let i = 0; i < day.content.length; i++) {
@@ -71,7 +72,7 @@ function generate_arcs(arc) {
           list = document.createTextNode(i);
         };
 
-        if (day.content.length == 1) {
+        if (day.id == 'beginning') {
           current.setAttribute('class', ['container', class_name, section_class].join(' '));
           current.appendChild(list);
         } else {
