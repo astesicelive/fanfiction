@@ -1,4 +1,4 @@
-let desu2a_plot = {
+let plot_desu2a = {
 // desu2a sunday
 1: `
 it’s like june or sth because that’s the date of japan college mock exams (did not factcheck this, might be wrong)
@@ -256,7 +256,7 @@ let animeverse = () => {
     {name: '7'}
   ];
 
-  parse_plot(var_list, desu2a_plot, arr);
+  parse_plot(var_list, plot_desu2a, arr);
   
   return arr;
 };

@@ -1,4 +1,4 @@
-let desu2_plot = {
+let plot_desu2 = {
 // child(TM) desu2 sunday (septentriones)
 child_1: `
 desu2 sunday (septentriones)
@@ -429,13 +429,20 @@ var gameverse = () => {
     }
   ];
 
-  let var_list = [
+  let raw_list = [
     {name: 'child', pos2: 0},
     {name: 'p5', pos2: 1},
     {name: 'canon', pos2: 2}
   ];
+  let var_list = [];
+  for (let i = 1; i < arr.length; i++) {
+    raw_list.forEach((cur) => {
+      cur.pos1 = i;
+      var_list.push(cur);
+    });
+  };
 
-  parse_plot(var_list, desu2_plot, arr);
+  parse_plot(var_list, plot_desu2, arr);
 
   return arr;
 }
