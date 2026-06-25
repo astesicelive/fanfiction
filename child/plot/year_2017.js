@@ -50,11 +50,11 @@ var year_2017 = () => {
       'title': 'DeSu2 Wedding',
       'content': [
         {
-          'class_name': 'child_yamahibi_ren',
+          'class_name': 'ren_nii',
           'content': [],
         },
         {
-          'class_name': 'child_yamahibi_rin',
+          'class_name': 'rin_nii',
           'content': [],
         }
       ],

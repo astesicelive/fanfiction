@@ -21,12 +21,12 @@ let noodle_obj = () => {
         'ren_nii': {
             // + gameverse_child
             'twin_birth': 'fix_p2',
-            'twin_birth': 'child_yamahibi_ren',
+            'twin_birth': 'ren_nii',
         },
         'rin_nii': {
             // + gameverse_child
             'twin_birth': 'fix_p2',
-            'twin_birth': 'child_yamahibi_rin',
+            'twin_birth': 'rin_nii',
         },
     };
     for (let i in obj['gameverse_child']) {
