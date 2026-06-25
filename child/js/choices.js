@@ -11,39 +11,31 @@ function pickChoice() {
 
   if (noodles[main_class]) {
     // deselect every button and choice
-    let all_items = $(`.choice_buttons div, .container div`);
-    iterate_divs(all_items, 'remove');
+    let all_items = document.querySelectorAll(`.choice_buttons div, .container div`);
+    all_items.forEach((i) => {
+      i.classList.remove('selected');
+    });
 
     for (let i in noodles[main_class]) {
       let cur_class = noodles[main_class][i];
       console.log(cur_class);
       // select buttons
-      let button = $(`.choice_buttons#${i} .${cur_class}`);
+      let button = document.querySelector(`.choice_buttons#${i} .${cur_class}`);
       if (button) {
-        iterate_divs(button, 'add');
+        button.classList.add('selected');
       };
       // select plot
-      let plot = $(`.container#${i} .${cur_class}`);
-      iterate_divs(plot, 'add');
+      let plot = document.querySelectorAll(`.container#${i} .${cur_class}`);
+      plot.forEach((cur) => {
+        cur.classList.add('selected');
+      });
     };
   } else {
-    let buttons = $(`.choice_buttons div`);
-    iterate_divs(buttons, 'remove');
-    let current_button = $(`.choice_buttons#${id} .${main_class}`);
-    iterate_divs(current_button, 'add');
-  };
-}
-
-function iterate_divs(obj, mode) {
-  for (let x in obj) {
-    try {
-      if (mode == 'add') {
-        obj[x].addClass('selected');
-      } else {
-        obj[x].removeClass('selected');
-      };
-    } catch {
-      void(0);
-    };
+    let buttons = document.querySelectorAll(`.choice_buttons div`);
+    buttons.forEach((cur) => {
+      cur.classList.remove('selected');
+    });
+    let current_button = document.querySelector(`.choice_buttons#${id} .${main_class}`);
+    current_button.classList.add('selected');
   };
 }
