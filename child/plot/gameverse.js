@@ -34,28 +34,53 @@ child_7: `
 desu2 saturday (septentriones)
 `,
 
-// child(TM) desu2 tuesday (triangulum)
+// child(TM) desu2 doomed tuesday (triangulum)
 child_8: `
+desu2 doomed tuesday (triangulum)
+`,
+
+// child(TM) desu2 doomed wednesday (triangulum)
+child_9: `
+desu2 doomed wednesday (triangulum)
+`,
+
+// child(TM) desu2 doomed thursday (triangulum)
+child_10: `
+desu2 doomed thursday (triangulum)
+`,
+
+// child(TM) desu2 doomed friday (triangulum)
+child_11: `
+desu2 doomed friday (triangulum)
+`,
+
+// child(TM) desu2 doomed saturday (triangulum)
+child_12: `
+desu2 doomed saturday (triangulum)
+`,
+
+// child(TM) desu2 tuesday (triangulum)
+child_13: `
 desu2 tuesday (triangulum)
 `,
 
 // child(TM) desu2 wednesday (triangulum)
-child_9: `
+child_14: `
 desu2 wednesday (triangulum)
 `,
 
 // child(TM) desu2 thursday (triangulum)
-child_10: `
+child_15: `
 desu2 thursday (triangulum)
 `,
 
 // child(TM) desu2 friday (triangulum)
-child_11: `
+child_16: `
 desu2 friday (triangulum)
 `,
 
 // child(TM) desu2 saturday (triangulum)
-child_12: `
+child_17: `
 desu2 saturday (triangulum)
 `,
 
@@ -94,28 +119,53 @@ p5_7: `
 p5 saturday (septentriones)
 `,
 
-// child(TM) p5 tuesday (triangulum)
+// child(TM) p5 doomed tuesday (triangulum)
 p5_8: `
+p5 doomed tuesday (triangulum)
+`,
+
+// child(TM) p5 doomed wednesday (triangulum)
+p5_9: `
+p5 doomed wednesday (triangulum)
+`,
+
+// child(TM) p5 doomed thursday (triangulum)
+p5_10: `
+p5 doomed thursday (triangulum)
+`,
+
+// child(TM) p5 doomed friday (triangulum)
+p5_11: `
+p5 doomed friday (triangulum)
+`,
+
+// child(TM) p5 doomed saturday (triangulum)
+p5_12: `
+p5 doomed saturday (triangulum)
+`,
+
+// child(TM) p5 tuesday (triangulum)
+p5_13: `
 p5 tuesday (triangulum)
 `,
 
 // child(TM) p5 wednesday (triangulum)
-p5_9: `
+p5_14: `
 p5 wednesday (triangulum)
 `,
 
 // child(TM) p5 thursday (triangulum)
-p5_10: `
+p5_15: `
 p5 thursday (triangulum)
 `,
 
 // child(TM) p5 friday (triangulum)
-p5_11: `
+p5_16: `
 p5 friday (triangulum)
 `,
 
 // child(TM) p5 saturday (triangulum)
-p5_12: `
+p5_17: `
 p5 saturday (triangulum)
 `,
 
@@ -161,33 +211,63 @@ canon_7: `
 canon saturday (septentriones)
 `,
 
-// canon tuesday (triangulum)
+// canon doomed tuesday (triangulum)
 // i don't think we Actually need to put the plot down but. just in case we need it FJNSDJFNSD low priority(TM)
 canon_8: `
+canon doomed tuesday (triangulum)
+`,
+
+// canon doomed wednesday (triangulum)
+// i don't think we Actually need to put the plot down but. just in case we need it FJNSDJFNSD low priority(TM)
+canon_9: `
+canon doomed wednesday (triangulum)
+`,
+
+// canon doomed thursday (triangulum)
+// i don't think we Actually need to put the plot down but. just in case we need it FJNSDJFNSD low priority(TM)
+canon_10: `
+canon doomed thursday (triangulum)
+`,
+
+// canon doomed friday (triangulum)
+// i don't think we Actually need to put the plot down but. just in case we need it FJNSDJFNSD low priority(TM)
+canon_11: `
+canon doomed friday (triangulum)
+`,
+
+// canon doomed saturday (triangulum)
+// i don't think we Actually need to put the plot down but. just in case we need it FJNSDJFNSD low priority(TM)
+canon_12: `
+canon doomed saturday (triangulum)
+`,
+
+// canon tuesday (triangulum)
+// i don't think we Actually need to put the plot down but. just in case we need it FJNSDJFNSD low priority(TM)
+canon_13: `
 canon tuesday (triangulum)
 `,
 
 // canon wednesday (triangulum)
 // i don't think we Actually need to put the plot down but. just in case we need it FJNSDJFNSD low priority(TM)
-canon_9: `
+canon_14: `
 canon wednesday (triangulum)
 `,
 
 // canon thursday (triangulum)
 // i don't think we Actually need to put the plot down but. just in case we need it FJNSDJFNSD low priority(TM)
-canon_10: `
+canon_15: `
 canon thursday (triangulum)
 `,
 
 // canon friday (triangulum)
 // i don't think we Actually need to put the plot down but. just in case we need it FJNSDJFNSD low priority(TM)
-canon_11: `
+canon_16: `
 canon friday (triangulum)
 `,
 
 // canon saturday (triangulum)
 // i don't think we Actually need to put the plot down but. just in case we need it FJNSDJFNSD low priority(TM)
-canon_12: `
+canon_17: `
 canon saturday (triangulum)
 `,
 }
@@ -317,6 +397,101 @@ var gameverse = () => {
       'type': 'title',
       'class_name': 'septentriones saturday',
       'title': 'Saturday (Sep)',
+      'content': [
+        {
+          'class_name': 'desu2 gameverse_child',
+          'content': [],
+        },
+        {
+          'class_name': 'p5 gameverse_child',
+          'content': [],
+        },
+        {
+          'class_name': 'gameverse_rb',
+          'content': [],
+        }
+      ],
+    },
+    {
+      'type': 'title',
+      'class_name': 'triangulum tuesday',
+      'title': 'Doomed Tuesday (Tri)',
+      'content': [
+        {
+          'class_name': 'desu2 gameverse_child',
+          'content': [],
+        },
+        {
+          'class_name': 'p5 gameverse_child',
+          'content': [],
+        },
+        {
+          'class_name': 'gameverse_rb',
+          'content': [],
+        }
+      ],
+    },
+    {
+      'type': 'title',
+      'class_name': 'triangulum wednesday',
+      'title': 'Doomed Wednesday (Tri)',
+      'content': [
+        {
+          'class_name': 'desu2 gameverse_child',
+          'content': [],
+        },
+        {
+          'class_name': 'p5 gameverse_child',
+          'content': [],
+        },
+        {
+          'class_name': 'gameverse_rb',
+          'content': [],
+        }
+      ],
+    },
+    {
+      'type': 'title',
+      'class_name': 'triangulum thursday',
+      'title': 'Doomed Thursday (Tri)',
+      'content': [
+        {
+          'class_name': 'desu2 gameverse_child',
+          'content': [],
+        },
+        {
+          'class_name': 'p5 gameverse_child',
+          'content': [],
+        },
+        {
+          'class_name': 'gameverse_rb',
+          'content': [],
+        }
+      ],
+    },
+    {
+      'type': 'title',
+      'class_name': 'triangulum friday',
+      'title': 'Doomed Friday (Tri)',
+      'content': [
+        {
+          'class_name': 'desu2 gameverse_child',
+          'content': [],
+        },
+        {
+          'class_name': 'p5 gameverse_child',
+          'content': [],
+        },
+        {
+          'class_name': 'gameverse_rb',
+          'content': [],
+        }
+      ],
+    },
+    {
+      'type': 'title',
+      'class_name': 'triangulum saturday',
+      'title': 'Doomed Saturday (Tri)',
       'content': [
         {
           'class_name': 'desu2 gameverse_child',
