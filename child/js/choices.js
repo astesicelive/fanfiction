@@ -21,7 +21,11 @@ function pickChoice() {
       // select buttons
       let button = document.querySelector(`.choice_buttons#${i}`);
       if (button) {
-        button.querySelector(`.${cur_class}`).classList.add('selected');
+        try {
+          button.querySelector(`.${cur_class}`).classList.add('selected');
+        } catch {
+          console.error(cur_class);
+        };
       };
       // select plot
       let plot = document.querySelectorAll(`.container#${i} .${cur_class}`);
