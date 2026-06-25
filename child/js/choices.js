@@ -12,9 +12,7 @@ function pickChoice() {
   if (noodles[main_class]) {
     // deselect every button and choice
     let all_items = $(`.choice_buttons div, .container div`);
-    all_items.forEach((i) => {
-      i.removeClass('selected');
-    });
+    iterate_divs(all_items, 'remove');
 
     for (let i in noodles[main_class]) {
       let cur_class = noodles[main_class][i];
@@ -22,20 +20,30 @@ function pickChoice() {
       // select buttons
       let button = $(`.choice_buttons#${i} .${cur_class}`);
       if (button) {
-        button.addClass('selected');
+        iterate_divs(button, 'add');
       };
       // select plot
       let plot = $(`.container#${i} .${cur_class}`);
-      plot.forEach((cur) => {
-        cur.addClass('selected');
-      });
+      iterate_divs(plot, 'add');
     };
   } else {
     let buttons = $(`.choice_buttons div`);
-    buttons.forEach((cur) => {
-      cur.removeClass('selected');
-    });
+    iterate_divs(buttons, 'remove');
     let current_button = $(`.choice_buttons#${id} .${main_class}`);
-    current_button.addClass('selected');
+    iterate_divs(current_button, 'add');
+  };
+}
+
+function iterate_divs(obj, mode) {
+  for (let x in obj) {
+    try {
+      if (mode == 'add') {
+        obj[x].addClass('selected');
+      } else {
+        obj[x].removeClass('selected');
+      };
+    } catch {
+      void(0);
+    };
   };
 }
