@@ -10,6 +10,7 @@ body {
   width: 92vw;
   max-width: 92vw;
   overflow: scroll;
+  scrollbar-color: #e5aefb #2a3033;
   margin: 0px auto;
 }
 
@@ -60,6 +61,7 @@ body {
   grid-auto-flow: column;
   grid-auto-columns: 45vw;
   column-gap: 28px;
+  padding-bottom: 10px;
 }
 
 .choice_buttons .button {
