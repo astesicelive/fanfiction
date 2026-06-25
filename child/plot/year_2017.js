@@ -31,7 +31,7 @@ var year_2017 = () => {
     {
       'type': 'divider',
       'title': '2017',
-      'id': 'year_2017',
+      'id': 'twin_birth',
     },
     {
       'type': 'title',
