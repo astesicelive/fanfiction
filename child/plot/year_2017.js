@@ -47,7 +47,7 @@ var year_2017 = () => {
     {
       'type': 'title',
       'class_name': 'yamahibi_wedding',
-      'title': 'Wedding',
+      'title': 'DeSu2 Wedding',
       'content': [
         {
           'class_name': 'child_yamahibi_ren',

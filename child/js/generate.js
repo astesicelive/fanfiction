@@ -1,22 +1,19 @@
 function generate_timeline(v) {
 
   let txt = document.createTextNode(v);
-  let version = document.createElement('div')
-    .setAttribute('class', 'info')
-    .appendChild(txt)
-  ;
+  let version = document.createElement('div');
+  version.setAttribute('class', 'info');
+  version.appendChild(txt);
 
   txt = document.createTextNode('Outline');
-  let outline_button = document.createElement('div')
-    .setAttribute('class', 'info outline_button')
-    .appendChild(txt)
-  ;
+  let outline_button = document.createElement('div');
+  outline_button.setAttribute('class', 'info outline_button');
+  outline_button.appendChild(txt);
 
-  let top_bar = document.createElement('div')
-    .setAttribute('class', 'top_bar')  
-    .appendChild(version)
-    .appendChild(outline_button)
-  ;
+  let top_bar = document.createElement('div');
+  top_bar.setAttribute('class', 'top_bar');
+  top_bar.appendChild(version);
+  top_bar.appendChild(outline_button);
   document.body.appendChild(top_bar);
 
   let arcs = [
