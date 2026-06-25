@@ -1,10 +1,23 @@
 function generate_timeline(v) {
 
   let txt = document.createTextNode(v);
-  let version = document.createElement('div');
-  version.appendChild(txt);
-  version.setAttribute('class', 'top_bar')
-  document.body.appendChild(version);
+  let version = document.createElement('div')
+    .setAttribute('class', 'info')
+    .appendChild(txt)
+  ;
+
+  txt = document.createTextNode('Outline');
+  let outline_button = document.createElement('div')
+    .setAttribute('class', 'info outline_button')
+    .appendChild(txt)
+  ;
+
+  let top_bar = document.createElement('div')
+    .setAttribute('class', 'top_bar')  
+    .appendChild(version)
+    .appendChild(outline_button)
+  ;
+  document.body.appendChild(top_bar);
 
   let arcs = [
     animeverse(), 

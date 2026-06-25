@@ -1,6 +1,42 @@
 body {
   background-color: #2a3033;
   color: #fcfff7;
+  margin: 0;
+}
+
+.top_bar {
+  width: 100vw;
+  overflow: hidden;
+  position: sticky;
+  top: 0;
+  left: 0;
+  background-color: #3b474d;
+  z-index: 9999999;
+  border-bottom: 3px ridge #e5aefb;
+  display: grid;
+  grid-auto-flow: column;
+  grid-auto-columns: 48vw;
+}
+
+.info {
+  width: fit-content;
+  margin: 8px;
+  padding: 4px;
+}
+
+.outline_button {
+  position: absolute;
+  right: 0px;
+  cursor: pointer;
+  border-top: 1px solid #f3a4c2;
+  border-bottom: 1px solid #f3a4c2;
+  border-radius: 30px;
+  padding: 4px 20px;
+}
+
+.outline_button:hover {
+  background-color: #f3a4c2;
+  color: #2a3033;
 }
 
 .container,
