@@ -53,9 +53,7 @@ var year_2012 = () => {
       'content': [
         {
           'class_name': 'p1',
-          'content': [
-            'p1 is happening here(TM)'
-          ],
+          'content': [],
         }
       ],
     }

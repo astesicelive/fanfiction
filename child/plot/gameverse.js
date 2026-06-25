@@ -428,23 +428,14 @@ var gameverse = () => {
       ],
     }
   ];
-  [
-    {num: 0, name: 'child'},
-    {num: 1, name: 'p5'},
-    {num: 2, name: 'canon'}
-  ].forEach((current) => {
-    for (let i = 1; i < arr.length; i++) {
-      let plot = desu2_plot[`${current.name}_${i}`];
-      console.log(plot);
 
-      plot.replace(/\n/g, 'ßß').split('ßß').forEach((t) => {
-        if (t != '') {
-          arr[i].content[current.num].content.push(t);
-        };
-        //console.log(t);
-      });
-    };
-  });
+  let var_list = [
+    {name: 'child', pos2: 0},
+    {name: 'p5', pos2: 1},
+    {name: 'canon', pos2: 2}
+  ];
+
+  parse_plot(var_list, desu2_plot, arr);
 
   return arr;
 }
