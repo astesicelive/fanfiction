@@ -31,8 +31,8 @@ let noodle_obj = () => {
     };
     for (let i in obj['gameverse_child']) {
         let class_name = obj['gameverse_child'][i];
-        obj['ren-nii'][i] = class_name;
-        obj['rin-nii'][i] = class_name;
+        obj['ren_nii'][i] = class_name;
+        obj['rin_nii'][i] = class_name;
     };
     return obj;
 }
