@@ -1,4 +1,4 @@
-let 2012_plot = {
+let plot_2012 = {
 // child(TM) post-desu2
 child_1: `
 hibiki and alcor spend their time in the akasha together
@@ -67,7 +67,7 @@ var year_2012 = () => {
     {name: 'p1', pos1: 2, pos2: 0}
   ];
 
-  parse_plot(var_list, 2012_plot, arr);
+  parse_plot(var_list, plot_2012, arr);
 
   return arr;
 };

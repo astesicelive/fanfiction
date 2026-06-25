@@ -5,7 +5,7 @@ function generate_timeline(v) {
   version.appendChild(txt);
   document.body.appendChild(version);
 
-  let arcs = [animeverse(), desu2_split, gameverse(), year_2012(), year_2013, year_2014, birth_split];
+  let arcs = [animeverse(), desu2_split, gameverse(), year_2012(), year_2013(), year_2014, birth_split];
 
   arcs.forEach((a) => {
     if (a[0].type == 'choice') {

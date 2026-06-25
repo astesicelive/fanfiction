@@ -1,4 +1,4 @@
-let 2013_plot = {
+let plot_2013 = {
 // child(TM) post-desu2
 child_1: `
 hibiki and alcor spend their time in the akasha together
@@ -41,7 +41,7 @@ var year_2013 = () => {
   [
     {name: 'child', pos1: 1, pos2: 0}
   ].forEach((current) => {
-    let plot = 2013_plot[current.name];
+    let plot = plot_2013[current.name];
     console.log(plot);
 
     plot.replace(/\n/g, 'ßß').split('ßß').forEach((t) => {
