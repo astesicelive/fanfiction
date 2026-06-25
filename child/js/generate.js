@@ -72,7 +72,7 @@ function generate_arcs(arc) {
           list = document.createTextNode(i);
         };
 
-        if (day.id == 'beginning') {
+        if (arc[0].id == 'beginning') {
           current.setAttribute('class', ['container', class_name, section_class].join(' '));
           current.appendChild(list);
         } else {
