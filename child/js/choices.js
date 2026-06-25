@@ -7,6 +7,7 @@ function pickChoice() {
   let classes = this.classList;
   let main_class = classes[1];
   let id = $(this).closest('.choice_buttons').attr('id');
+  let noodles = noodle_obj();
 
   if (noodles[main_class]) {
     // deselect every button and choice

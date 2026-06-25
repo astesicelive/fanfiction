@@ -1,18 +1,38 @@
 // timeline connections or sth
-const noodles = {
-    'gameverse_child': {
-        'gameverse': 'gameverse_child',
-        'year_2012': 'aftermath_child',
-        'year_2012': 'p1',
-        'year_2013': 'aftermath_child',
-        'year_2014': 'child_innocent_sin',
-        'year_2014': 'child_eternal_punishment',
-        'year_2014': 'p3_past',
-        'year_2014': 'aftermath_child',
-    },
-    'gameverse_rb': {
-        'gameverse': 'gameverse_rb',
-        'year_2012': 'aftermath_rb',
-        'year_2014': 'p3_past',
-    },
-};
+let noodle_obj = () => {
+    let obj = {
+        // first choice (p5 time travel happening or not -> admin hibiki / record breaker world)
+        'gameverse_child': {
+            'gameverse': 'gameverse_child',
+            'year_2012': 'aftermath_child',
+            'year_2012': 'p1',
+            'year_2013': 'aftermath_child',
+            'year_2014': 'child_innocent_sin',
+            'year_2014': 'child_eternal_punishment',
+            'year_2014': 'p3_past',
+            'year_2014': 'aftermath_child',
+        },
+        'gameverse_rb': {
+            'gameverse': 'gameverse_rb',
+            'year_2012': 'aftermath_rb',
+            'year_2014': 'p3_past',
+        },
+        // second choice (hibiki decides which baby to make first)
+        'ren_nii': {
+            // + gameverse_child
+            'year_2017': 'fix_p2',
+            'year_2017': 'child_yamahibi_ren',
+        },
+        'rin_nii': {
+            // + gameverse_child
+            'year_2017': 'fix_p2',
+            'year_2017': 'child_yamahibi_rin',
+        },
+    };
+    for (let i in obj['gameverse_child']) {
+        let class_name = obj['gameverse_child'][i];
+        obj['ren-nii'][i] = class_name;
+        obj['rin-nii'][i] = class_name;
+    };
+    return obj;
+}
