@@ -103,12 +103,16 @@ function parse_plot(var_list, plot_var, arr) {
       plot = plot_var[`${current.name}_${pos1}`];
     };
 
-    plot.replace(/\n/g, 'ßß').split('ßß').forEach((t) => {
-      if (t != '') {
-        arr[pos1].content[pos2].content.push(t);
-        //console.log(t);
-      };
-    });
+    try {
+      plot.replace(/\n/g, 'ßß').split('ßß').forEach((t) => {
+        if (t != '') {
+          arr[pos1].content[pos2].content.push(t);
+          //console.log(t);
+        };
+      });
+    } catch {
+      console.error(current);
+    };
 
     num++;
   });
