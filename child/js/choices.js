@@ -17,7 +17,8 @@ function pickChoice() {
     });
 
     for (let i in noodles[main_class]) {
-      let cur_class = noodles[main_class][i]
+      let cur_class = noodles[main_class][i];
+      console.log(cur_class);
       // select buttons
       let button = document.querySelector(`.choice_buttons#${i}`);
       if (button) {
