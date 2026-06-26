@@ -33,7 +33,7 @@ var year_2016 = () => {
   ];
 
   let var_list = [
-    {name: 'p2', pos1: 1}
+    {name: 'p2', pos1: '1'}
   ];
 
   parse_plot(var_list, plot_2016, arr);

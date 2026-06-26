@@ -90,10 +90,10 @@ var year_2014 = () => {
   ];
 
   let var_list = [
-    {name: 'p2is', pos1: 1},
-    {name: 'p2ep', pos1: 2},
-    {name: 'p3', pos1: 3},
-    {name: 'child', pos1: 4}
+    {name: 'p2is', pos1: '1'},
+    {name: 'p2ep', pos1: '2'},
+    {name: 'p3', pos1: '3'},
+    {name: 'child', pos1: '4'}
   ];
 
   parse_plot(var_list, plot_2014, arr);
@@ -118,7 +118,7 @@ var year_2014_2 = () => {
   ];
 
   let var_list = [
-    {name: 'child', pos1: 0}
+    {name: 'child', pos1: '0'}
   ];
 
   parse_plot(var_list, plot_2014_2, arr);

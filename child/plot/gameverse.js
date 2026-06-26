@@ -596,9 +596,9 @@ var gameverse = () => {
   ];
 
   let raw_list = [
-    {name: 'child', pos2: 0},
-    {name: 'p5', pos2: 1},
-    {name: 'canon', pos2: 2}
+    {name: 'child', pos2: '0'},
+    {name: 'p5', pos2: '1'},
+    {name: 'canon', pos2: '2'}
   ];
   let var_list = [];
   raw_list.forEach((cur) => {
