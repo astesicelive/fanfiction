@@ -11,7 +11,7 @@ body {
   top: 0;
   left: 0;
   background-color: #3b474d;
-  z-index: 9999999;
+  z-index: 9999;
   border-bottom: 3px ridge #e5aefb;
   display: grid;
   grid-auto-flow: column;

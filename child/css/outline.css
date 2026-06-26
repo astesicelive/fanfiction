@@ -1,0 +1,23 @@
+.outline_container {
+  position: fixed;
+  top: 0;
+  z-index: 8999;
+  background-color: #166741fa;
+  width: 100vw;
+  height: 100%;
+  padding: 60px 0 20px;
+  overflow: scroll;
+  display: none;
+}
+
+.outline_container > div {
+  margin: 10px auto;
+  cursor: pointer;
+}
+.outline_container .main {
+  width: 40vw;
+}
+
+.outline_container .sub {
+  width: 33vw;
+}
