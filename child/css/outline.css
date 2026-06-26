@@ -14,10 +14,17 @@
   margin: 10px auto;
   cursor: pointer;
 }
+
 .outline_container .main {
   width: 40vw;
+}
+.outline_container .main:hover {
+  width: 35vw;
 }
 
 .outline_container .sub {
   width: 33vw;
+}
+.outline_container .sub:hover {
+  width: 28vw;
 }

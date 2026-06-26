@@ -10,6 +10,7 @@ all_sections.forEach((cur) => {
 });
 outline_sections.forEach((cur) => {
     let div_txt = document.createElement('div');
+    div_txt.setAttribute('id', cur.getAttribute('id'));
     if (cur.className == 'divider') {
         div_txt.setAttribute('class', 'main');
     } else {
@@ -17,6 +18,7 @@ outline_sections.forEach((cur) => {
     };
     let txt = document.createTextNode(cur.textContent);
     div_txt.appendChild(txt);
+    div_txt.addEventListener('click', scroll_to_outline)
     outline_container.appendChild(div_txt);
 });
 
@@ -32,4 +34,17 @@ function toggle_outline() {
     } else {
         container.css('display', 'none');
     };
+};
+
+function scroll_to_outline() {
+    $('.outline_container').css('display', 'none');
+    let id = $(this).attr('id');
+    let section_type;
+    if ($(this).className() == 'main') {
+        section_type = 'divider';
+    } else {
+        section_type = 'title';
+    };
+    let el = document.querySelector(`.${section_type}#${id}`);
+    el.scrollIntoView({ block: "start" , behavior: "smooth"});
 };

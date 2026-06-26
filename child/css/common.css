@@ -4,6 +4,16 @@ body {
   margin: 0;
 }
 
+.choice_buttons,
+.outline_button,
+.outline_container > div {
+  -webkit-transition:0.4s ease-in-out;
+  -moz-transition:0.4s ease-in-out;
+  -ms-transition:0.4s ease-in-out;
+  -o-transition:0.4s ease-in-out;
+  transition:0.4s ease-in-out;
+}
+
 .top_bar {
   width: 100vw;
   overflow: hidden;
@@ -22,6 +32,7 @@ body {
   width: fit-content;
   margin: 8px;
   padding: 4px;
+  font-size: 18px;
 }
 
 .outline_button {
@@ -111,6 +122,7 @@ body {
   cursor: pointer;
 }
 
+.choice_buttons .button:hover,
 .choice_buttons .button.selected {
   background-color: #f3a4c2;
   color: #2a3033;
@@ -122,7 +134,7 @@ body {
   padding: 10px;
   border: 2px dotted #eaffd1;
   border-radius: 12px;
-  max-height: 700px;
+  max-height: 690px;
   overflow: scroll;
   font-size: 14px;
 }
