@@ -125,7 +125,8 @@ function parse_plot(var_list, plot_var, arr) {
           //console.log(t);
         };
       });
-    } catch {
+    } catch(e) {
+      console.error(e);
       console.error(current);
     };
 

@@ -85,6 +85,9 @@ body {
   background-color: #fcfff7;
   font-weight: bold;
 }
+.choice_buttons + .title {
+  margin-top: 70px;
+}
 
 .container {
   padding: 16px;
