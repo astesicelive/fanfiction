@@ -16,14 +16,6 @@ top_bar.appendChild(version);
 top_bar.appendChild(outline_button);
 document.body.appendChild(top_bar);
 
-let arcs = [
-  animeverse(), 
-  desu2_split, 
-  gameverse(), year_2012(), year_2013(), year_2014(), 
-  birth_split, 
-  year_2014_2(), year_2016(), year_2017()
-];
-
 arcs.forEach((a) => {
   if (a[0].type == 'choice') {
     generate_splits(a);
