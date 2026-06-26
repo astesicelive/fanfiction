@@ -96,33 +96,3 @@ function generate_arcs(arc) {
   });
 
 }
-
-// process plot vars into the objects
-function parse_plot(var_list, plot_var, arr) {
-  let num = 1;
-  var_list.forEach((current) => {
-    let plot;
-    let pos1 = current.pos1 || num;
-    let pos2 = current.pos2 || 0;
-    if (!current.pos1 && !current.pos2) {
-      plot = plot_var[current.name];
-    } else {
-      plot = plot_var[`${current.name}_${pos1}`];
-    };
-
-    try {
-      plot.replace(/\n/g, 'ßß').split('ßß').forEach((t) => {
-        if (t != '') {
-          arr[pos1].content[pos2].content.push(t);
-          //console.log(t);
-        };
-      });
-    } catch(e) {
-      console.error(e);
-      console.error(current);
-      console.log(pos1);
-    };
-
-    num++;
-  });
-}
