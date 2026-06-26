@@ -19,15 +19,17 @@ function pickChoice() {
     for (let i in noodles[main_class]) {
       let cur_class = noodles[main_class][i];
       console.log(cur_class);
-      // select buttons
-      let button = document.querySelector(`.choice_buttons#${i} .${cur_class}`);
-      if (button) {
-        button.classList.add('selected');
-      };
-      // select plot
-      let plot = document.querySelectorAll(`.container#${i} .${cur_class}`);
-      plot.forEach((cur) => {
-        cur.classList.add('selected');
+      cur_class.forEach((c) => {
+        // select buttons
+        let button = document.querySelector(`.choice_buttons#${i} .${c}`);
+        if (button) {
+          button.classList.add('selected');
+        };
+        // select plot
+        let plot = document.querySelectorAll(`.container#${i} .${c}`);
+        plot.forEach((cur) => {
+          cur.classList.add('selected');
+        });
       });
     };
   } else {
