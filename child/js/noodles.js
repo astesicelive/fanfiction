@@ -16,11 +16,15 @@ let noodle_obj = () => {
         // second choice (hibiki decides which baby to make first)
         'ren_nii': {
             // + gameverse_child
-            'twin_birth': ['fix_p2', 'ren_nii'],
+            'twin_birth': ['child_birthday'],
+            'year_2016': ['fix_p2'],
+            'year_2017': ['ren_nii'],
         },
         'rin_nii': {
             // + gameverse_child
-            'twin_birth': ['fix_p2', 'rin_nii'],
+            'twin_birth': ['child_birthday'],
+            'year_2016': ['fix_p2'],
+            'year_2017': ['rin_nii'],
         },
     };
     for (let i in obj['gameverse_child']) {

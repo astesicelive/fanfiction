@@ -23,6 +23,14 @@ hibiki starts making preparations to include alcor in his Project(TM)
 `,
 }
 
+let plot_2014_2 = {
+// birth. thought the buttons didn't make it clear that was the time they're born so extra box
+child_0: `
+ren and rin are born
+`,
+}
+
+
 
 var year_2014 = () => {
   let arr = [
@@ -89,6 +97,31 @@ var year_2014 = () => {
   ];
 
   parse_plot(var_list, plot_2014, arr);
+
+  return arr;
+};
+
+var year_2014_2 = () => {
+  let arr = [
+    {
+      'type': 'title',
+      'class_name': 'twin_birthday',
+      'id': 'twin_birth',
+      'title': 'P5',
+      'content': [
+        {
+          'class_name': 'child_birthday',
+          'content': [],
+        }
+      ],
+    }
+  ];
+
+  let var_list = [
+    {name: 'child', pos1: 0}
+  ];
+
+  parse_plot(var_list, plot_2014_2, arr);
 
   return arr;
 };

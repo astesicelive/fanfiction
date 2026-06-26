@@ -36,7 +36,7 @@ function toggle_outline() {
         document.body.style.overflow = 'hidden';
     } else {
         container.css('display', 'none');
-        document.body.style.overflow = '';
+        document.body.style.overflow = 'scroll';
     };
 };
 

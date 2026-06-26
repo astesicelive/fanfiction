@@ -19,9 +19,9 @@ document.body.appendChild(top_bar);
 let arcs = [
   animeverse(), 
   desu2_split, 
-  gameverse(), year_2012(), year_2013(), year_2014(), year_2016(), 
+  gameverse(), year_2012(), year_2013(), year_2014(), 
   birth_split, 
-  year_2017()
+  year_2014_2(), year_2016(), year_2017()
 ];
 
 arcs.forEach((a) => {
