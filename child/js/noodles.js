@@ -28,7 +28,7 @@ let noodle_obj = () => {
         },
         'only_akira': {
             // + gameverse_rb
-            'twin_birth': ['only_child'],
+            'twin_birth': ['only_akira'],
         },
     };
     for (let i in obj['gameverse_child']) {
