@@ -170,6 +170,7 @@ let animeverse = () => {
     {
       'type': 'title',
       'class_name': 'desu2a sunday',
+      'id': 'desu2a_sunday',
       'title': 'Sunday',
       'content': [
         {
@@ -181,6 +182,7 @@ let animeverse = () => {
     {
       'type': 'title',
       'class_name': 'desu2a monday',
+      'id': 'desu2a_monday',
       'title': 'Monday',
       'content': [
         {
@@ -192,6 +194,7 @@ let animeverse = () => {
     {
       'type': 'title',
       'class_name': 'desu2a tuesday',
+      'id': 'desu2a_tuesday',
       'title': 'Tuesday',
       'content': [
         {
@@ -203,6 +206,7 @@ let animeverse = () => {
     {
       'type': 'title',
       'class_name': 'desu2a wednesday',
+      'id': 'desu2a_wednesday',
       'title': 'Wednesday',
       'content': [
         {
@@ -214,6 +218,7 @@ let animeverse = () => {
     {
       'type': 'title',
       'class_name': 'desu2a thursday',
+      'id': 'desu2a_thursday',
       'title': 'Thursday',
       'content': [
         {
@@ -225,6 +230,7 @@ let animeverse = () => {
     {
       'type': 'title',
       'class_name': 'desu2a friday',
+      'id': 'desu2a_friday',
       'title': 'Friday',
       'content': [
         {
@@ -236,6 +242,7 @@ let animeverse = () => {
     {
       'type': 'title',
       'class_name': 'desu2a saturday',
+      'id': 'desu2a_saturday',
       'title': 'Saturday',
       'content': [
         {

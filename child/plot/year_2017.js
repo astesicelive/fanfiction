@@ -36,6 +36,7 @@ var year_2017 = () => {
     {
       'type': 'title',
       'class_name': 'fixing_p2',
+      'id': 'p2_2017',
       'title': 'P2',
       'content': [
         {
@@ -47,6 +48,7 @@ var year_2017 = () => {
     {
       'type': 'title',
       'class_name': 'yamahibi_wedding',
+      'id': 'yamahibi_wedding',
       'title': 'DeSu2 Wedding',
       'content': [
         {

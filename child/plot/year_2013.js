@@ -18,6 +18,7 @@ var year_2013 = () => {
     {
       'type': 'title',
       'class_name': 'post_desu2 aftermath',
+      'id': 'post_desu2_2013',
       'title': 'Desu2 Aftermath',
       'content': [
         {

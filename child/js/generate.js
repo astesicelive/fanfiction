@@ -1,4 +1,4 @@
-let current_version = "1.0.8.00";
+let current_version = "1.0.8.01";
 
 let txt = document.createTextNode(current_version);
 let version = document.createElement('div');

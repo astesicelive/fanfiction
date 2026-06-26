@@ -34,6 +34,7 @@ var year_2012 = () => {
     {
       'type': 'title',
       'class_name': 'post_desu2 aftermath',
+      'id': 'post_desu2_2012',
       'title': 'Desu2 Aftermath',
       'content': [
         {
@@ -49,6 +50,7 @@ var year_2012 = () => {
     {
       'type': 'title',
       'class_name': 'post_desu2 p1',
+      'id': 'p1_2012',
       'title': 'P1',
       'content': [
         {
