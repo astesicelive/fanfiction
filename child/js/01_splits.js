@@ -14,4 +14,9 @@ const birth_split = [
     'class_name': 'rin_nii',
     'title': "Hibiki creates Rin first",
   },
+  {
+    'type': 'choice',
+    'class_name': 'only_akira',
+    'title': "Team broke the record",
+  },
 ];

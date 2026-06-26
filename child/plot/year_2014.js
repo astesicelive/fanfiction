@@ -28,6 +28,10 @@ let plot_2014_2 = {
 child_0: `
 ren and rin are born
 `,
+// birth but it's rb(TM)
+rb_0: `
+akira is born to a hotsuin (couple?). he was given up for adoption
+`,
 }
 
 
@@ -111,6 +115,10 @@ var year_2014_2 = () => {
       'content': [
         {
           'class_name': 'child_birthday',
+          'content': [],
+        },
+        {
+          'class_name': 'only_child',
           'content': [],
         }
       ],
