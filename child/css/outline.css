@@ -13,6 +13,7 @@
 .outline_container > div {
   margin: 10px auto;
   cursor: pointer;
+  font-size: 24px;
 }
 
 .outline_container .main {
