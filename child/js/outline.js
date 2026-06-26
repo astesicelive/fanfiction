@@ -33,8 +33,10 @@ function toggle_outline() {
     let container = $('.outline_container');
     if (container.css('display') == 'none') {
         container.css('display', 'block');
+        document.body.style.overflow = 'hidden';
     } else {
         container.css('display', 'none');
+        document.body.style.overflow = '';
     };
 };
 
