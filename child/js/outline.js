@@ -21,3 +21,15 @@ outline_sections.forEach((cur) => {
 });
 
 document.body.appendChild(outline_container);
+
+let outline_btn = document.querySelector('.outline_button');
+outline_btn.addEventListener("click", toggle_outline);
+
+function toggle_outline() {
+    let container = $('.outline_container');
+    if (container.css('display') == 'none') {
+        container.css('display', 'block');
+    } else {
+        container.css('display', 'none');
+    };
+};
