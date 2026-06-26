@@ -18,7 +18,7 @@ outline_sections.forEach((cur) => {
     };
     let txt = document.createTextNode(cur.textContent);
     div_txt.appendChild(txt);
-    div_txt.style.scroll-margin-top = '60px';
+    div_txt.style.scroll_margin_top = '60px';
     div_txt.addEventListener('click', scroll_to_outline);
     outline_container.appendChild(div_txt);
 });
