@@ -9,10 +9,10 @@ all_sections.forEach((cur) => {
     };
 });
 outline_sections.forEach((cur) => {
+    cur.style.cssText = 'scroll-margin-top: 70px;';
+    
     let div_txt = document.createElement('div');
     div_txt.setAttribute('id', cur.getAttribute('id'));
-    div_txt.setAttribute('style', 'scroll-margin-top: 70px;')
-    //div_txt.style.cssText = 'scroll-margin-top: 70px;';
     if (cur.className == 'divider') {
         div_txt.setAttribute('class', 'main');
     } else {
