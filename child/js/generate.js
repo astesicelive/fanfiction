@@ -54,11 +54,12 @@ function generate_splits(obj) {
 
 function generate_arcs(arc) {
 
-  console.log(arc);
+  //console.log(arc);
   arc.forEach((day) => {
     if (day.type == 'divider' || day.title) {
       let header =  document.createElement('div');
       header.setAttribute('class', day.type);
+      header.setAttribute('id', `${day.id || ''}`);
       let header_txt = document.createTextNode(day.title);
       header.appendChild(header_txt);
       document.body.appendChild(header);
@@ -79,7 +80,7 @@ function generate_arcs(arc) {
         if (section.content) {
           list = document.createElement('ul');
           section.content.forEach((s) => {
-            console.log(s);
+            //console.log(s);
             let li = document.createElement('li');
             let li_txt = document.createTextNode(s);
             li.appendChild(li_txt);
