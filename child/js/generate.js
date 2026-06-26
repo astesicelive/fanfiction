@@ -1,4 +1,4 @@
-let current_version = "1.0.8.01";
+let current_version = "1.0.8.02";
 
 let txt = document.createTextNode(current_version);
 let version = document.createElement('div');
@@ -19,7 +19,7 @@ document.body.appendChild(top_bar);
 let arcs = [
   animeverse(), 
   desu2_split, 
-  gameverse(), year_2012(), year_2013(), year_2014(), 
+  gameverse(), year_2012(), year_2013(), year_2014(), year_2016(), 
   birth_split, 
   year_2017()
 ];

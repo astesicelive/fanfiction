@@ -9,7 +9,7 @@ all_sections.forEach((cur) => {
     };
 });
 outline_sections.forEach((cur) => {
-    cur.style.cssText = 'scroll-margin-top: 70px;';
+    cur.style.cssText = 'scroll-margin-top: 80px;';
     
     let div_txt = document.createElement('div');
     div_txt.setAttribute('id', cur.getAttribute('id'));
