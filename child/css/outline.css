@@ -17,15 +17,15 @@
 }
 
 .outline_container .main {
-  width: 40vw;
+  width: 50vw;
 }
 .outline_container .main:hover {
-  width: 35vw;
+  width: 45vw;
 }
 
 .outline_container .sub {
-  width: 33vw;
+  width: 43vw;
 }
 .outline_container .sub:hover {
-  width: 28vw;
+  width: 38vw;
 }
