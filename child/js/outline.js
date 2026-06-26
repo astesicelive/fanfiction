@@ -40,7 +40,7 @@ function scroll_to_outline() {
     $('.outline_container').css('display', 'none');
     let id = $(this).attr('id');
     let section_type;
-    if ($(this).className() == 'main') {
+    if (this.classList.contains('main')) {
         section_type = 'divider';
     } else {
         section_type = 'title';
