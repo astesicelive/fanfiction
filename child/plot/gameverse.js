@@ -295,6 +295,7 @@ var gameverse = () => {
     {
       'type': 'title',
       'class_name': 'septentriones sunday',
+      'id': 'septentriones',
       'title': 'Sunday (Sep)',
       'content': [
         {
@@ -429,6 +430,7 @@ var gameverse = () => {
       'type': 'title',
       'class_name': 'triangulum tuesday',
       'title': 'Doomed Tuesday (Tri)',
+      'id': 'doomed_triangulum',
       'content': [
         {
           'class_name': 'desu2 gameverse_child',
@@ -486,6 +488,7 @@ var gameverse = () => {
       'type': 'title',
       'class_name': 'triangulum tuesday',
       'title': 'Tuesday (Tri)',
+      'id': 'triangulum',
       'content': [
         {
           'class_name': 'desu2 gameverse_child',

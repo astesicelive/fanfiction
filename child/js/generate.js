@@ -1,38 +1,36 @@
-function generate_timeline(v) {
+let current_version = "1.0.8.00";
 
-  let txt = document.createTextNode(v);
-  let version = document.createElement('div');
-  version.setAttribute('class', 'info');
-  version.appendChild(txt);
+let txt = document.createTextNode(current_version);
+let version = document.createElement('div');
+version.setAttribute('class', 'info');
+version.appendChild(txt);
 
-  txt = document.createTextNode('Outline');
-  let outline_button = document.createElement('div');
-  outline_button.setAttribute('class', 'info outline_button');
-  outline_button.appendChild(txt);
+txt = document.createTextNode('Outline');
+let outline_button = document.createElement('div');
+outline_button.setAttribute('class', 'info outline_button');
+outline_button.appendChild(txt);
 
-  let top_bar = document.createElement('div');
-  top_bar.setAttribute('class', 'top_bar');
-  top_bar.appendChild(version);
-  top_bar.appendChild(outline_button);
-  document.body.appendChild(top_bar);
+let top_bar = document.createElement('div');
+top_bar.setAttribute('class', 'top_bar');
+top_bar.appendChild(version);
+top_bar.appendChild(outline_button);
+document.body.appendChild(top_bar);
 
-  let arcs = [
-    animeverse(), 
-    desu2_split, 
-    gameverse(), year_2012(), year_2013(), year_2014(), 
-    birth_split, 
-    year_2017()
-  ];
+let arcs = [
+  animeverse(), 
+  desu2_split, 
+  gameverse(), year_2012(), year_2013(), year_2014(), 
+  birth_split, 
+  year_2017()
+];
 
-  arcs.forEach((a) => {
-    if (a[0].type == 'choice') {
-      generate_splits(a);
-    } else {
-      generate_arcs(a);
-    };
-  });
-  
-};
+arcs.forEach((a) => {
+  if (a[0].type == 'choice') {
+    generate_splits(a);
+  } else {
+    generate_arcs(a);
+  };
+});
 
 function generate_splits(obj) {
   let div = document.createElement('div');
@@ -106,8 +104,6 @@ function generate_arcs(arc) {
   });
 
 }
-
-generate_timeline('1.0.7.13');
 
 // process plot vars into the objects
 function parse_plot(var_list, plot_var, arr) {
