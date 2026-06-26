@@ -42,6 +42,7 @@ function toggle_outline() {
 
 function scroll_to_outline() {
     $('.outline_container').css('display', 'none');
+    ocument.body.style.overflow = 'scroll';
     let id = $(this).attr('id');
     let section_type;
     if (this.classList.contains('main')) {

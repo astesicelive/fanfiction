@@ -111,11 +111,10 @@ function parse_plot(var_list, plot_var, arr) {
   var_list.forEach((current) => {
     let plot;
     let pos1 = current.pos1;
-    if (!current.pos1) {
+    if (!current.pos1 && current.pos1 != 0) {
       pos1 = num;
     };
     let pos2 = current.pos2 || 0;
-    console.log(plot_var);
     if (!current.pos1 && !current.pos2) {
       plot = plot_var[current.name];
     } else {
