@@ -131,6 +131,7 @@ function parse_plot(var_list, plot_var, arr) {
     } catch(e) {
       console.error(e);
       console.error(current);
+      console.log(pos1);
     };
 
     num++;
