@@ -71,6 +71,7 @@ body {
   font-weight: bold;
   text-align: center;
   font-size: 18px;
+  scroll-margin-top: 80px;
 }
 
 .title {
@@ -84,6 +85,7 @@ body {
   color: #2a3033;
   background-color: #fcfff7;
   font-weight: bold;
+  scroll-margin-top: 80px;
 }
 .choice_buttons + .title {
   margin-top: 70px;
