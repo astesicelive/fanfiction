@@ -16,7 +16,19 @@ arcs.forEach((arc) => {
 });
 
 for (let x = 1; x < total_headers + 1; x++) {
-    let cur_id = makeid();
+    let cur_id;
+    let reroll = false;
+    do {
+        cur_id = makeid();
+        if (x > 1) {
+            for (num in id_list) {
+                if (id_list[num] == cur_id) {
+                    reroll = true;
+                };
+            };
+        };
+    }
+    while (reroll);
     id_list[x] = cur_id;
 };
 let z = 1;
