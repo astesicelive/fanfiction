@@ -45,7 +45,64 @@ function generate_splits(obj) {
 function generate_arcs(arc) {
 
   //console.log(arc);
-  arc.forEach((day) => {
+  for (let obj = 0; obj < arc.length; obj++) {
+    let day = arc[obj];
+
+    if (day.type == 'divider' || day.title) {
+      let header =  document.createElement('div');
+      header.setAttribute('class', day.type);
+      header.setAttribute('id', `${day.id || ''}`);
+      let header_txt = document.createTextNode(day.title);
+      header.appendChild(header_txt);
+      document.body.appendChild(header);
+    };
+
+    if (obj > 0) {
+      let current = document.createElement('div');
+      current.setAttribute('class', `container ${arc[0].id || ''}`);
+      current.setAttribute('id', `${arc[0].id || ''}`);
+      let class_name = `${day.class_name || ''}`;
+
+      for (let i = 0; i < day.content.length; i++) {
+        let section = day.content[i];
+        let ul;
+
+        let section_class = `${section.class_name || ''}`;
+
+        if (section.content) {
+          let link = `https://astesicelive.github.io/fanfiction/child/plot/${arc[0].id}/${obj}.${i}.txt`;
+          ul = document.createElement('ul');
+          fetch(link)
+            .then(raw => raw.text())
+            .then(parsed => {
+              let raw_text = parsed.split('\r\n');
+              raw_text.forEach((t) => {
+                let li = document.createElement('li');
+                let txt = document.createTextNode(t);
+                li.appendChild(txt);
+                ul.appendChild(li);
+              })
+            })
+          ;
+        } else {
+          ul = document.createTextNode(i);
+        };
+
+        if (arc[0].id == 'animeverse') {
+          current.setAttribute('class', ['container', class_name, section_class].join(' '));
+          current.appendChild(ul);
+        } else {
+          var choice = document.createElement('div');
+          choice.setAttribute('class', ['choice', class_name, section_class].join(' '));
+          choice.appendChild(ul);
+          current.appendChild(choice);
+        };
+      };
+
+      document.body.appendChild(current);
+    };
+  };
+  /*arc.forEach((day) => {
     if (day.type == 'divider' || day.title) {
       let header =  document.createElement('div');
       header.setAttribute('class', day.type);
@@ -93,25 +150,6 @@ function generate_arcs(arc) {
 
       document.body.appendChild(current);
     };
-  });
+  });*/
 
 }
-
-function pull_txt_file(name) {
-  let link = `https://astesicelive.github.io/fanfiction/child/plot/${name}.txt`;
-  let arr = [];
-
-  fetch(link)
-    .then(raw => raw.text())
-    .then(text => {
-      text.replace(/\r\n/g, 'ßß').split('ßß').forEach((t) => {
-        arr.push(t);
-      });
-    })
-  ;
-
-  return arr;
-}
-
-let p3_text = pull_txt_file('year_2024');
-document.querySelector('.p3_journey').innerHTML = `<ul><li>${p3_text.join('</li><li>')}</li></ul>`;
