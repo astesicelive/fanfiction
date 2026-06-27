@@ -154,22 +154,3 @@ function generate_arcs(arc) {
   });*/
 
 }
-
-function pull_txt_file(name) {
-  let link = `https://astesicelive.github.io/fanfiction/child/plot/${name}.txt`;
-  let arr = [];
-
-  fetch(link)
-    .then(raw => raw.text())
-    .then(text => {
-      text.replace(/\r\n/g, 'ßß').split('ßß').forEach((t) => {
-        arr.push(t);
-      });
-    })
-  ;
-
-  return arr;
-}
-
-let p3_text = pull_txt_file('year_2024');
-document.querySelector('.p3_journey').innerHTML = `<ul><li>${p3_text.join('</li><li>')}</li></ul>`;
