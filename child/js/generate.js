@@ -58,7 +58,6 @@ function generate_arcs(arc) {
     };
 
     if (obj > 0) {
-      
       let current = document.createElement('div');
       current.setAttribute('class', `container ${arc[0].id || ''}`);
       current.setAttribute('id', `${arc[0].id || ''}`);
