@@ -57,7 +57,7 @@ function generate_arcs(arc) {
       document.body.appendChild(header);
     };
 
-    if (obj > 0) {
+    if (day.type != 'divider') {
       let current = document.createElement('div');
       current.setAttribute('class', `container ${arc[0].id || ''}`);
       current.setAttribute('id', `${arc[0].id || ''}`);

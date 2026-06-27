@@ -2,7 +2,7 @@
 const birth_split = [
   {
     'type': 'choice',
-    'id': 'twin_birth',
+    'id': 'year_2014_2',
   },
   {
     'type': 'choice',
