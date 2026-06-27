@@ -24,7 +24,7 @@ for (let x = 1; x < total_headers + 1; x++) {
 let z = 1;
 arcs.forEach((arc) => {
     arc.forEach((cur) => {
-        if (cur.type != 'choice' && cur.type != 'divider') {
+        if (!cur.id) {
             cur.id = id_list[z];
             z++;
         };
