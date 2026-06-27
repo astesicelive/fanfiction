@@ -11,9 +11,7 @@ let arcs = [
 let total_headers = 0;
 arcs.forEach((arc) => {
     arc.forEach((cur) => {
-        if (cur.type != 'choice' && cur.type != 'divider') {
-            total_headers++;
-        };
+        total_headers++;
     });
 });
 
