@@ -17,37 +17,37 @@ new timeline page: https://astesicelive.github.io/fanfiction/child/timeline
 <h3>septentriones</h3>
 <ul>
   <li>sunday (vs dubhe)<ul>
-    <li><a href="https://github.com/astesicelive/fanfiction/blob/main/child/plot/gameverse/1.0.txt">child desu2</a></li>
+    <li><a href="https://github.com/astesicelive/fanfiction/blob/main/child/plot/gameverse/1.0.txt">child(TM) desu2</a></li>
     <li><a href="https://github.com/astesicelive/fanfiction/blob/main/child/plot/gameverse/1.1.txt">p5 (desu2 time travel)</a></li>
     <li><a href="https://github.com/astesicelive/fanfiction/blob/main/child/plot/gameverse/1.2.txt">canon desu2 (record breaker)</a></li>
   </ul></li>
   <li>monday (vs merak)<ul>
-    <li><a href="https://github.com/astesicelive/fanfiction/blob/main/child/plot/gameverse/2.0.txt">child desu2</a></li>
+    <li><a href="https://github.com/astesicelive/fanfiction/blob/main/child/plot/gameverse/2.0.txt">child(TM) desu2</a></li>
     <li><a href="https://github.com/astesicelive/fanfiction/blob/main/child/plot/gameverse/2.1.txt">p5 (desu2 time travel)</a></li>
     <li><a href="https://github.com/astesicelive/fanfiction/blob/main/child/plot/gameverse/2.2.txt">canon desu2 (record breaker)</a></li>
   </ul></li>
   <li>tuesday (vs phecda)<ul>
-    <li><a href="https://github.com/astesicelive/fanfiction/blob/main/child/plot/gameverse/3.0.txt">child desu2</a></li>
+    <li><a href="https://github.com/astesicelive/fanfiction/blob/main/child/plot/gameverse/3.0.txt">child(TM) desu2</a></li>
     <li><a href="https://github.com/astesicelive/fanfiction/blob/main/child/plot/gameverse/3.1.txt">p5 (desu2 time travel)</a></li>
     <li><a href="https://github.com/astesicelive/fanfiction/blob/main/child/plot/gameverse/3.2.txt">canon desu2 (record breaker)</a></li>
   </ul></li>
   <li>wednesday (vs megrez)<ul>
-    <li><a href="https://github.com/astesicelive/fanfiction/blob/main/child/plot/gameverse/4.0.txt">child desu2</a></li>
+    <li><a href="https://github.com/astesicelive/fanfiction/blob/main/child/plot/gameverse/4.0.txt">child(TM) desu2</a></li>
     <li><a href="https://github.com/astesicelive/fanfiction/blob/main/child/plot/gameverse/4.1.txt">p5 (desu2 time travel)</a></li>
     <li><a href="https://github.com/astesicelive/fanfiction/blob/main/child/plot/gameverse/4.2.txt">canon desu2 (record breaker)</a></li>
   </ul></li>
   <li>thursday (vs alioth)<ul>
-    <li><a href="https://github.com/astesicelive/fanfiction/blob/main/child/plot/gameverse/5.0.txt">child desu2</a></li>
+    <li><a href="https://github.com/astesicelive/fanfiction/blob/main/child/plot/gameverse/5.0.txt">child(TM) desu2</a></li>
     <li><a href="https://github.com/astesicelive/fanfiction/blob/main/child/plot/gameverse/5.1.txt">p5 (desu2 time travel)</a></li>
     <li><a href="https://github.com/astesicelive/fanfiction/blob/main/child/plot/gameverse/5.2.txt">canon desu2 (record breaker)</a></li>
   </ul></li>
   <li>friday (vs mizar)<ul>
-    <li><a href="https://github.com/astesicelive/fanfiction/blob/main/child/plot/gameverse/6.0.txt">child desu2</a></li>
+    <li><a href="https://github.com/astesicelive/fanfiction/blob/main/child/plot/gameverse/6.0.txt">child(TM) desu2</a></li>
     <li><a href="https://github.com/astesicelive/fanfiction/blob/main/child/plot/gameverse/6.1.txt">p5 (desu2 time travel)</a></li>
     <li><a href="https://github.com/astesicelive/fanfiction/blob/main/child/plot/gameverse/6.2.txt">canon desu2 (record breaker)</a></li>
   </ul></li>
   <li>saturday (vs benetnasch)<ul>
-    <li><a href="https://github.com/astesicelive/fanfiction/blob/main/child/plot/gameverse/7.0.txt">child desu2</a></li>
+    <li><a href="https://github.com/astesicelive/fanfiction/blob/main/child/plot/gameverse/7.0.txt">child(TM) desu2</a></li>
     <li><a href="https://github.com/astesicelive/fanfiction/blob/main/child/plot/gameverse/7.1.txt">p5 (desu2 time travel)</a></li>
     <li><a href="https://github.com/astesicelive/fanfiction/blob/main/child/plot/gameverse/7.2.txt">canon desu2 (record breaker)</a></li>
   </ul></li>
@@ -55,17 +55,17 @@ new timeline page: https://astesicelive.github.io/fanfiction/child/timeline
 <h3>triangulum (doomed timeline)</h3>
 <ul>
   <li>tuesday (vs denebola)<ul>
-    <li><a href="https://github.com/astesicelive/fanfiction/blob/main/child/plot/gameverse/8.0.txt">child desu2</a></li>
+    <li><a href="https://github.com/astesicelive/fanfiction/blob/main/child/plot/gameverse/8.0.txt">child(TM) desu2</a></li>
     <li><a href="https://github.com/astesicelive/fanfiction/blob/main/child/plot/gameverse/8.1.txt">p5 (desu2 time travel)</a></li>
     <li><a href="https://github.com/astesicelive/fanfiction/blob/main/child/plot/gameverse/8.2.txt">canon desu2 (record breaker)</a></li>
   </ul></li>
   <li>wednesday (vs spica)<ul>
-    <li><a href="https://github.com/astesicelive/fanfiction/blob/main/child/plot/gameverse/9.0.txt">child desu2</a></li>
+    <li><a href="https://github.com/astesicelive/fanfiction/blob/main/child/plot/gameverse/9.0.txt">child(TM) desu2</a></li>
     <li><a href="https://github.com/astesicelive/fanfiction/blob/main/child/plot/gameverse/9.1.txt">p5 (desu2 time travel)</a></li>
     <li><a href="https://github.com/astesicelive/fanfiction/blob/main/child/plot/gameverse/9.2.txt">canon desu2 (record breaker)</a></li>
   </ul></li>
   <li>thursday (vs arcturus)<ul>
-    <li><a href="https://github.com/astesicelive/fanfiction/blob/main/child/plot/gameverse/10.0.txt">child desu2</a></li>
+    <li><a href="https://github.com/astesicelive/fanfiction/blob/main/child/plot/gameverse/10.0.txt">child(TM) desu2</a></li>
     <li><a href="https://github.com/astesicelive/fanfiction/blob/main/child/plot/gameverse/10.1.txt">p5 (desu2 time travel)</a></li>
     <li><a href="https://github.com/astesicelive/fanfiction/blob/main/child/plot/gameverse/10.2.txt">canon desu2 (record breaker)</a></li>
   </ul></li>
@@ -73,28 +73,47 @@ new timeline page: https://astesicelive.github.io/fanfiction/child/timeline
 <h3>triangulum</h3>
 <ul>
   <li>tuesday (vs denebola)<ul>
-    <li><a href="https://github.com/astesicelive/fanfiction/blob/main/child/plot/gameverse/11.0.txt">child desu2</a></li>
+    <li><a href="https://github.com/astesicelive/fanfiction/blob/main/child/plot/gameverse/11.0.txt">child(TM) desu2</a></li>
     <li><a href="https://github.com/astesicelive/fanfiction/blob/main/child/plot/gameverse/11.1.txt">p5 (desu2 time travel)</a></li>
     <li><a href="https://github.com/astesicelive/fanfiction/blob/main/child/plot/gameverse/11.2.txt">canon desu2 (record breaker)</a></li>
   </ul></li>
   <li>wednesday (vs spica)<ul>
-    <li><a href="https://github.com/astesicelive/fanfiction/blob/main/child/plot/gameverse/12.0.txt">child desu2</a></li>
+    <li><a href="https://github.com/astesicelive/fanfiction/blob/main/child/plot/gameverse/12.0.txt">child(TM) desu2</a></li>
     <li><a href="https://github.com/astesicelive/fanfiction/blob/main/child/plot/gameverse/12.1.txt">p5 (desu2 time travel)</a></li>
     <li><a href="https://github.com/astesicelive/fanfiction/blob/main/child/plot/gameverse/12.2.txt">canon desu2 (record breaker)</a></li>
   </ul></li>
   <li>thursday (vs arcturus)<ul>
-    <li><a href="https://github.com/astesicelive/fanfiction/blob/main/child/plot/gameverse/13.0.txt">child desu2</a></li>
+    <li><a href="https://github.com/astesicelive/fanfiction/blob/main/child/plot/gameverse/13.0.txt">child(TM) desu2</a></li>
     <li><a href="https://github.com/astesicelive/fanfiction/blob/main/child/plot/gameverse/13.1.txt">p5 (desu2 time travel)</a></li>
     <li><a href="https://github.com/astesicelive/fanfiction/blob/main/child/plot/gameverse/13.2.txt">canon desu2 (record breaker)</a></li>
   </ul></li>
   <li>friday (vs cor caroli)<ul>
-    <li><a href="https://github.com/astesicelive/fanfiction/blob/main/child/plot/gameverse/14.0.txt">child desu2</a></li>
+    <li><a href="https://github.com/astesicelive/fanfiction/blob/main/child/plot/gameverse/14.0.txt">child(TM) desu2</a></li>
     <li><a href="https://github.com/astesicelive/fanfiction/blob/main/child/plot/gameverse/14.1.txt">p5 (desu2 time travel)</a></li>
     <li><a href="https://github.com/astesicelive/fanfiction/blob/main/child/plot/gameverse/14.2.txt">canon desu2 (record breaker)</a></li>
   </ul></li>
   <li>saturday (vs canopus)<ul>
-    <li><a href="https://github.com/astesicelive/fanfiction/blob/main/child/plot/gameverse/15.0.txt">child desu2</a></li>
+    <li><a href="https://github.com/astesicelive/fanfiction/blob/main/child/plot/gameverse/15.0.txt">child(TM) desu2</a></li>
     <li><a href="https://github.com/astesicelive/fanfiction/blob/main/child/plot/gameverse/15.1.txt">p5 (desu2 time travel)</a></li>
     <li><a href="https://github.com/astesicelive/fanfiction/blob/main/child/plot/gameverse/15.2.txt">canon desu2 (record breaker)</a></li>
   </ul></li>
+</ul>
+<h2>2012</h2>
+<ul>
+  <li><a href="https://github.com/astesicelive/fanfiction/blob/main/child/plot/year_2012/1.0.txt">child(TM) desu2 aftermath (alhibi alone in the akasha, everyone else with no memory of the apocalypse)</a></li>
+  <li><a href="https://github.com/astesicelive/fanfiction/blob/main/child/plot/year_2012/1.1.txt">rb(TM) desu2 aftermath (almiya as humans without memories of them being aliens)</a></li>
+  <li><a href="https://github.com/astesicelive/fanfiction/blob/main/child/plot/year_2012/1.1.txt">p1</a></li>
+</ul>
+<h2>2013</h2>
+<ul>
+  <li><a href="https://github.com/astesicelive/fanfiction/blob/main/child/plot/year_2013/1.0.txt">child(TM) alyamahibi world tour</a></li>
+</ul>
+<h2>2014</h2>
+<ul>
+  <li><a href="https://github.com/astesicelive/fanfiction/blob/main/child/plot/year_2014/1.0.txt">p2 innocent sin</a></li>
+  <li><a href="https://github.com/astesicelive/fanfiction/blob/main/child/plot/year_2014/2.0.txt">p2 eternal punishment</a></li>
+  <li><a href="https://github.com/astesicelive/fanfiction/blob/main/child/plot/year_2014/3.0.txt">p3 dark hour beginning</a></li>
+  <li><a href="https://github.com/astesicelive/fanfiction/blob/main/child/plot/year_2014/4.0.txt">desu2 (alcor wants to become human)</a></li>
+  <li><a href="https://github.com/astesicelive/fanfiction/blob/main/child/plot/year_2014_2/0.0.txt">child(TM) p5 (renrin are born)</a></li>
+  <li><a href="https://github.com/astesicelive/fanfiction/blob/main/child/plot/year_2014_2/0.1.txt">rb(TM) p5 (akira is born)</a></li>
 </ul>
