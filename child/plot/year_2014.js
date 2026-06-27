@@ -46,7 +46,6 @@ var year_2014 = () => {
     {
       'type': 'title',
       'class_name': 'p2_is',
-      'id': 'p2is_2014',
       'title': 'P2 Innocent Sin',
       'content': [
         {
@@ -58,7 +57,6 @@ var year_2014 = () => {
     {
       'type': 'title',
       'class_name': 'p2_ep',
-      'id': 'p2ep_2014',
       'title': 'P2 Eternal Punishment',
       'content': [
         {
@@ -70,7 +68,6 @@ var year_2014 = () => {
     {
       'type': 'title',
       'class_name': 'p3',
-      'id': 'p3_2014',
       'title': 'P3 Beginning',
       'content': [
         {
@@ -82,7 +79,6 @@ var year_2014 = () => {
     {
       'type': 'title',
       'class_name': 'post_desu2 aftermath',
-      'id': 'post_desu2_2014',
       'title': 'Desu2 Aftermath',
       'content': [
         {
