@@ -295,7 +295,6 @@ var gameverse = () => {
     {
       'type': 'title',
       'class_name': 'septentriones sunday',
-      'id': 'septentriones_sunday',
       'title': 'Sunday (Sep)',
       'content': [
         {
@@ -315,7 +314,6 @@ var gameverse = () => {
     {
       'type': 'title',
       'class_name': 'septentriones monday',
-      'id': 'septentriones_monday',
       'title': 'Monday (Sep)',
       'content': [
         {
@@ -335,7 +333,6 @@ var gameverse = () => {
     {
       'type': 'title',
       'class_name': 'septentriones tuesday',
-      'id': 'septentriones_tuesday',
       'title': 'Tuesday (Sep)',
       'content': [
         {
@@ -355,7 +352,6 @@ var gameverse = () => {
     {
       'type': 'title',
       'class_name': 'septentriones wednesday',
-      'id': 'septentriones_wednesday',
       'title': 'Wednesday (Sep)',
       'content': [
         {
@@ -375,7 +371,6 @@ var gameverse = () => {
     {
       'type': 'title',
       'class_name': 'septentriones thursday',
-      'id': 'septentriones_thursday',
       'title': 'Thursday (Sep)',
       'content': [
         {
@@ -395,7 +390,6 @@ var gameverse = () => {
     {
       'type': 'title',
       'class_name': 'septentriones friday',
-      'id': 'septentriones_friday',
       'title': 'Friday (Sep)',
       'content': [
         {
@@ -415,7 +409,6 @@ var gameverse = () => {
     {
       'type': 'title',
       'class_name': 'septentriones saturday',
-      'id': 'septentriones_saturday',
       'title': 'Saturday (Sep)',
       'content': [
         {
@@ -436,7 +429,6 @@ var gameverse = () => {
       'type': 'title',
       'class_name': 'triangulum tuesday',
       'title': 'Doomed Tuesday (Tri)',
-      'id': 'doomed_triangulum_tuesday',
       'content': [
         {
           'class_name': 'desu2 gameverse_child',
@@ -455,7 +447,6 @@ var gameverse = () => {
     {
       'type': 'title',
       'class_name': 'triangulum wednesday',
-      'id': 'doomed_triangulum_wednesday',
       'title': 'Doomed Wednesday (Tri)',
       'content': [
         {
@@ -475,7 +466,6 @@ var gameverse = () => {
     {
       'type': 'title',
       'class_name': 'triangulum thursday',
-      'id': 'doomed_triangulum_thursday',
       'title': 'Doomed Thursday (Tri)',
       'content': [
         {
@@ -495,9 +485,7 @@ var gameverse = () => {
     {
       'type': 'title',
       'class_name': 'triangulum tuesday',
-      'id': 'triangulum_tuesday',
       'title': 'Tuesday (Tri)',
-      'id': 'triangulum',
       'content': [
         {
           'class_name': 'desu2 gameverse_child',
@@ -516,7 +504,6 @@ var gameverse = () => {
     {
       'type': 'title',
       'class_name': 'triangulum wednesday',
-      'id': 'triangulum_wednesday',
       'title': 'Wednesday (Tri)',
       'content': [
         {
@@ -536,7 +523,6 @@ var gameverse = () => {
     {
       'type': 'title',
       'class_name': 'triangulum thursday',
-      'id': 'triangulum_thursday',
       'title': 'Thursday (Tri)',
       'content': [
         {
@@ -556,7 +542,6 @@ var gameverse = () => {
     {
       'type': 'title',
       'class_name': 'triangulum friday',
-      'id': 'triangulum_friday',
       'title': 'Friday (Tri)',
       'content': [
         {
@@ -576,7 +561,6 @@ var gameverse = () => {
     {
       'type': 'title',
       'class_name': 'triangulum saturday',
-      'id': 'triangulum_saturday',
       'title': 'Saturday (Tri)',
       'content': [
         {

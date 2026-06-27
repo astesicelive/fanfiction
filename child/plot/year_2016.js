@@ -21,7 +21,6 @@ var year_2016 = () => {
     {
       'type': 'title',
       'class_name': 'fixing_p2',
-      'id': 'p2_2016',
       'title': 'Fixing P2',
       'content': [
         {

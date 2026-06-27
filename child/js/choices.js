@@ -26,7 +26,7 @@ function pickChoice() {
           button.classList.add('selected');
         };
         // select plot
-        let plot = document.querySelectorAll(`.container#${i} .${c}`);
+        let plot = document.querySelectorAll(`.container.${i} .${c}`);
         plot.forEach((cur) => {
           cur.classList.add('selected');
         });
