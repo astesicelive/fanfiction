@@ -30,13 +30,13 @@ function generate_splits(obj) {
   div.setAttribute('id', obj[0].id);
 
   obj.forEach((choice) => {
-    //if (!choice.id) {
+    if (choice.title) {
       let button = document.createElement('div');
       button.setAttribute('class', 'button ' + choice.class_name);
       let txt = document.createTextNode(choice.title);
       button.appendChild(txt);
       div.appendChild(button);
-    //};
+    };
   });
 
   document.body.appendChild(div);
