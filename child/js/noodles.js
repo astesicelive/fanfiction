@@ -16,7 +16,7 @@ let noodle_obj = () => {
         // second choice (hibiki decides which baby to make first or if the record is broken)
         'ren_nii': {
             // + gameverse_child
-            'twin_birth': ['child_birthday', 'ren_nii'],
+            'year_2014_2': ['child_birthday', 'ren_nii'],
             'year_2016': ['fix_p2'],
             'year_2017': ['ren_nii'],
             'year_2018': ['child'],
@@ -26,7 +26,7 @@ let noodle_obj = () => {
         },
         'rin_nii': {
             // + gameverse_child
-            'twin_birth': ['child_birthday', 'rin_nii'],
+            'year_2014_2': ['child_birthday', 'rin_nii'],
             'year_2016': ['fix_p2'],
             'year_2017': ['rin_nii'],
             'year_2018': ['child'],
@@ -36,7 +36,7 @@ let noodle_obj = () => {
         },
         'only_akira': {
             // + gameverse_rb
-            'twin_birth': ['only_akira'],
+            'year_2014_2': ['only_akira'],
             'year_2018': ['rb'],
         },
     };

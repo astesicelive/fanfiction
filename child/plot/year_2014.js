@@ -107,7 +107,7 @@ var year_2014_2 = () => {
     {
       'type': 'title',
       'class_name': 'twin_birthday',
-      'id': 'twin_birth',
+      'id': 'year_2014_2',
       'title': 'P5',
       'content': [
         {
