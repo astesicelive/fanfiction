@@ -165,7 +165,7 @@ let animeverse = () => {
     {
       'type': 'divider',
       'title': '2011 (animeverse)',
-      'id': 'beginning',
+      'id': 'animeverse',
     },
     {
       'type': 'title',
