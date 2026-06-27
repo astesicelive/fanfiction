@@ -22,6 +22,7 @@ let noodle_obj = () => {
             'year_2018': ['child'],
             'year_2019': ['child'],
             'year_2020': ['jungo', 'vs_yaldy'],
+            'year_2024': ['p3_journey'],
         },
         'rin_nii': {
             // + gameverse_child
@@ -31,6 +32,7 @@ let noodle_obj = () => {
             'year_2018': ['child'],
             'year_2019': ['child'],
             'year_2020': ['jungo', 'vs_yaldy'],
+            'year_2024': ['p3_journey'],
         },
         'only_akira': {
             // + gameverse_rb
