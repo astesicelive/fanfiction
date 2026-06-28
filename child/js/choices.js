@@ -84,9 +84,9 @@ function scroll_to_choice() {
     let obj = {};
     obj.pos = c.getBoundingClientRect().top - 75;
     obj.id = c.getAttribute('id');
-    if (obj.pos < 6) {
+    if (obj.pos < 0) {
       arr.up.push(obj);
-    } else if (obj.pos > 6) {
+    } else {
       arr.down.push(obj);
     };
   });
@@ -95,9 +95,17 @@ function scroll_to_choice() {
 
   let result = {};
   if (arr.up.length > 0) {
-    result.up = arr.up[0];
+    let u = 0;
+    if (arr.up[0].pos < 6) {
+      u = 1;
+    };
+    result.up = arr.up[u];
   };
   if (arr.down.length > 0) {
+    let d = 0;
+    if (arr.down[0].pos < 6) {
+      d = 1;
+    };
     result.down = arr.down[0];
   };
   return result;
