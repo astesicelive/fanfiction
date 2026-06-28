@@ -76,14 +76,14 @@ function scroll_to_choice() {
     up: [],
     down: [],
   };
-  random.forEach((c) => {
+  all_choices.forEach((c) => {
     let obj = {};
     obj.pos = c.getBoundingClientRect().top - 75;
     obj.id = c.getAttribute('id');
     if (obj.pos < 0) {
-      arrs.push(obj.up);
+      arr.up.push(obj);
     } else {
-      arrs2.push(obj.down);
+      arr.down.push(obj);
     };
   });
   arr.up.sort((a, b) => b.pos - a.pos);
