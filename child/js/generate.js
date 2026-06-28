@@ -1,4 +1,4 @@
-let current_version = "1.0.8.02";
+let current_version = "1.0.9.01";
 
 let txt = document.createTextNode(current_version);
 let version = document.createElement('div');
@@ -40,7 +40,7 @@ function generate_splits(obj) {
   });
 
   document.body.appendChild(div);
-}
+};
 
 function generate_arcs(arc) {
 
@@ -81,8 +81,8 @@ function generate_arcs(arc) {
                 let txt = document.createTextNode(t);
                 li.appendChild(txt);
                 ul.appendChild(li);
-              })
-            })
+              });
+            });
           ;
         } else {
           ul = document.createTextNode(i);
@@ -102,5 +102,4 @@ function generate_arcs(arc) {
       document.body.appendChild(current);
     };
   };
-
-}
+};
