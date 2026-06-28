@@ -106,7 +106,7 @@ function scroll_to_choice() {
     if (arr.down[0].pos < 6) {
       d = 1;
     };
-    result.down = arr.down[0];
+    result.down = arr.down[d];
   };
   return result;
 };
