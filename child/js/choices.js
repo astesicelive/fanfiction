@@ -45,14 +45,14 @@ function pickChoice() {
 [
   {name: 'up', arrow_text: '↑'},
   {name: 'down', arrow_text: '↓'}
-].forEach((nav)) => {
+].forEach((nav) => {
   let div = document.createElement('div');
   div.setAttribute('class', `choice_arrows ${nav.name}`);
   let arrow_btn = document.createTextNode(nav.arrow_text);
   div.appendChild(arrow_btn);
   div.addEventListener('click', `scroll_${nav.name}`);
   document.body.appendChild(div);
-};
+});
 
 function scroll_up() {
   let val = scroll_to_choice();
