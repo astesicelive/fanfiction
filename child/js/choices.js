@@ -50,7 +50,11 @@ function pickChoice() {
   div.setAttribute('class', `choice_arrows ${nav.name}`);
   let arrow_btn = document.createTextNode(nav.arrow_text);
   div.appendChild(arrow_btn);
-  div.addEventListener('click', `scroll_${nav.name}`);
+  if (nav.name == 'up') {
+    div.addEventListener('click', scroll_up);
+  } else {
+    div.addEventListener('click', scroll_down);
+  };
   document.body.appendChild(div);
 });
 
