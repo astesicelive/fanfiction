@@ -40,4 +40,61 @@ function pickChoice() {
     let current_button = document.querySelector(`.choice_buttons#${id} .${main_class}`);
     current_button.classList.add('selected');
   };
-}
+};
+
+[
+  {name: 'up', arrow: '↑'},
+  {name: 'down', arrow: '↓'}
+].forEach((nav)) {
+  let div = document.createElement('div');
+  div.setAttribute('class', `choice_arrows ${nav.name}`);
+  let arrow_btn = document.createTextNode(nav.arrow);
+  div.appendChild(arrow_btn);
+  div.addEventListener('click', `scroll_${nav.name}`);
+  document.body.appendChild(div);
+};
+
+function scroll_up() {
+  let val = scroll_to_choice();
+  if (val.up) {
+    let el = document.querySelector(`.choice_buttons#${val.up.id}`);
+    el.scrollIntoView({ block: "start" , behavior: "smooth"});
+  };
+};
+
+function scroll_down() {
+  let val = scroll_to_choice();
+  if (val.down) {
+    let el = document.querySelector(`.choice_buttons#${val.down.id}`);
+    el.scrollIntoView({ block: "start" , behavior: "smooth"});
+  };
+};
+
+function scroll_to_choice() {
+  let all_choices = document.querySelectorAll(`.choice_buttons`);
+  let arr = {
+    up: [],
+    down: [],
+  };
+  random.forEach((c) => {
+    let obj = {};
+    obj.pos = c.getBoundingClientRect().top - 75;
+    obj.id = c.getAttribute('id');
+    if (obj.pos < 0) {
+      arrs.push(obj.up);
+    } else {
+      arrs2.push(obj.down);
+    };
+  });
+  arr.up.sort((a, b) => b.pos - a.pos);
+  arr.down.sort((a, b) => a.pos - b.pos);
+
+  let result = {};
+  if (arr.up.length > 0) {
+    result.up = arr.up[0];
+  };
+  if (arr.down.length > 0) {
+    result.down = arr.down[0];
+  };
+  return result;
+};
