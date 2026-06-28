@@ -45,7 +45,7 @@ function pickChoice() {
 [
   {name: 'up', arrow: '↑'},
   {name: 'down', arrow: '↓'}
-].forEach((nav)) {
+].forEach((nav)) => {
   let div = document.createElement('div');
   div.setAttribute('class', `choice_arrows ${nav.name}`);
   let arrow_btn = document.createTextNode(nav.arrow);
