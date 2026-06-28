@@ -84,7 +84,7 @@ function scroll_to_choice() {
     let obj = {};
     obj.pos = c.getBoundingClientRect().top - 75;
     obj.id = c.getAttribute('id');
-    if (obj.pos < 0) {
+    if (obj.pos < 6) {
       arr.up.push(obj);
     } else {
       arr.down.push(obj);
