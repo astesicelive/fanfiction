@@ -6,13 +6,13 @@ let arcs = [
   desu2_split, 
   gameverse(), year_2012(), year_2013(), year_2014(), 
   birth_split, 
-  year_2014_2(), year_2016(), year_2017(), year_2018(), year_2019(), year_2020(), year_2024(), year_2026()
+  year_2014_2(), year_2016(), year_2017(), year_2018(), year_2019(), year_2020(), year_2024(), year_2026(), year_2029()
 ];
 let total_headers = 0;
 arcs.forEach((arc) => {
-    arc.forEach((cur) => {
-        total_headers++;
-    });
+  arc.forEach((cur) => {
+      total_headers++;
+  });
 });
 
 for (let x = 1; x < total_headers + 1; x++) {

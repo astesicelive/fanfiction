@@ -1,4 +1,4 @@
-let current_version = "1.0.9.01";
+let current_version = "1.0.9.02";
 
 let txt = document.createTextNode(current_version);
 let version = document.createElement('div');
@@ -82,7 +82,7 @@ function generate_arcs(arc) {
                 li.appendChild(txt);
                 ul.appendChild(li);
               });
-            });
+            })
           ;
         } else {
           ul = document.createTextNode(i);
