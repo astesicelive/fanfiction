@@ -86,7 +86,7 @@ function scroll_to_choice() {
     obj.id = c.getAttribute('id');
     if (obj.pos < 6) {
       arr.up.push(obj);
-    } else {
+    } else if (obj.pos > 6) {
       arr.down.push(obj);
     };
   });
