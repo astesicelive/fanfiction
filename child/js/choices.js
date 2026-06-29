@@ -96,7 +96,7 @@ function scroll_to_choice() {
   let result = {};
   if (arr.up.length > 0) {
     let u = 0;
-    if (arr.up[0].pos < 6) {
+    if (arr.up[0].pos > 6) {
       u = 1;
     };
     result.up = arr.up[u];
