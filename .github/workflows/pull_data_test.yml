@@ -17,7 +17,7 @@ jobs:
         - id: echo
           uses: actions/github-script@v2
           with:
-            github-token: ${{secrets.TOKEN}}
+            github-token: ${{secrets.GITHUB_TOKEN}}
             script: |
                 console.log(${{steps.googlesheet_actions.outputs.result}})
         - name: test
