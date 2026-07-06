@@ -144,3 +144,8 @@ new timeline page: https://astesicelive.github.io/fanfiction/child/timeline
 <ul>
   <li><a href="https://github.com/astesicelive/fanfiction/blob/main/child/plot/year_2024/1.0.txt">child(TM) p3</a></li>
 </ul>
+<h2>2026</h2>
+<ul>
+  <li><a href="https://github.com/astesicelive/fanfiction/blob/main/child/plot/year_2024/1.0.txt">child(TM) p4 moment (with rin)</a></li>
+  <li><a href="https://github.com/astesicelive/fanfiction/blob/main/child/plot/year_2024/1.1.txt">rb(TM) p4 moment (with sora)</a></li>
+</ul>
