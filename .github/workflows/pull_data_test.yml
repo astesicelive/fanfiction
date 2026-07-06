@@ -11,7 +11,7 @@ jobs:
       runs-on: ubuntu-latest
       steps:
         - id: googlesheet_actions
-          uses: astesicelive/googlesheet-actions@0.0.1
+          uses: astesicelive/googlesheet-actions@v0.0.2
           with:
             sheet-id: ${{ secrets.SHEET_ID }}
         - id: echo
