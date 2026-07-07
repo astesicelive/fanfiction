@@ -10,16 +10,18 @@ jobs:
     fetch:
       runs-on: ubuntu-latest
       steps:
-        - id: googlesheet_actions
-          uses: astesicelive/sheets@master
+        - id: jp_sheet
+          uses: chronoscore622/sheets@main
           with:
-            sheet-id: ${{ secrets.SHEET_ID }}
+            spreadsheetId: ${{ secrets.SHEET_ID }}
+            key: ${{ secrets.SHEETS_API }}
+            sheetName: 'Basic&Music'
         - id: echo
           uses: actions/github-script@v3
           with:
             github-token: ${{secrets.GITHUB_TOKEN}}
             script: |
-                console.log(${{steps.googlesheet_actions.outputs.result}})
+                console.log(${{steps.jp_sheet.outputs.result}})
         - name: test
           run: |
             cat $HOME/data.json
