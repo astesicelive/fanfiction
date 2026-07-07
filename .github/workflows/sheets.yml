@@ -17,11 +17,4 @@ jobs:
             key: ${{ secrets.SHEETS_API }}
             sheetName: 'Basic&Music'
         - id: echo
-          uses: actions/github-script@v9.0.0
-          with:
-            github-token: ${{secrets.GITHUB_TOKEN}}
-            script: |
-                console.log(${{steps.jp_sheet.outputs.result}})
-        - name: test
-          run: |
-            cat $HOME/data.json
+          run: echo "The time was ${{ steps.jp_sheet.outputs.result }}"
