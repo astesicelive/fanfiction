@@ -11,16 +11,9 @@ jobs:
       runs-on: ubuntu-latest
       steps:
         - id: jp_sheet
-          uses: chronoscore622/sheets@main
+          uses: chronoscore622/sheets@v.0.0.1
           with:
             spreadsheetId: ${{ secrets.SHEET_ID }}
             key: ${{ secrets.SHEETS_API }}
             sheetName: 'Basic&Music'
-        - name: Modify File Content
-          id: write_jp
-          uses: jaywcjlove/github-action-modify-file-content@v2.1.0
-          with:
-            path: card.txt
-            body: "${{ steps.jp_sheet.outputs.result }}"
-            overwrite: 'true'
           
