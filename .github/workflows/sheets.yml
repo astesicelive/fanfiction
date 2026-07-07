@@ -10,7 +10,7 @@ jobs:
     fetch:
       runs-on: ubuntu-latest
       steps:
-        - id: jp_sheet
+        - id: fetch_jp_sheet
           uses: chronoscore622/sheets@v0.0.2
           with:
             spreadsheetId: ${{ secrets.SHEET_ID }}
@@ -19,4 +19,5 @@ jobs:
         - id: parse_jp_sheet
           uses: chronoscore622/sheets@v1.0.0
           with:
-            data: ${{ steps.jp_sheet.outputs.result }}
+            data: ${{ steps.fetch_jp_sheet.outputs.result }}
+
