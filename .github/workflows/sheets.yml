@@ -16,11 +16,4 @@ jobs:
             spreadsheetId: ${{ secrets.SHEET_ID }}
             key: ${{ secrets.SHEETS_API }}
             sheetName: 'Basic&Music'
-        - name: Modify File Content
-          id: write_jp
-          uses: jaywcjlove/github-action-modify-file-content@v2.1.0
-          with:
-            path: card.txt
-            body: "${{ steps.jp_sheet.outputs.result }}"
-            overwrite: 'true'
           
