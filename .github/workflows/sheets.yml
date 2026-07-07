@@ -11,7 +11,7 @@ jobs:
       runs-on: ubuntu-latest
       steps:
         - id: jp_sheet
-          uses: chronoscore622/sheets@v.0.0.1
+          uses: chronoscore622/sheets@v0.0.2
           with:
             spreadsheetId: ${{ secrets.SHEET_ID }}
             key: ${{ secrets.SHEETS_API }}
