@@ -16,4 +16,5 @@ jobs:
             spreadsheetId: ${{ secrets.SHEET_ID }}
             key: ${{ secrets.SHEETS_API }}
             sheetName: 'Basic&Music'
-          
+        - id: result
+          run: echo ${{ steps.jp_sheet.outputs.result }}
