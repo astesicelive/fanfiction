@@ -10,11 +10,13 @@ jobs:
       runs-on: ubuntu-latest
       steps:
         - id: fetch_jp_sheet
-          uses: chronoscore622/sheets@v0.0.4
+          uses: chronoscore622/sheets@v0.0.5
           with:
             spreadsheetId: ${{ secrets.SHEET_ID }}
             key: ${{ secrets.SHEETS_API }}
             sheetName: 'Basic&Music'
         - id: echo
-          run: echo ${{ steps.fetch_jp_sheet.outputs.test }}
+          uses: chronoscore622/sheets@v1.0.1
+          with:
+              data: ${{ steps.fetch_jp_sheet.outputs.test }}
 
