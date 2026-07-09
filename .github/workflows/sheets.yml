@@ -15,8 +15,6 @@ jobs:
             spreadsheetId: ${{ secrets.SHEET_ID }}
             key: ${{ secrets.SHEETS_API }}
             sheetName: 'Basic&Music'
-        - id: echo
-          uses: chronoscore622/sheets@v1.0.1
-          with:
-              data: ${{ steps.fetch_jp_sheet.outputs.test }}
+        - id: echoes
+          run: echo ${{ steps.fetch_jp_sheet.outputs.test }}
 
