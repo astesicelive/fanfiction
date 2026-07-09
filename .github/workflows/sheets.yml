@@ -16,5 +16,5 @@ jobs:
             key: ${{ secrets.SHEETS_API }}
             sheetName: 'Basic&Music'
         - id: echo
-          run: echo ${{ steps.fetch_jp_sheet.outputs.result }}
+          run: echo ${{ steps.fetch_jp_sheet.outputs.test }}
 
