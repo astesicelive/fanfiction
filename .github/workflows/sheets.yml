@@ -10,7 +10,7 @@ jobs:
       runs-on: ubuntu-latest
       steps:
         - id: fetch_jp_sheet
-          uses: chronoscore622/sheets@v0.0.3
+          uses: chronoscore622/sheets@v0.0.4
           with:
             spreadsheetId: ${{ secrets.SHEET_ID }}
             key: ${{ secrets.SHEETS_API }}
