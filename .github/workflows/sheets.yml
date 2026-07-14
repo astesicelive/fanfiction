@@ -1,5 +1,4 @@
-
-3name: googlesheet
+name: googlesheet
 
 on:
     push:
