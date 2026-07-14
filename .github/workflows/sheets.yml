@@ -1,4 +1,5 @@
-name: googlesheet
+
+3name: googlesheet
 
 on:
     push:
@@ -15,6 +16,8 @@ jobs:
             spreadsheetId: ${{ secrets.SHEET_ID }}
             key: ${{ secrets.SHEETS_API }}
             sheetName: 'Basic&Music'
+        - id: echo
+          run: echo ${{ steps.fetch_jp_sheet.outputs.result }}
         - id: parse
           uses: chronoscore622/sheets@v1.0.2
           with:
