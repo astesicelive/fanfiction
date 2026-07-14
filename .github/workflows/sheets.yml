@@ -18,7 +18,7 @@ jobs:
         - id: echo
           run: echo ${{ steps.fetch_jp_sheet.outputs.result }}
         - id: parse
-          uses: chronoscore622/sheets@v1.0.2
+          uses: chronoscore622/sheets@v2.0.0
           with:
             data: ${{ steps.fetch_jp_sheet.outputs.result }}
 
