@@ -1,6 +1,7 @@
 name: googlesheet
 
 on:
+    workflow_dispatch: 
     push:
       branches:
         - sheet_pull
